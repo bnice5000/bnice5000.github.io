@@ -221,9 +221,3 @@ figure.floatcenter, .align-center {
         font-size: 16px;
     }
 }
-
-/* Added by blevin */
-
-.gap-right {
-  margin-right: 10px;
-}
