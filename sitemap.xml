@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://bnice5000.github.io/</loc>
-<lastmod>2016-05-27T00:46:30-00:00</lastmod>
+<lastmod>2016-05-27T00:46:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://bnice5000.github.io/archives.html</loc>
-<lastmod>2016-05-27T00:46:30-00:00</lastmod>
+<lastmod>2016-05-27T00:46:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://bnice5000.github.io/tags.html</loc>
-<lastmod>2016-05-27T00:46:30-00:00</lastmod>
+<lastmod>2016-05-27T00:46:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://bnice5000.github.io/categories.html</loc>
-<lastmod>2016-05-27T00:46:30-00:00</lastmod>
+<lastmod>2016-05-27T00:46:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,6 +34,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://bnice5000.github.io/pages/about_us.html</loc>
 <lastmod>2014-03-02T13:06:00-05:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://bnice5000.github.io/articles/sometimesitsjustyou.html</loc>
+<lastmod>2016-05-27T00:45:00-04:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -49,6 +56,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>http://bnice5000.github.io/articles/test_entry.html</loc>
 <lastmod>2016-05-24T13:18:00-04:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://bnice5000.github.io/category/articles.html</loc>
+<lastmod>2016-05-27T00:45:00-04:56</lastmod>
+<changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -89,7 +103,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://bnice5000.github.io/author/brian-levin.html</loc>
-<lastmod>2016-05-24T22:06:00-04:56</lastmod>
+<lastmod>2016-05-27T00:45:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
