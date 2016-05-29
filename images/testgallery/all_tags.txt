@@ -1,0 +1,288 @@
+======== content/images/testgallery/IMG_0264.png
+[ExifTool]      ExifToolVersion                 : 10.11
+[System]        FileName                        : IMG_0264.png
+[System]        Directory                       : content/images/testgallery
+[System]        FileSize                        : 11 MB
+[System]        FileModifyDate                  : 2016:05:29 17:02:27-04:00
+[System]        FileAccessDate                  : 2016:05:29 17:02:55-04:00
+[System]        FileInodeChangeDate             : 2016:05:29 17:02:27-04:00
+[System]        FilePermissions                 : rw-r--r--
+[File]          FileType                        : PNG
+[File]          FileTypeExtension               : png
+[File]          MIMEType                        : image/png
+[PNG]           ImageWidth                      : 4032
+[PNG]           ImageHeight                     : 3024
+[PNG]           BitDepth                        : 8
+[PNG]           ColorType                       : RGB
+[PNG]           Compression                     : Deflate/Inflate
+[PNG]           Filter                          : Adaptive
+[PNG]           Interlace                       : Noninterlaced
+[PNG]           SRGBRendering                   : Perceptual
+[PNG-pHYs]      PixelsPerUnitX                  : 2835
+[PNG-pHYs]      PixelsPerUnitY                  : 2835
+[PNG-pHYs]      PixelUnits                      : meters
+[XMP-x]         XMPToolkit                      : XMP Core 5.4.0
+[XMP-exif]      SceneType                       : Directly photographed
+[XMP-exif]      SubsecTimeDigitized             : 901
+[XMP-exif]      GPSDestBearingRef               : True North
+[XMP-exif]      GPSAltitudeRef                  : Above Sea Level
+[XMP-exif]      FlashFunction                   : False
+[XMP-exif]      FlashFired                      : False
+[XMP-exif]      FlashReturn                     : No return detection
+[XMP-exif]      FlashMode                       : Auto
+[XMP-exif]      FlashRedEyeMode                 : False
+[XMP-exif]      ISO                             : 200
+[XMP-exif]      GPSDirection                    : 4.26129168425496
+[XMP-exif]      GPSLongitudeRef                 : W
+[XMP-exif]      SubsecTimeOriginal              : 901
+[XMP-exif]      GPSLatitude                     : 43 deg 38' 34.27" N
+[XMP-exif]      ExifImageHeight                 : 3024
+[XMP-exif]      MeteringMode                    : Multi-segment
+[XMP-exif]      ApertureValue                   : 2.2
+[XMP-exif]      ExifImageWidth                  : 4032
+[XMP-exif]      SceneCaptureType                : Standard
+[XMP-exif]      ShutterSpeedValue               : 1/4
+[XMP-exif]      FocalLenIn35mmFilm              : 29
+[XMP-exif]      GPSLatitudeRef                  : N
+[XMP-exif]      ComponentsConfiguration         : Y, Cb, Cr, -
+[XMP-exif]      ExposureMode                    : Auto
+[XMP-exif]      GPSAltitude                     : 188 m
+[XMP-exif]      ExposureTime                    : 1/4
+[XMP-exif]      BrightnessValue                 : -2.04556273376403
+[XMP-exif]      SubjectArea                     : 3202, 1175, 455, 453
+[XMP-exif]      GPSLongitude                    : 72 deg 15' 8.79" W
+[XMP-exif]      GPSSpeedRef                     : km/h
+[XMP-exif]      ExifVersion                     : 0221
+[XMP-exif]      GPSHPositioningError            : 5 m
+[XMP-exif]      FlashPixVersion                 : 0100
+[XMP-exif]      WhiteBalance                    : Auto
+[XMP-exif]      ColorSpace                      : sRGB
+[XMP-exif]      GPSSpeed                        : 0.24
+[XMP-exif]      GPSDestBearing                  : 4.26129152668906
+[XMP-exif]      FocalLength                     : 4.2 mm
+[XMP-exif]      ExposureProgram                 : Program AE
+[XMP-exif]      GPSDirectionRef                 : T
+[XMP-exif]      SensingMethod                   : One-chip color area
+[XMP-exif]      FNumber                         : 2.2
+[XMP-exif]      ExposureCompensation            : 0
+[XMP-xmp]       CreatorTool                     : Photos 1.5
+[XMP-xmp]       CreateDate                      : 2016:05:01 19:49:32
+[XMP-xmp]       ModifyDate                      : 2016:05:01 19:49:32
+[XMP-exifEX]    PhotographicSensitivity         : 200
+[XMP-exifEX]    LensMake                        : Apple
+[XMP-exifEX]    LensInfo                        : 4.15mm f/2.2
+[XMP-exifEX]    LensModel                       : iPhone 6s Plus back camera 4.15mm f/2.2
+[XMP-tiff]      ResolutionUnit                  : inches
+[XMP-tiff]      XResolution                     : 72
+[XMP-tiff]      Model                           : iPhone 6s Plus
+[XMP-tiff]      YResolution                     : 72
+[XMP-tiff]      Make                            : Apple
+[XMP-dc]        Description                     : Marge, Gus and Sarah at the Salt Hill
+[XMP-photoshop] DateCreated                     : 2016:05:01 19:49:32
+[Composite]     Aperture                        : 2.2
+[Composite]     Flash                           : Auto, Did not fire
+[Composite]     GPSAltitude                     : 188 m Above Sea Level
+[Composite]     GPSLatitudeRef                  : North
+[Composite]     GPSLongitudeRef                 : West
+[Composite]     ImageSize                       : 4032x3024
+[Composite]     Megapixels                      : 12.2
+[Composite]     ShutterSpeed                    : 1/4
+[Composite]     FocalLength35efl                : 4.2 mm
+[Composite]     GPSPosition                     : 43 deg 38' 34.27" N, 72 deg 15' 8.79" W
+[Composite]     LightValue                      : 3.3
+======== content/images/testgallery/IMG_1408.png
+[ExifTool]      ExifToolVersion                 : 10.11
+[System]        FileName                        : IMG_1408.png
+[System]        Directory                       : content/images/testgallery
+[System]        FileSize                        : 8.0 MB
+[System]        FileModifyDate                  : 2016:05:29 17:02:26-04:00
+[System]        FileAccessDate                  : 2016:05:29 17:02:55-04:00
+[System]        FileInodeChangeDate             : 2016:05:29 17:02:26-04:00
+[System]        FilePermissions                 : rw-r--r--
+[File]          FileType                        : PNG
+[File]          FileTypeExtension               : png
+[File]          MIMEType                        : image/png
+[PNG]           ImageWidth                      : 2448
+[PNG]           ImageHeight                     : 3264
+[PNG]           BitDepth                        : 8
+[PNG]           ColorType                       : RGB
+[PNG]           Compression                     : Deflate/Inflate
+[PNG]           Filter                          : Adaptive
+[PNG]           Interlace                       : Noninterlaced
+[PNG]           SRGBRendering                   : Perceptual
+[PNG-pHYs]      PixelsPerUnitX                  : 2835
+[PNG-pHYs]      PixelsPerUnitY                  : 2835
+[PNG-pHYs]      PixelUnits                      : meters
+[XMP-x]         XMPToolkit                      : XMP Core 5.4.0
+[XMP-exif]      SceneType                       : Directly photographed
+[XMP-exif]      SubsecTimeDigitized             : 038
+[XMP-exif]      GPSDestBearingRef               : True North
+[XMP-exif]      GPSAltitudeRef                  : Above Sea Level
+[XMP-exif]      FlashFunction                   : False
+[XMP-exif]      FlashFired                      : False
+[XMP-exif]      FlashReturn                     : No return detection
+[XMP-exif]      FlashMode                       : Off
+[XMP-exif]      FlashRedEyeMode                 : False
+[XMP-exif]      ISO                             : 64
+[XMP-exif]      GPSDirection                    : 145.637254901961
+[XMP-exif]      GPSLongitudeRef                 : W
+[XMP-exif]      SubsecTimeOriginal              : 038
+[XMP-exif]      GPSLatitude                     : 43 deg 51' 45.75" N
+[XMP-exif]      ExifImageHeight                 : 2448
+[XMP-exif]      MeteringMode                    : Multi-segment
+[XMP-exif]      ApertureValue                   : 2.2
+[XMP-exif]      ExifImageWidth                  : 3264
+[XMP-exif]      SceneCaptureType                : Standard
+[XMP-exif]      ShutterSpeedValue               : 1/15
+[XMP-exif]      FocalLenIn35mmFilm              : 29
+[XMP-exif]      GPSLatitudeRef                  : N
+[XMP-exif]      ComponentsConfiguration         : Y, Cb, Cr, -
+[XMP-exif]      ExposureMode                    : Auto
+[XMP-exif]      GPSAltitude                     : 313 m
+[XMP-exif]      ExposureTime                    : 1/15
+[XMP-exif]      BrightnessValue                 : 3.07409177820268
+[XMP-exif]      SubjectArea                     : 1088, 1483, 930, 930
+[XMP-exif]      GPSLongitude                    : 72 deg 21' 33.09" W
+[XMP-exif]      GPSSpeedRef                     : km/h
+[XMP-exif]      ExifVersion                     : 0221
+[XMP-exif]      GPSHPositioningError            : 119.811940298507 m
+[XMP-exif]      FlashPixVersion                 : 0100
+[XMP-exif]      WhiteBalance                    : Auto
+[XMP-exif]      ColorSpace                      : sRGB
+[XMP-exif]      GPSSpeed                        : 0
+[XMP-exif]      GPSDestBearing                  : 145.637254901961
+[XMP-exif]      FocalLength                     : 4.2 mm
+[XMP-exif]      ExposureProgram                 : Program AE
+[XMP-exif]      GPSDirectionRef                 : T
+[XMP-exif]      SensingMethod                   : One-chip color area
+[XMP-exif]      FNumber                         : 2.2
+[XMP-exif]      ExposureCompensation            : 0
+[XMP-xmp]       CreatorTool                     : Photos 1.5
+[XMP-xmp]       CreateDate                      : 2016:05:01 16:41:50
+[XMP-xmp]       ModifyDate                      : 2016:05:01 16:41:50
+[XMP-exifEX]    PhotographicSensitivity         : 64
+[XMP-exifEX]    LensMake                        : Apple
+[XMP-exifEX]    LensInfo                        : 4.15mm f/2.2
+[XMP-exifEX]    LensModel                       : iPhone 6 Plus back camera 4.15mm f/2.2
+[XMP-tiff]      ResolutionUnit                  : inches
+[XMP-tiff]      XResolution                     : 72
+[XMP-tiff]      Model                           : iPhone 6 Plus
+[XMP-tiff]      YResolution                     : 72
+[XMP-tiff]      Make                            : Apple
+[XMP-dc]        Description                     : Gus after a bath
+[XMP-photoshop] DateCreated                     : 2016:05:01 16:41:50
+[XMP-mwg-rs]    RegionAreaY                     : 0.606000
+[XMP-mwg-rs]    RegionAreaW                     : 0.285000
+[XMP-mwg-rs]    RegionAreaX                     : 0.333500
+[XMP-mwg-rs]    RegionAreaH                     : 0.380000
+[XMP-mwg-rs]    RegionAreaUnit                  : normalized
+[XMP-mwg-rs]    RegionType                      : Face
+[XMP-mwg-rs]    RegionExtensionsAngleInfoYaw    : 0
+[XMP-mwg-rs]    RegionExtensionsAngleInfoRoll   : 270
+[XMP-mwg-rs]    RegionExtensionsConfidenceLevel : 1000
+[XMP-mwg-rs]    RegionExtensionsTimeStamp       : 2147483647
+[XMP-mwg-rs]    RegionExtensionsFaceID          : 2
+[XMP-mwg-rs]    RegionAppliedToDimensionsH      : 2448
+[XMP-mwg-rs]    RegionAppliedToDimensionsW      : 3264
+[XMP-mwg-rs]    RegionAppliedToDimensionsUnit   : pixel
+[Composite]     Aperture                        : 2.2
+[Composite]     Flash                           : Off, Did not fire
+[Composite]     GPSAltitude                     : 313 m Above Sea Level
+[Composite]     GPSLatitudeRef                  : North
+[Composite]     GPSLongitudeRef                 : West
+[Composite]     ImageSize                       : 2448x3264
+[Composite]     Megapixels                      : 8.0
+[Composite]     ShutterSpeed                    : 1/15
+[Composite]     FocalLength35efl                : 4.2 mm
+[Composite]     GPSPosition                     : 43 deg 51' 45.75" N, 72 deg 21' 33.09" W
+[Composite]     LightValue                      : 6.8
+======== content/images/testgallery/IMG_1411.png
+[ExifTool]      ExifToolVersion                 : 10.11
+[System]        FileName                        : IMG_1411.png
+[System]        Directory                       : content/images/testgallery
+[System]        FileSize                        : 8.0 MB
+[System]        FileModifyDate                  : 2016:05:29 17:02:28-04:00
+[System]        FileAccessDate                  : 2016:05:29 17:02:55-04:00
+[System]        FileInodeChangeDate             : 2016:05:29 17:02:28-04:00
+[System]        FilePermissions                 : rw-r--r--
+[File]          FileType                        : PNG
+[File]          FileTypeExtension               : png
+[File]          MIMEType                        : image/png
+[PNG]           ImageWidth                      : 2448
+[PNG]           ImageHeight                     : 3264
+[PNG]           BitDepth                        : 8
+[PNG]           ColorType                       : RGB
+[PNG]           Compression                     : Deflate/Inflate
+[PNG]           Filter                          : Adaptive
+[PNG]           Interlace                       : Noninterlaced
+[PNG]           SRGBRendering                   : Perceptual
+[PNG-pHYs]      PixelsPerUnitX                  : 2835
+[PNG-pHYs]      PixelsPerUnitY                  : 2835
+[PNG-pHYs]      PixelUnits                      : meters
+[XMP-x]         XMPToolkit                      : XMP Core 5.4.0
+[XMP-exif]      ShutterSpeedValue               : 1/4
+[XMP-exif]      ColorSpace                      : sRGB
+[XMP-exif]      SubjectArea                     : 1631, 1223, 1795, 1077
+[XMP-exif]      FocalLength                     : 4.2 mm
+[XMP-exif]      ExifImageWidth                  : 3264
+[XMP-exif]      SensingMethod                   : One-chip color area
+[XMP-exif]      GPSAltitudeRef                  : Above Sea Level
+[XMP-exif]      GPSAltitude                     : 182 m
+[XMP-exif]      SubsecTimeDigitized             : 603
+[XMP-exif]      ExposureTime                    : 1/4
+[XMP-exif]      ExposureProgram                 : Program AE
+[XMP-exif]      FocalLenIn35mmFilm              : 29
+[XMP-exif]      ExifVersion                     : 0221
+[XMP-exif]      BrightnessValue                 : -2.19615179048637
+[XMP-exif]      WhiteBalance                    : Auto
+[XMP-exif]      GPSLatitude                     : 43 deg 38' 33.95" N
+[XMP-exif]      ComponentsConfiguration         : Y, Cb, Cr, -
+[XMP-exif]      GPSSpeedRef                     : km/h
+[XMP-exif]      GPSLatitudeRef                  : N
+[XMP-exif]      SubsecTimeOriginal              : 603
+[XMP-exif]      ExposureMode                    : Auto
+[XMP-exif]      FlashFunction                   : False
+[XMP-exif]      FlashFired                      : False
+[XMP-exif]      FlashReturn                     : No return detection
+[XMP-exif]      FlashMode                       : Off
+[XMP-exif]      FlashRedEyeMode                 : False
+[XMP-exif]      GPSLongitudeRef                 : W
+[XMP-exif]      GPSHPositioningError            : 65 m
+[XMP-exif]      GPSSpeed                        : 0
+[XMP-exif]      ApertureValue                   : 2.2
+[XMP-exif]      ExposureCompensation            : 0
+[XMP-exif]      FNumber                         : 2.2
+[XMP-exif]      GPSLongitude                    : 72 deg 15' 9.53" W
+[XMP-exif]      ExifImageHeight                 : 2448
+[XMP-exif]      MeteringMode                    : Multi-segment
+[XMP-exif]      ISO                             : 250
+[XMP-exif]      SceneType                       : Directly photographed
+[XMP-exif]      FlashPixVersion                 : 0100
+[XMP-exif]      SceneCaptureType                : Standard
+[XMP-dc]        Description                     : Gus Sleeping
+[XMP-xmp]       CreatorTool                     : Photos 1.5
+[XMP-xmp]       CreateDate                      : 2016:05:01 20:25:30
+[XMP-xmp]       ModifyDate                      : 2016:05:01 20:25:30
+[XMP-photoshop] DateCreated                     : 2016:05:01 20:25:30
+[XMP-exifEX]    PhotographicSensitivity         : 250
+[XMP-exifEX]    LensModel                       : iPhone 6 Plus back camera 4.15mm f/2.2
+[XMP-exifEX]    LensInfo                        : 4.15mm f/2.2
+[XMP-exifEX]    LensMake                        : Apple
+[XMP-tiff]      Make                            : Apple
+[XMP-tiff]      ResolutionUnit                  : inches
+[XMP-tiff]      XResolution                     : 72
+[XMP-tiff]      YResolution                     : 72
+[XMP-tiff]      Model                           : iPhone 6 Plus
+[Composite]     Aperture                        : 2.2
+[Composite]     Flash                           : Off, Did not fire
+[Composite]     GPSAltitude                     : 182 m Above Sea Level
+[Composite]     GPSLatitudeRef                  : North
+[Composite]     GPSLongitudeRef                 : West
+[Composite]     ImageSize                       : 2448x3264
+[Composite]     Megapixels                      : 8.0
+[Composite]     ShutterSpeed                    : 1/4
+[Composite]     FocalLength35efl                : 4.2 mm
+[Composite]     GPSPosition                     : 43 deg 38' 33.95" N, 72 deg 15' 9.53" W
+[Composite]     LightValue                      : 3.0
+    1 directories scanned
+    3 image files read
