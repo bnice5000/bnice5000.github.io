@@ -6,9 +6,11 @@
 .carousel {
   background-color: black;
 }
+.carousel-inner {
+  height: 577px;
+}
 .carousel-inner > .item > img {
     margin: 0 auto;
-    height: 577px;
 }
 .carousel-control.left, .carousel-control.right {
     background-image: none;
