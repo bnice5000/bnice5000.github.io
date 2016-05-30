@@ -5,6 +5,7 @@
 }
 .carousel {
   background-color: black;
+  height: 768px;
 }
 .carousel-inner > .item > img {
     margin: 0 auto;
