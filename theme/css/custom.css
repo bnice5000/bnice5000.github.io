@@ -3,3 +3,7 @@
 .gap-right {
   margin-right: 10px;
 }
+
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
