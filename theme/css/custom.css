@@ -7,7 +7,7 @@
   background-color: black;
 }
 .carousel-inner {
-  height: 577px;
+  height: 577px !important;
 }
 .carousel-inner > .item > img {
     margin: 0 auto;
