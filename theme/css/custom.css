@@ -9,9 +9,7 @@
 .carousel {
   background-color: black;
 }
-/*.carousel-inner {
-  height: 576px !important;
-}*/
+
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
@@ -24,8 +22,3 @@
     height: 576px !important;
   }
 }
-@media only screen and (max-width: 959px) {}
-@media only screen and (min-width: 768px) and (max-width: 959px) {}
-@media only screen and (max-width: 767px) {}
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
-@media only screen and (max-width: 479px) {}
