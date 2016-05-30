@@ -3,10 +3,12 @@
 .gap-right {
     margin-right: 10px;
 }
+.carousel {
+  background-color: black;
+}
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
 .carousel-control.left, .carousel-control.right {
     background-image: none;
-    background-color: black;
 }
