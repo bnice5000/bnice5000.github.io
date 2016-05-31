@@ -17,14 +17,7 @@
     background-image: none;
 }
 
-.pager a {
-  border-bottom: none;
-  color: #dd4814;
-  text-decoration: none;
-  background-color: transparent;
-}
-
-.entry-content a {
+a {
   border-bottom: none;
   color: #dd4814;
   text-decoration: none;
