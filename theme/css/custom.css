@@ -3,22 +3,33 @@
 .gap-right {
     margin-right: 10px;
 }
+
 .gap-left {
-    margin-left: 10px;
+  margin-left: 10px;
 }
+
 .carousel {
   background-color: black;
 }
 
 .carousel-inner > .item > img {
-    margin: 0 auto;
-}
-.carousel-control.left, .carousel-control.right {
-    background-image: none;
+  margin: 0 auto;
 }
 
-a {
-  border-bottom: none !important;
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+.pager a {
+  border-bottom: none;
+  color: #dd4814;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.entry-content a {
+  border-bottom: none;
   color: #dd4814;
   text-decoration: none;
   background-color: transparent;
@@ -36,9 +47,13 @@ a.footnote-backref {
   }
 }
 @media only screen and (max-width: 959px) {}
+
 @media only screen and (min-width: 768px) and (max-width: 959px) {}
+
 @media only screen and (max-width: 767px) {}
+
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
+
 @media only screen and (max-width: 479px) {}
 
 /*.gl-neighbors {
