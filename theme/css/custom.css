@@ -18,7 +18,7 @@
 }
 
 a {
-  border-bottom: none;
+  border-bottom: none !important;
   color: #dd4814;
   text-decoration: none;
   background-color: transparent;
