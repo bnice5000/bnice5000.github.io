@@ -21,13 +21,7 @@
   background-image: none;
 }
 
-.pager a {
-  border-bottom: none;
-  color: #dd4814;
-  text-decoration: none;
-  background-color: transparent;
-}
-
+.pager a,
 .entry-content a {
   border-bottom: none;
   color: #dd4814;
@@ -39,6 +33,9 @@ a.footnote-ref,
 a.footnote-backref {
   color: #aea79f;
   background-color: transparent;
+}
+
+.table-of-content .toc {
 }
 
 @media only screen and (min-width: 959px) {
