@@ -21,7 +21,7 @@
   border-bottom: none;
 }
 
-section > .entry-content {
+.entry-content a {
     border-bottom: none;
 }
 
