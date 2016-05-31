@@ -17,11 +17,7 @@
     background-image: none;
 }
 
-.pager a {
-  border-bottom: none;
-}
-
-.entry-content a {
+#content > article > div a{
     border-bottom: none;
 }
 
