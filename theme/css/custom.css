@@ -19,10 +19,16 @@
 
 .pager a {
   border-bottom: none;
+  color: #dd4814;
+  text-decoration: none;
+  background-color: transparent;
 }
 
 .entry-content a {
-    border-bottom: none;
+  border-bottom: none;
+  color: #dd4814;
+  text-decoration: none;
+  background-color: transparent;
 }
 
 @media only screen and (min-width: 959px) {
