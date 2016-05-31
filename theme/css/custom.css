@@ -37,7 +37,7 @@ a.footnote-backref {
 
 .table-of-content,
 .toc {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 div.toc ul {
@@ -45,7 +45,7 @@ div.toc ul {
 
 div.toc li {
   list-style-type: none;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 @media only screen and (min-width: 959px) {
