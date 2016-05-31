@@ -35,13 +35,12 @@ a.footnote-backref {
   background-color: transparent;
 }
 
-div#table-contents{
+div#table-contents ul{
   padding-left: 10px;
 }
 .table-of-content,
 .toc {
   margin-left: 5px;
-  padding-left: 10px;
 }
 #collapse1 > div > div > ul
 div.toc ul {
