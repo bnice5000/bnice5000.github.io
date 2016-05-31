@@ -39,11 +39,11 @@ a.footnote-backref {
 .toc {
 }
 
-div.toc > ul {
+div.toc ul {
   margin-left:10px;
 }
 
-div.toc > ul > li {
+div.toc li {
   list-style-type: none;
 }
 
