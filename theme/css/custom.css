@@ -17,7 +17,11 @@
     background-image: none;
 }
 
-#content > article > div a{
+.pager a {
+  border-bottom: none;
+}
+
+.entry-content a {
     border-bottom: none;
 }
 
