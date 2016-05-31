@@ -41,6 +41,7 @@ a.footnote-backref {
 }
 
 div.toc ul {
+  padding-left: 10px;
 }
 
 div.toc li {
