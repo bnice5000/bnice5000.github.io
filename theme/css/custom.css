@@ -41,6 +41,7 @@ div#table-contents{
 .table-of-content,
 .toc {
   margin-left: 5px;
+  padding-left: 10px;
 }
 #collapse1 > div > div > ul
 div.toc ul {
