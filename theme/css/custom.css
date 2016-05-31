@@ -1,4 +1,8 @@
 /* Added by blevin */
+section {
+  padding-top:40px;
+  margin-top:-40px;
+}
 
 .gap-right {
     margin-right: 10px;
