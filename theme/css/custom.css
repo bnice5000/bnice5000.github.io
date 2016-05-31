@@ -30,7 +30,9 @@
   text-decoration: none;
   background-color: transparent;
 }
-a.footnote-ref {
+
+a.footnote-ref,
+a.footnote-backref {
   color: #aea79f;
   background-color: transparent;
 }
