@@ -1,6 +1,6 @@
 /* Added by blevin */
 
-div.panel-toc :target:before {
+:target:before:not(a.footnote-ref): {
 content:"";
 display:block;
 height:50px; /* fixed header height*/
