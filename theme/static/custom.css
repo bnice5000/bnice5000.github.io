@@ -38,7 +38,7 @@ margin:-50px 0 0; /* negative fixed header height */
 }
 
 div.footnote {
-  margin-top 0px;
+  padding-top 0px;
 }
 
 a.footnote-ref,
