@@ -1,7 +1,6 @@
 /* Added by blevin */
 
-:target:before {
-/*content:"";*/
+ .container {
 display:block;
 height:50px; /* fixed header height*/
 margin:-50px 0 0; /* negative fixed header height */
