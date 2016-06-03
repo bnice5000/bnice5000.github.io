@@ -7,6 +7,10 @@
   margin:-50px 0 0 0; /* negative fixed header height */
 }
 
+div.footnote {
+  display: none;
+}
+
 .gap-right {
     margin-right: 10px;
 }
