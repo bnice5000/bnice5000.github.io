@@ -4,7 +4,9 @@
 #content > article > div.entry-content > div > div h3:target:before,
 #content > article > div.entry-content > div > div h4:target:before,
 #content > article > div.entry-content > div > div h5:target:before,
-#content > article > div.entry-content > div > div h6:target:before {
+#content > article > div.entry-content > div > div h6:target:before,
+#content > article > div.entry-content > div > div a.footnote-backref:target:before 
+{
   content:"";
   display:block;
   height:50px; /* fixed header height*/
