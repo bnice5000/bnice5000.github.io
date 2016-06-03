@@ -11,18 +11,19 @@ body {
   margin-left: 10px;
 }
 
+.carousel.slide,
 .carousel {
   background-color: black;
 }
 
 .carousel-inner > .item > img {
   margin: 0 auto;
+
 }
 
 .carousel-control.left,
 .carousel-control.right {
   background-image: none;
-  background-color: black;
 }
 
 .pager a,
