@@ -1,16 +1,5 @@
 /* Added by blevin */
 
-:target:before {
-  content:"";
-  display:block;
-  height:50px; /* fixed header height*/
-  margin:-50px 0 0 0; /* negative fixed header height */
-}
-
-div.footnote {
-  padding-top: 1px;
-}
-
 .gap-right {
     margin-right: 10px;
 }
@@ -77,16 +66,3 @@ div.toc li {
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 @media only screen and (max-width: 479px) {}
-
-/*.gl-neighbors {
-  width: 30px;
-  height: 30px;
-  margin-top: -10px;
-  font-size: 30px;
-}
-.gl-neighbors .glyphicon-chevron-left{
-  margin-left: -10px;
-}
-.gl-neighbors .glyphicon-chevron-right{
-  margin-right: -10px;
-}*/
