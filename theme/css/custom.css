@@ -1,9 +1,7 @@
 /* Added by blevin */
 
- .container {
-display:block;
-height:50px; /* fixed header height*/
-margin:-50px 0 0; /* negative fixed header height */
+body {
+  padding-top: 50px;
 }
 
 .gap-right {
