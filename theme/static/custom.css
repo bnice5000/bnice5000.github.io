@@ -1,7 +1,6 @@
 /* Added by blevin */
 
 *[id]:before {
-  display: block;
   content: " ";
   margin-top: -50px;
   height: 50px;
