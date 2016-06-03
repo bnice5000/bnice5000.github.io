@@ -1,6 +1,6 @@
 /* Added by blevin */
 
-:target:before: {
+:target:before {
   content:"";
   display:block;
   height:50px; /* fixed header height*/
