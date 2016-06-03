@@ -1,7 +1,10 @@
 /* Added by blevin */
 
-body {
-  padding-top: 50px;
+:target:before {
+content:"";
+display:block;
+height:50px; /* fixed header height*/
+margin:-50px 0 0; /* negative fixed header height */
 }
 
 .gap-right {
@@ -31,14 +34,12 @@ pager a,
   border-bottom: none;
   color: #dd4814;
   text-decoration: none;
-  background-color: transparent;
 }
 
 a.footnote-ref,
 a.footnote-backref {
   color: #aea79f;
-  background-color: transparent;
-}*/
+}
 
 div#table-contents ul{
   padding-left: 10px;
