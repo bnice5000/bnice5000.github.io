@@ -1,5 +1,8 @@
 /* Added by blevin */
 
+body {
+  padding-top: 0;
+}
 .gap-right {
     margin-right: 10px;
 }
