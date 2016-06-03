@@ -1,11 +1,11 @@
 /* Added by blevin */
 
-:target:before {
+/*:target:before {
 content:"";
 display:block;
 height:50px; /* fixed header height*/
 margin:-50px 0 0; /* negative fixed header height */
-}
+}*/
 
 .gap-right {
     margin-right: 10px;
@@ -28,6 +28,20 @@ margin:-50px 0 0; /* negative fixed header height */
   background-image: none;
 }
 
+pager a,
+.entry-content a,
+#content > article > div.panel-group.series a {
+  border-bottom: none;
+  color: #dd4814;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a.footnote-ref,
+a.footnote-backref {
+  color: #aea79f;
+  background-color: transparent;
+}*/
 
 div#table-contents ul{
   padding-left: 10px;
