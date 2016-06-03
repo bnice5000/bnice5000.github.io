@@ -30,13 +30,13 @@ margin:-50px 0 0; /* negative fixed header height */
 
 #content > article > div.entry-content a,
 #content > article > div.panel-group.series a {
-  color: #dd4814;
+
 }
 
 /*
 a.footnote-ref,
 a.footnote-backref {
-  color: #aea79f;
+  color: #aea79f; color: #dd4814;
   background-color: transparent;
 }*/
 
