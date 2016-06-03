@@ -28,8 +28,7 @@ margin:-50px 0 0; /* negative fixed header height */
   background-image: none;
 }
 
-/*.pager a,
-.entry-content a,
+#content > article > div.entry-content a,
 #content > article > div.panel-group.series a {
   border-bottom: none;
   color: #dd4814;
@@ -37,6 +36,7 @@ margin:-50px 0 0; /* negative fixed header height */
   background-color: transparent;
 }
 
+/*
 a.footnote-ref,
 a.footnote-backref {
   color: #aea79f;
