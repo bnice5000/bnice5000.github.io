@@ -22,6 +22,7 @@ body {
 .carousel-control.left,
 .carousel-control.right {
   background-image: none;
+  background-color: black;
 }
 
 .pager a,
