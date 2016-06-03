@@ -32,7 +32,7 @@ margin:-50px 0 0; /* negative fixed header height */
 .entry-content a,
 .series a {
   border-bottom: none;
-  color: #dd4814;
+  color: #dd4814 !important;
   text-decoration: none;
   background-color: transparent;
 }
