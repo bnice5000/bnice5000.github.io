@@ -43,7 +43,7 @@ a.footnote-backref {
   background-color: transparent;
 }
 
-div#table-contents ul{
+/*div#table-contents ul{
   padding-left: 10px;
 }
 .table-of-content,
@@ -57,7 +57,7 @@ div.toc ul {
 div.toc li {
   list-style-type: none;
   margin-left: 5px;
-}
+}*/
 
 @media only screen and (min-width: 959px) {
   .carousel-inner {
