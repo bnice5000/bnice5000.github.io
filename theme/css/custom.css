@@ -1,6 +1,6 @@
 /* Added by blevin */
 
-:target:before:not(.footnote-ref): {
+:not(.footnote-ref):target:before: {
   content:"";
   display:block;
   height:50px; /* fixed header height*/
