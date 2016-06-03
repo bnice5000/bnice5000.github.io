@@ -10,7 +10,7 @@ $(function() {
 function delayedFragmentTargetOffset(){
     var offset = $(':target').offset();
     if(offset){
-        var scrollto = offset.top - 95; // minus fixed header height
+        var scrollto = offset.top - 50; // minus fixed header height
         $('html, body').animate({scrollTop:scrollto}, 0);
     }
 }
