@@ -1,10 +1,11 @@
 /* Added by blevin */
 
-:target:before {
-content:"";
-display:block;
-height:50px; /* fixed header height*/
-margin:-50px 0 0; /* negative fixed header height */
+*[id]:before {
+  display: block;
+  content: "";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
 }
 
 .gap-right {
@@ -28,17 +29,19 @@ margin:-50px 0 0; /* negative fixed header height */
   background-image: none;
 }
 
-pager a,
+.pager a,
 .entry-content a,
 #content > article > div.panel-group.series a {
   border-bottom: none;
   color: #dd4814;
   text-decoration: none;
+  background-color: transparent;
 }
 
 a.footnote-ref,
 a.footnote-backref {
   color: #aea79f;
+  background-color: transparent;
 }
 
 div#table-contents ul{
@@ -71,3 +74,16 @@ div.toc li {
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 @media only screen and (max-width: 479px) {}
+
+/*.gl-neighbors {
+  width: 30px;
+  height: 30px;
+  margin-top: -10px;
+  font-size: 30px;
+}
+.gl-neighbors .glyphicon-chevron-left{
+  margin-left: -10px;
+}
+.gl-neighbors .glyphicon-chevron-right{
+  margin-right: -10px;
+}*/
