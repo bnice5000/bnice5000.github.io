@@ -37,6 +37,10 @@ margin:-50px 0 0; /* negative fixed header height */
   background-color: transparent;
 }
 
+div.footnote {
+  margin-top 0px;
+}
+
 a.footnote-ref,
 a.footnote-backref {
   color: #aea79f;
