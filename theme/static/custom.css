@@ -8,7 +8,7 @@
 }
 
 div.footnote {
-  display: none;
+  display: inline-block;
 }
 
 .gap-right {
