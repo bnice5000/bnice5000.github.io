@@ -1,11 +1,10 @@
 /* Added by blevin */
 
-*[id]:before {
-  display: block;
-  content: "";
-  margin-top: -75px;
-  height: 75px;
-  visibility: hidden;
+div.container :target:before {
+content:"";
+display:block;
+height:50px; /* fixed header height*/
+margin:-50px 0 0; /* negative fixed header height */
 }
 
 .gap-right {
