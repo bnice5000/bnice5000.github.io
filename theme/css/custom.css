@@ -1,6 +1,6 @@
 /* Added by blevin */
 
-div.container :target:before {
+div.panel-toc :target:before {
 content:"";
 display:block;
 height:50px; /* fixed header height*/
