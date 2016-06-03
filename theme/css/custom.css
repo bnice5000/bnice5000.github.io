@@ -28,7 +28,7 @@ margin:-50px 0 0; /* negative fixed header height */
   background-image: none;
 }
 
-.pager a,
+/*.pager a,
 .entry-content a,
 #content > article > div.panel-group.series a {
   border-bottom: none;
@@ -41,7 +41,7 @@ a.footnote-ref,
 a.footnote-backref {
   color: #aea79f;
   background-color: transparent;
-}
+}*/
 
 /*div#table-contents ul{
   padding-left: 10px;
