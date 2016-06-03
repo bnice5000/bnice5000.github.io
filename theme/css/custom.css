@@ -30,8 +30,7 @@ margin:-50px 0 0; /* negative fixed header height */
 
 .pager a,
 .entry-content a,
-#content > article > div.panel-group.series a,
-#aboutme > p.text-right > a {
+#content > article > div.panel-group.series a {
   border-bottom: none;
   color: #dd4814;
   text-decoration: none;
