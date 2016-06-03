@@ -1,24 +1,10 @@
 /* Added by blevin */
-#content > article > div.entry-content > div > div h1:target:before,
-#content > article > div.entry-content > div > div h2:target:before,
-#content > article > div.entry-content > div > div h3:target:before,
-#content > article > div.entry-content > div > div h4:target:before,
-#content > article > div.entry-content > div > div h5:target:before,
-#content > article > div.entry-content > div > div h6:target:before,
-a.footnote-ref:target:before {
-  content:"";
-  display:block;
-  height:50px; /* fixed header height*/
-  margin:-50px 0 0 0; /* negative fixed header height */
+div.panel-group.panel-toc a {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
 }
-
-#content > article > div.entry-content > div > div a.footnote-ref:target:before {
-  display: block;
-  position: relative;
-  top: 50px;
-  visibility: hidden;
-}
-
 .gap-right {
     margin-right: 10px;
 }
