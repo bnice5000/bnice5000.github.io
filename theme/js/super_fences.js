@@ -50,22 +50,8 @@
       });
     }
   }
-
-  onReady(function(){convertUML('uml-flowchart', flowchart);});
-})(document)
-
-/* sequence-loader.js */
-(function (doc) {
-  function onReady(fn) {
-    if (doc.addEventListener) {
-      doc.addEventListener('DOMContentLoaded', fn);
-    } else {
-      doc.attachEvent('onreadystatechange', function() {
-        if (doc.readyState === 'interactive')
-          fn();
-      });
-    }
-  }
-
-  onReady(function(){convertUML('uml-sequence-diagram', Diagram, {theme: 'simple'});});
+onReady(function(){
+    convertUML('uml-flowchart', flowchart);
+    convertUML('uml-sequence-diagram', Diagram, {theme: 'simple'});
+  });
 })(document)
