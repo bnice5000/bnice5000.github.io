@@ -108,6 +108,16 @@ role="navigation">
 <li><a href="#spargit-igni-nullasque-parabat">Spargit igni nullasque parabat</a><ul>
 <li><a href="#puella-illuc-mendacem">Puella illuc mendacem</a></li>
 <li><a href="#illa-hos-inultae-murram-puellari-expugnacior-naturae">Illa hos inultae murram puellari expugnacior naturae</a></li>
+<li><a href="#better-figures-images-test">Better Figures <span class="amp">&amp;</span> Images Test</a><ul>
+<li><a href="#base-test">Base Test</a></li>
+<li><a href="#base-test-alt-ends-with-png">Base Test Alt Ends With .png</a></li>
+<li><a href="#type-test">Type Test</a></li>
+<li><a href="#type-test-with-caption">Type Test With Caption</a></li>
+<li><a href="#figure-html-test">Figure <span class="caps">HTML</span> Test</a></li>
+<li><a href="#super-fences-test-flow">Super Fences Test (Flow)</a></li>
+<li><a href="#super-fences-test-uml">Super Fences Test (<span class="caps">UML</span>)</a></li>
+</ul>
+</li>
 <li><a href="#iacet-mensum-duxere-adludit-et-ille-decipit">Iacet mensum duxere adludit et ille decipit</a></li>
 </ul>
 </li>
@@ -183,14 +193,84 @@ bella et sive? Inrupit capreisque, loquor nostroque
  iram de
 obstipuit, Smilace&nbsp;sine.
 </p>
+<h2 id="better-figures-images-test">
+ Better Figures
+ <span class="amp">
+  &amp;
+ </span>
+ Images&nbsp;Test
+</h2>
+<h3 id="base-test">
+ Base&nbsp;Test
+</h3>
+<p>
+ <img alt="Test Photo" class="img-fluid" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/>
+</p>
+<h3 id="base-test-alt-ends-with-png">
+ Base Test Alt Ends With&nbsp;.png
+</h3>
+<h3 id="type-test">
+ Type&nbsp;Test
+</h3>
 <p>
  <figure class="figure">
-  <img alt="Test Photo" caption="This is a test caption" class="img-fluid float-right figure-img" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/>
+  <img alt="" class="img-fluid figure-img" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/>
   <figcaption class="figure-caption text-center">
-   This is a test caption
   </figcaption>
  </figure>
 </p>
+<h3 id="type-test-with-caption">
+ Type Test With&nbsp;Caption
+</h3>
+<p>
+ <figure class="figure">
+  <img alt="Test Photo" caption="Love the photo!" class="img-fluid figure-img" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/>
+  <figcaption class="figure-caption text-center">
+   Love the photo!
+  </figcaption>
+ </figure>
+</p>
+<h3 id="figure-html-test">
+ Figure
+ <span class="caps">
+  HTML
+ </span>
+ &nbsp;Test
+</h3>
+<figure class="figure">
+ <img class="figure-img img-fluid" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/>
+ <figcaption>
+  Undated File Photo
+ </figcaption>
+</figure>
+<h3 id="super-fences-test-flow">
+ Super Fences Test&nbsp;(Flow)
+</h3>
+<pre class="uml-flowchart"><code>st=&gt;start: Start:&gt;http://www.google.com[blank]
+e=&gt;end:&gt;http://www.google.com
+op1=&gt;operation: My Operation
+sub1=&gt;subroutine: My Subroutine
+cond=&gt;condition: Yes
+or No?:&gt;http://www.google.com
+io=&gt;inputoutput: catch something...
+
+st-&gt;op1-&gt;cond
+cond(yes)-&gt;io-&gt;e
+cond(no)-&gt;sub1(right)-&gt;op1
+</code></pre>
+<h3 id="super-fences-test-uml">
+ Super Fences Test (
+ <span class="caps">
+  UML
+ </span>
+ )
+</h3>
+<pre class="uml-sequence-diagram"><code>Title: Here is a title
+A-&gt;B: Normal line
+B--&gt;C: Dashed line
+C-&gt;&gt;D: Open arrow
+D--&gt;&gt;A: Dashed open arrow
+</code></pre>
 <h2 id="iacet-mensum-duxere-adludit-et-ille-decipit">
  Iacet mensum duxere adludit et ille&nbsp;decipit
 </h2>
@@ -285,20 +365,6 @@ regnat mihi, vel mutua&nbsp;Ossaque.
   </div>
 
 
-<div class="row pager">
-    <div class="col-md-6 text-left">
-        <ul>
-            <li class="previous">
-                <a href="http://ninetenlevins.com/articles/test_entry.html"><span class="glyphicon glyphicon-chevron-left"></span>Single Image&nbsp;Test</a>
-            </li>
-    </div>
-    <div class="col-md-6 text-right">
-        <li class="next">
-            <a href="http://ninetenlevins.com/articles/test_2.html">Photo Gallery&nbsp;Test<span class="glyphicon glyphicon-chevron-right"></span></a>
-        </li>
-        </ul>
-    </div>
-</div>
 
 
 </footer><!-- /.post-info -->            </div>
@@ -308,21 +374,12 @@ regnat mihi, vel mutua&nbsp;Ossaque.
   <div class="panel-heading">
     <h4 class="panel-title">
       <a data-toggle="collapse" href="#series_content">
-        Part 3 of the Test series
+        Part 1 of the Test series
       </a>
     </h4>
   </div>
   <div id="series_content" class="panel-collapse collapse">
     <div class="panel-body">
-         <h5>Previous articles</h5>
-         <ul>
-             <li><a href="http://ninetenlevins.com/articles/test_entry.html">Single Image&nbsp;Test</a></li>
-             <li><a href="http://ninetenlevins.com/articles/test_2.html">Photo Gallery&nbsp;Test</a></li>
-         </ul>
-         <h5>Next articles</h5>
-         <ul>
-             <li><a href="http://ninetenlevins.com/articles/test_3.html">No Image&nbsp;Test</a></li>
-         </ul>
     </div>
     <!-- <div class="panel-footer">Panel Footer</div> -->
   </div>
@@ -385,28 +442,8 @@ regnat mihi, vel mutua&nbsp;Ossaque.
             <li class="list-group-item"><h4><i class="fa fa-plus-square-o fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <i class="fa fa-file-text-o fa-lg"></i><a href="http://ninetenlevins.com/articles/test_3.html">
-                            No Image&nbsp;Test
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <i class="fa fa-file-text-o fa-lg"></i><a href="http://ninetenlevins.com/articles/test_2.html">
-                            Photo Gallery&nbsp;Test
-                        </a>
-                    </li>
-                    <li class="list-group-item">
                         <i class="fa fa-file-text-o fa-lg"></i><a href="http://ninetenlevins.com/articles/test_4.html">
                             Inline&nbsp;Test
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <i class="fa fa-file-text-o fa-lg"></i><a href="http://ninetenlevins.com/articles/test_entry.html">
-                            Single Image&nbsp;Test
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <i class="fa fa-file-text-o fa-lg"></i><a href="http://ninetenlevins.com/articles/my-super-title.html">
-                            My super&nbsp;title
                         </a>
                     </li>
                 </ul>
@@ -453,6 +490,11 @@ regnat mihi, vel mutua&nbsp;Ossaque.
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
 <script src="http://ninetenlevins.com/theme/js/respond.min.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.4/raphael-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.4.2/flowchart.min.js"></script>
+<script src="http://ninetenlevins.com/theme/js/super_fences.js"></script>
     <!-- Disqus -->
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
