@@ -1,203 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Nine Ten Levins</title><link href="http://ninetenlevins.com/" rel="alternate"></link><link href="http://ninetenlevins.com/feeds/all.atom.xml" rel="self"></link><id>http://ninetenlevins.com/</id><updated>2016-05-24T22:06:00-04:00</updated><entry><title>Inline Test</title><link href="http://ninetenlevins.com/articles/test_4.html" rel="alternate"></link><published>2016-05-24T22:06:00-04:00</published><author><name>Brian Levin</name></author><id>tag:ninetenlevins.com,2016-05-24:articles/test_4.html</id><summary type="html">&lt;h1 id="spargit-igni-nullasque-parabat"&gt;
- Spargit igni nullasque&amp;nbsp;parabat
-&lt;/h1&gt;
-&lt;h2 id="puella-illuc-mendacem"&gt;
- Puella illuc&amp;nbsp;mendacem
-&lt;/h2&gt;
-&lt;p&gt;
- Lorem markdownum cadet tamen, si omnia tempore; moderante patre, tum urbes
- &lt;strong&gt;
-  excutit ille
- &lt;/strong&gt;
- . Aera cuncta paret unica filia ad tibi malae egressa. Socero
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Nine Ten Levins</title><link href="http://ninetenlevins.com/" rel="alternate"></link><link href="http://ninetenlevins.com/feeds/all.atom.xml" rel="self"></link><id>http://ninetenlevins.com/</id><updated>2016-05-24T22:06:00-04:00</updated><entry><title>Inline Test</title><link href="http://ninetenlevins.com/articles/test_4.html" rel="alternate"></link><published>2016-05-24T22:06:00-04:00</published><author><name>Brian Levin</name></author><id>tag:ninetenlevins.com,2016-05-24:articles/test_4.html</id><summary type="html">
+&lt;h1 id="spargit-igni-nullasque-parabat"&gt;Spargit igni nullasque&amp;nbsp;parabat&lt;/h1&gt;
+&lt;h2 id="puella-illuc-mendacem"&gt;Puella illuc&amp;nbsp;mendacem&lt;/h2&gt;
+&lt;p&gt;Lorem markdownum cadet tamen, si omnia tempore; moderante patre, tum urbes
+&lt;strong&gt;excutit ille&lt;/strong&gt;. Aera cuncta paret unica filia ad tibi malae egressa. Socero
 Threicio, auctoribus insistit tamen scopulus; per exhortantur suas naturalique
-ferrumque. Caedit poenam, patrios egerit horrida subito, nisi Messeniaque&amp;nbsp;quod?
-&lt;/p&gt;
-&lt;p&gt;
- Fallente videre
- &lt;strong&gt;
-  tubicen
- &lt;/strong&gt;
- . Postquam
- &lt;strong&gt;
-  horrida
- &lt;/strong&gt;
- dis tuba tenebrae, o sororis
-atque laniaverat iaculantem iubet, veteres
- &lt;em&gt;
-  fluit
- &lt;/em&gt;
- , in. Aquis si subito
+ferrumque. Caedit poenam, patrios egerit horrida subito, nisi Messeniaque&amp;nbsp;quod?&lt;/p&gt;
+&lt;p&gt;Fallente videre &lt;strong&gt;tubicen&lt;/strong&gt;. Postquam &lt;strong&gt;horrida&lt;/strong&gt; dis tuba tenebrae, o sororis
+atque laniaverat iaculantem iubet, veteres &lt;em&gt;fluit&lt;/em&gt;, in. Aquis si subito
 difficilis, Nilus pudorem. Sinebat cecidere semper Hyantea dedit, omnesque
-depulerant iamque mihi, exclamat&amp;nbsp;Milete!
-&lt;/p&gt;
-&lt;h2 id="illa-hos-inultae-murram-puellari-expugnacior-naturae"&gt;
- Illa hos inultae murram puellari expugnacior&amp;nbsp;naturae
-&lt;/h2&gt;
-&lt;p&gt;
- Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
+depulerant iamque mihi, exclamat&amp;nbsp;Milete!&lt;/p&gt;
+&lt;h2 id="illa-hos-inultae-murram-puellari-expugnacior-naturae"&gt;Illa hos inultae murram puellari expugnacior&amp;nbsp;naturae&lt;/h2&gt;
+&lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
 illuc. Candore Phrygiae misereri vaccam: nec
- &lt;a href="http://reddit.com/r/thathappened"&gt;
-  mihi
- &lt;/a&gt;
- , putes eveniet nescius, caede
- &lt;em&gt;
-  tepentibus Titan
- &lt;/em&gt;
- , nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque
- &lt;strong&gt;
-  fulgentem
- &lt;/strong&gt;
- fecere vicimus manu mearum;&amp;nbsp;exiguo.
-&lt;/p&gt;
-&lt;p&gt;
- Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
-bella et sive? Inrupit capreisque, loquor nostroque
- &lt;strong&gt;
-  lacusque
- &lt;/strong&gt;
- iram de
-obstipuit, Smilace&amp;nbsp;sine.
-&lt;/p&gt;
-&lt;h2 id="better-figures-images-test"&gt;
- Better Figures
- &lt;span class="amp"&gt;
-  &amp;amp;
- &lt;/span&gt;
- Images&amp;nbsp;Test
-&lt;/h2&gt;
-&lt;h3 id="base-test"&gt;
- Base&amp;nbsp;Test
-&lt;/h3&gt;
-&lt;p&gt;
- &lt;img alt="Test Photo" class="img-fluid" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;
-&lt;/p&gt;
-&lt;h3 id="base-test-alt-ends-with-png"&gt;
- Base Test Alt Ends With&amp;nbsp;.png
-&lt;/h3&gt;
-&lt;h3 id="type-test"&gt;
- Type&amp;nbsp;Test
-&lt;/h3&gt;
-&lt;p&gt;
- &lt;figure class="figure"&gt;
-  &lt;img alt="" class="img-fluid figure-img" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;
-  &lt;figcaption class="figure-caption text-center"&gt;
-  &lt;/figcaption&gt;
- &lt;/figure&gt;
-&lt;/p&gt;
-&lt;h3 id="type-test-with-caption"&gt;
- Type Test With&amp;nbsp;Caption
-&lt;/h3&gt;
-&lt;p&gt;
- &lt;figure class="figure"&gt;
-  &lt;img alt="Test Photo" caption="Love the photo!" class="img-fluid figure-img" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;
-  &lt;figcaption class="figure-caption text-center"&gt;
-   Love the photo!
-  &lt;/figcaption&gt;
- &lt;/figure&gt;
-&lt;/p&gt;
-&lt;h3 id="figure-html-test"&gt;
- Figure
- &lt;span class="caps"&gt;
-  HTML
- &lt;/span&gt;
- &amp;nbsp;Test
-&lt;/h3&gt;
+&lt;a href="http://reddit.com/r/thathappened"&gt;mihi&lt;/a&gt;, putes eveniet nescius, caede
+&lt;em&gt;tepentibus Titan&lt;/em&gt;, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
+iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu mearum;&amp;nbsp;exiguo.&lt;/p&gt;
+&lt;p&gt;Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
+bella et sive? Inrupit capreisque, loquor nostroque &lt;strong&gt;lacusque&lt;/strong&gt; iram de
+obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
+&lt;h2 id="better-figures-images-test"&gt;Better Figures &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Images&amp;nbsp;Test&lt;/h2&gt;
+&lt;h3 id="base-test"&gt;Base&amp;nbsp;Test&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Test Photo" class="img-fluid" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;/p&gt;
+&lt;h3 id="base-test-alt-ends-with-png"&gt;Base Test Alt Ends With&amp;nbsp;.png&lt;/h3&gt;
+&lt;h3 id="type-test"&gt;Type&amp;nbsp;Test&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="IMG_0264.png" class="img-fluid" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg" type="figure"/&gt;&lt;/p&gt;
+&lt;h3 id="type-test-with-caption"&gt;Type Test With&amp;nbsp;Caption&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Test Photo" caption="Love the photo!" class="img-fluid" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg" type="figure"/&gt;&lt;/p&gt;
+&lt;h3 id="figure-html-test"&gt;Figure &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
 &lt;figure class="figure"&gt;
- &lt;img class="figure-img img-fluid" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
- &lt;figcaption&gt;
-  Undated File Photo
- &lt;/figcaption&gt;
+&lt;img class="figure-img img-fluid" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
+&lt;figcaption class="text-center figure-caption"&gt;Undated File Photo&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h3 id="type-test-with-caption_1"&gt;
- Type Test With&amp;nbsp;Caption
-&lt;/h3&gt;
-&lt;p&gt;
- &lt;img alt="Test Photo" class="pull-left gap-right img-fluid" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
-&lt;/p&gt;
-&lt;p&gt;
- Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
+&lt;h3 id="type-test-with-caption_1"&gt;Type Test With&amp;nbsp;Caption&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Test Photo" class="pull-left img-fluid gap-right" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
 illuc. Candore Phrygiae misereri vaccam: nec
- &lt;a href="http://reddit.com/r/thathappened"&gt;
-  mihi
- &lt;/a&gt;
- , putes eveniet nescius, caede
- &lt;em&gt;
-  tepentibus Titan
- &lt;/em&gt;
- , nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque
- &lt;strong&gt;
-  fulgentem
- &lt;/strong&gt;
- fecere vicimus manu mearum;&amp;nbsp;exiguo.
-&lt;/p&gt;
-&lt;p&gt;
- Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
-bella et sive? Inrupit capreisque, loquor nostroque
- &lt;strong&gt;
-  lacusque
- &lt;/strong&gt;
- iram de
-obstipuit, Smilace&amp;nbsp;sine.
-&lt;/p&gt;
-&lt;p&gt;
- Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
+&lt;a href="http://reddit.com/r/thathappened"&gt;mihi&lt;/a&gt;, putes eveniet nescius, caede
+&lt;em&gt;tepentibus Titan&lt;/em&gt;, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
+iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu mearum;&amp;nbsp;exiguo.&lt;/p&gt;
+&lt;p&gt;Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
+bella et sive? Inrupit capreisque, loquor nostroque &lt;strong&gt;lacusque&lt;/strong&gt; iram de
+obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
+&lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
 illuc. Candore Phrygiae misereri vaccam: nec
- &lt;a href="http://reddit.com/r/thathappened"&gt;
-  mihi
- &lt;/a&gt;
- , putes eveniet nescius, caede
- &lt;em&gt;
-  tepentibus Titan
- &lt;/em&gt;
- , nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque
- &lt;strong&gt;
-  fulgentem
- &lt;/strong&gt;
- fecere vicimus manu mearum;&amp;nbsp;exiguo.
-&lt;/p&gt;
-&lt;p&gt;
- Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
-bella et sive? Inrupit capreisque, loquor nostroque
- &lt;strong&gt;
-  lacusque
- &lt;/strong&gt;
- iram de
-obstipuit, Smilace&amp;nbsp;sine.
-&lt;/p&gt;
-&lt;p&gt;
- Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
+&lt;a href="http://reddit.com/r/thathappened"&gt;mihi&lt;/a&gt;, putes eveniet nescius, caede
+&lt;em&gt;tepentibus Titan&lt;/em&gt;, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
+iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu mearum;&amp;nbsp;exiguo.&lt;/p&gt;
+&lt;p&gt;Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
+bella et sive? Inrupit capreisque, loquor nostroque &lt;strong&gt;lacusque&lt;/strong&gt; iram de
+obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
+&lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
 illuc. Candore Phrygiae misereri vaccam: nec
- &lt;a href="http://reddit.com/r/thathappened"&gt;
-  mihi
- &lt;/a&gt;
- , putes eveniet nescius, caede
- &lt;em&gt;
-  tepentibus Titan
- &lt;/em&gt;
- , nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque
- &lt;strong&gt;
-  fulgentem
- &lt;/strong&gt;
- fecere vicimus manu mearum;&amp;nbsp;exiguo.
-&lt;/p&gt;
-&lt;p&gt;
- Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
-bella et sive? Inrupit capreisque, loquor nostroque
- &lt;strong&gt;
-  lacusque
- &lt;/strong&gt;
- iram de
-obstipuit, Smilace&amp;nbsp;sine.
-&lt;/p&gt;
-&lt;h3 id="super-fences-test-flow"&gt;
- Super Fences Test&amp;nbsp;(Flow)
-&lt;/h3&gt;
+&lt;a href="http://reddit.com/r/thathappened"&gt;mihi&lt;/a&gt;, putes eveniet nescius, caede
+&lt;em&gt;tepentibus Titan&lt;/em&gt;, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
+iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu mearum;&amp;nbsp;exiguo.&lt;/p&gt;
+&lt;p&gt;Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
+bella et sive? Inrupit capreisque, loquor nostroque &lt;strong&gt;lacusque&lt;/strong&gt; iram de
+obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
+&lt;table class="table table-hover table-striped"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align="left"&gt;Protocol&lt;/th&gt;
+&lt;th align="left"&gt;Contact Information&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="left"&gt;jabber/xmpp&lt;/td&gt;
+&lt;td align="left"&gt;&lt;a href="winlu@jabber.at"&gt;winlu@jabber.at&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="left"&gt;email&lt;/td&gt;
+&lt;td align="left"&gt;&lt;a href="mailto:derwinlu@gmail.com"&gt;derwinlu@gmail.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="left"&gt;&lt;span class="caps"&gt;IRC&lt;/span&gt; - freenode&lt;/td&gt;
+&lt;td align="left"&gt;winlu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="super-fences-test-flow"&gt;Super Fences Test&amp;nbsp;(Flow)&lt;/h3&gt;
 &lt;pre class="uml-flowchart"&gt;&lt;code&gt;st=&amp;gt;start: Start:&amp;gt;http://www.google.com[blank]
 e=&amp;gt;end:&amp;gt;http://www.google.com
 op1=&amp;gt;operation: My Operation
@@ -210,88 +93,42 @@ st-&amp;gt;op1-&amp;gt;cond
 cond(yes)-&amp;gt;io-&amp;gt;e
 cond(no)-&amp;gt;sub1(right)-&amp;gt;op1
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id="super-fences-test-uml"&gt;
- Super Fences Test (
- &lt;span class="caps"&gt;
-  UML
- &lt;/span&gt;
- )
-&lt;/h3&gt;
+&lt;h3 id="super-fences-test-uml"&gt;Super Fences Test (&lt;span class="caps"&gt;UML&lt;/span&gt;)&lt;/h3&gt;
 &lt;pre class="uml-sequence-diagram"&gt;&lt;code&gt;Title: Here is a title
 A-&amp;gt;B: Normal line
 B--&amp;gt;C: Dashed line
 C-&amp;gt;&amp;gt;D: Open arrow
 D--&amp;gt;&amp;gt;A: Dashed open arrow
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="iacet-mensum-duxere-adludit-et-ille-decipit"&gt;
- Iacet mensum duxere adludit et ille&amp;nbsp;decipit
-&lt;/h2&gt;
-&lt;p&gt;
- Iactas caeli illic fodiebant aenea
- &lt;strong&gt;
-  super
- &lt;/strong&gt;
- artus; ritu inque.
- &lt;a href="http://hipstermerkel.tumblr.com/"&gt;
-  Toto natam
-Phlegraeon
- &lt;/a&gt;
- modo; est Philemon protinus iuvere
-pondus languentique
- &lt;strong&gt;
-  duro
- &lt;/strong&gt;
- . Herbas putet herbas: tandem nova conplexa; et
+&lt;h2 id="iacet-mensum-duxere-adludit-et-ille-decipit"&gt;Iacet mensum duxere adludit et ille&amp;nbsp;decipit&lt;/h2&gt;
+&lt;p&gt;Iactas caeli illic fodiebant aenea &lt;strong&gt;super&lt;/strong&gt; artus; ritu inque. &lt;a href="http://hipstermerkel.tumblr.com/"&gt;Toto natam
+Phlegraeon&lt;/a&gt; modo; est Philemon protinus iuvere
+pondus languentique &lt;strong&gt;duro&lt;/strong&gt;. Herbas putet herbas: tandem nova conplexa; et
 ultima fecit. Mea rite inimica quotiensque quemque
- &lt;a href="http://www.metafilter.com/"&gt;
-  regale
- &lt;/a&gt;
- esse locuti volucrum triste hoc&amp;nbsp;iaces.
-&lt;/p&gt;
-&lt;div class="highlight"&gt;
- &lt;pre&gt;&lt;span&gt;&lt;/span&gt;wpaDomainHyperlink = browser;
+&lt;a href="http://www.metafilter.com/"&gt;regale&lt;/a&gt; esse locuti volucrum triste hoc&amp;nbsp;iaces.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;wpaDomainHyperlink = browser;
 if (xmpConstantKeylogger.smishing_storage_bankruptcy(1)) {
     dotIntegrated.state += dimm;
     ddr = -4;
     spam += sidebar;
 }
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class="highlight"&gt;
- &lt;pre&gt;&lt;span&gt;&lt;/span&gt;    &lt;span class="nx"&gt;smtp_margin_print&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;character_video_internic&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;simm_responsive&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nx"&gt;backlink&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    &lt;span class="nx"&gt;smtp_margin_print&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;character_video_internic&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;simm_responsive&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nx"&gt;backlink&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
     &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;hdtvMemory&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;responsive_mountain&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;cdLifoAlpha&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;cross&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
             &lt;span class="nx"&gt;controllerSurgeDesign&lt;/span&gt;&lt;span class="p"&gt;)),&lt;/span&gt; &lt;span class="nx"&gt;radcab_lion&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;ircHoneypot&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
         &lt;span class="nx"&gt;column_socket_edutainment&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
         &lt;span class="nx"&gt;compileCss&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;dtd_system&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;captcha&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
     &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;
- Nunc faces utroque, at moenia miles? Remoretur propter; dum decimo, candida
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Nunc faces utroque, at moenia miles? Remoretur propter; dum decimo, candida
 nautas. In si Oeneus quibus gener et manus vitibus Stygiam trepidoque nascuntur
-erat, dea, quamque. Aliquis iacent
- &lt;em&gt;
-  quodque petens
- &lt;/em&gt;
- , ambiguis mirum minores
+erat, dea, quamque. Aliquis iacent &lt;em&gt;quodque petens&lt;/em&gt;, ambiguis mirum minores
 iniuria inposuit quae expers caput saepe modo, si non. Mentique fama Thoantis
- &lt;em&gt;
-  excipit
- &lt;/em&gt;
- , picea placandam guttura stabat protinus
- &lt;strong&gt;
-  praetincta
- &lt;/strong&gt;
- , teneret de
-regnat mihi, vel mutua&amp;nbsp;Ossaque.
-&lt;/p&gt;
+&lt;em&gt;excipit&lt;/em&gt;, picea placandam guttura stabat protinus &lt;strong&gt;praetincta&lt;/strong&gt;, teneret de
+regnat mihi, vel mutua&amp;nbsp;Ossaque.&lt;/p&gt;
 &lt;blockquote&gt;
- &lt;p&gt;
-  The weak can never forgive. Forgiveness is the attribute of the&amp;nbsp;strong.
- &lt;/p&gt;
- &lt;blockquote&gt;
-  &lt;p&gt;
-   Ghandi
-  &lt;/p&gt;
- &lt;/blockquote&gt;
+&lt;p&gt;The weak can never forgive. Forgiveness is the attribute of the&amp;nbsp;strong.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ghandi&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;/blockquote&gt;</summary><category term="Tester"></category><category term="Bar"></category></entry></feed>
