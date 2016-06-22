@@ -28,9 +28,9 @@ obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
 &lt;h3 id="type-test-with-caption"&gt;Type Test With&amp;nbsp;Caption&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Test Photo" caption="Love the photo!" class="img-fluid" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg" type="figure"/&gt;&lt;/p&gt;
 &lt;h3 id="figure-html-test"&gt;Figure &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
-&lt;figure class="pull-left figure"&gt;
+&lt;figure class="figure"&gt;
 &lt;img class="figure-img img-fluid" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
-&lt;figcaption class="float-left figure-caption text-center"&gt;This is a test.&lt;/figcaption&gt;
+&lt;figcaption class="float-left figure-caption text-right"&gt;This is a test.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
 illuc. Candore Phrygiae misereri vaccam: nec
