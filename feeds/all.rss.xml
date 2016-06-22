@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Nine Ten Levins</title><link>http://ninetenlevins.com/</link><description></description><lastBuildDate>Tue, 24 May 2016 22:06:00 -0400</lastBuildDate><item><title>Inline Test</title><link>http://ninetenlevins.com/articles/test_4.html</link><description>&lt;p&gt;Lorem markdownum cadet tamen, si omnia tempore; moderante patre, tum urbes
+<rss version="2.0"><channel><title>Nine Ten Levins</title><link>http://ninetenlevins.com/</link><description></description><lastBuildDate>Tue, 24 May 2016 22:06:00 -0400</lastBuildDate><item><title>Inline Test</title><link>http://ninetenlevins.com/articles/test_4.html</link><description>
+&lt;p&gt;Lorem markdownum cadet tamen, si omnia tempore; moderante patre, tum urbes
 &lt;strong&gt;excutit ille&lt;/strong&gt;. Aera cuncta paret unica filia ad tibi malae egressa. Socero
 Threicio, auctoribus insistit tamen scopulus; per exhortantur suas naturalique
 ferrumque. Caedit poenam, patrios egerit horrida subito, nisi Messeniaque&amp;nbsp;quod?&lt;/p&gt;
@@ -34,7 +35,7 @@ illuc. Candore Phrygiae misereri vaccam: nec
 &lt;a href="http://reddit.com/r/thathappened"&gt;mihi&lt;/a&gt;, putes eveniet nescius, caede
 &lt;em&gt;tepentibus Titan&lt;/em&gt;, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
 iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu mearum;&amp;nbsp;exiguo.&lt;/p&gt;
-&lt;h3 id="type-test-with-caption_1"&gt;Type Test With&amp;nbsp;Caption&lt;/h3&gt;
+&lt;h3 id="type-test-with-attributes"&gt;Type Test with&amp;nbsp;Attributes&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Test Photo" class="pull-left img-responsive gap-right" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;&lt;/p&gt;
 &lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
 illuc. Candore Phrygiae misereri vaccam: nec
