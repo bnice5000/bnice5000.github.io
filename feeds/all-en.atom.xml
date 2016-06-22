@@ -30,7 +30,7 @@ obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
 &lt;h3 id="figure-html-test"&gt;Figure &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
 &lt;figure class="figure"&gt;
 &lt;img class="figure-img img-fluid" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
-&lt;figcaption class="text-center figure-caption"&gt;Undated File Photo&lt;/figcaption&gt;
+&lt;figcaption class="text-center figure-caption"&gt;This is a test.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;h3 id="type-test-with-caption_1"&gt;Type Test With&amp;nbsp;Caption&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Test Photo" class="pull-left img-fluid gap-right" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;&lt;/p&gt;
