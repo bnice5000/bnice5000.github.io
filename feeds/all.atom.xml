@@ -20,14 +20,14 @@ obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
 &lt;h2 id="better-figures-images-test"&gt;Better Figures &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Images&amp;nbsp;Test&lt;/h2&gt;
 &lt;h3 id="base-test"&gt;Base&amp;nbsp;Test&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Test Photo" class="img-responsive" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;/p&gt;
-&lt;h3 id="base-test-alt-ends-with-png"&gt;Base Test Alt Ends With&amp;nbsp;.png&lt;/h3&gt;
+&lt;h3 id="base-test-alt-ends-with-jpg"&gt;Base Test Alt Ends With&amp;nbsp;.jpg&lt;/h3&gt;
 &lt;h3 id="type-test"&gt;Type&amp;nbsp;Test&lt;/h3&gt;
-&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="IMG_0264.png" class="figure-img img-responsive center-block" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;IMG_0264.png&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="IMG_0264.jpg" class="figure-img img-responsive center-block" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;IMG_0264.jpg&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3 id="type-test-with-caption"&gt;Type Test With&amp;nbsp;Caption&lt;/h3&gt;
 &lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Test Photo" caption="Love the photo!" class="figure-img img-responsive center-block" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;Love the photo!&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3 id="figure-html-test"&gt;Figure &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
 &lt;figure class="figure"&gt;
-&lt;img alt="some alt text" class="figure-img img-responsive center-block" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
+&lt;img alt="some alt text" class="figure-img img-responsive center-block" src="http://ninetenlevins.com/photos/20160524_test_entrya.png"/&gt;
 &lt;figcaption class="text-center figure-caption"&gt;This is a test.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
@@ -36,7 +36,7 @@ illuc. Candore Phrygiae misereri vaccam: nec
 &lt;em&gt;tepentibus Titan&lt;/em&gt;, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
 iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu mearum;&amp;nbsp;exiguo.&lt;/p&gt;
 &lt;h3 id="type-test-with-attributes"&gt;Type Test with&amp;nbsp;Attributes&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Test Photo" class="pull-left img-responsive gap-right" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Test Photo" class="pull-left img-responsive gap-right" src="http://ninetenlevins.com/photos/20160524_test_entrya.png"/&gt;&lt;/p&gt;
 &lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
 illuc. Candore Phrygiae misereri vaccam: nec
 &lt;a href="http://reddit.com/r/thathappened"&gt;mihi&lt;/a&gt;, putes eveniet nescius, caede
