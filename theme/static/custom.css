@@ -3,6 +3,11 @@
 body {
   padding-top: 0;
 }
+
+.figure {
+  margin: 0;
+}
+
 .gap-right {
     margin-right: 10px;
 }
