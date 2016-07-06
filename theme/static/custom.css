@@ -4,8 +4,9 @@ body {
   padding-top: 0;
 }
 
-.figure {
+figure.figure {
   margin: 0;
+  padding: 0;
 }
 
 .gap-right {
