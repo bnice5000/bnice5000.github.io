@@ -5,12 +5,11 @@ body {
 }
 
 figure > img {
-  margin-left: 0 !important;
   padding-left: 0 !important;
 }
 
 .gap-right {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .gap-left {
