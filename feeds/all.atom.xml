@@ -20,8 +20,6 @@ obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
 &lt;h2 id="better-figures-images-test"&gt;Better Figures &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Images&amp;nbsp;Test&lt;/h2&gt;
 &lt;h3 id="img-test"&gt;&lt;span class="caps"&gt;IMG&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Test Photo" class="img-responsive" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;/p&gt;
-&lt;h3 id="figure-test"&gt;Figure&amp;nbsp;Test&lt;/h3&gt;
-&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Test Photo" class="figure-img img-responsive center-block" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;Test Photo&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3 id="figure-test-with-caption"&gt;Figure Test With&amp;nbsp;Caption&lt;/h3&gt;
 &lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Test Photo" caption="Love the photo!" class="figure-img img-responsive center-block" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;Love the photo!&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3 id="figure-html-test"&gt;Figure &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
