@@ -4,7 +4,7 @@ body {
   padding-top: 0;
 }
 
-figure.figure {
+figure > img {
   margin: 0;
   padding: 0;
 }
