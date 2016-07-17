@@ -107,30 +107,7 @@ role="navigation">
 <p>Next we are going to need a little software. Download and install <a href="https://pqrs.org/osx/karabiner/seil.html.en">Seil</a> and <a href="https://pqrs.org/osx/karabiner/index.html.en">Karabiner</a>. These excellent programs are written by Takayama Fumihiko. They make the process of converting the ⇪ key much&nbsp;easier.</p>
 <p>Seil is a powerful key number remapper. It lets you set select keys to send new values. In this case we are going to take the ⇪ key with its default key value of&nbsp;&ldquo;</p>
 <p>Karabiner is a powerful and stable keyboard customizer for <span class="caps">OS</span> X. It allows you to capture and remap key&nbsp;presses.</p>
-<div class="highlight"><pre><span></span><span class="cp">&lt;?xml version="1.0"?&gt;</span>
-<span class="nt">&lt;root&gt;</span>
-    <span class="nt">&lt;item&gt;</span>
-        <span class="nt">&lt;name&gt;</span>Super Charge CapsLock<span class="nt">&lt;/name&gt;</span>
-        <span class="nt">&lt;appendix&gt;</span> ⇪: single press -&gt; F19, press with other key -&gt; cmd/opt/ctl/cmd/shift, pressed with fn -&gt; turns ⇪ on
-        <span class="nt">&lt;/appendix&gt;</span>
-        <span class="nt">&lt;identifier&gt;</span>private.CapsHyperF19<span class="nt">&lt;/identifier&gt;</span>
-        <span class="nt">&lt;autogen&gt;</span>
-            --KeyOverlaidModifier--
-            KeyCode::F19, ModifierFlag::FN,
-            KeyCode::COMMAND_L,
-            ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L | ModifierFlag::FN,
-            KeyCode::CAPSLOCK
-        <span class="nt">&lt;/autogen&gt;</span>
-        <span class="nt">&lt;autogen&gt;</span>
-            --KeyOverlaidModifier--
-            KeyCode::F19,
-            KeyCode::COMMAND_L,
-            ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
-            KeyCode::F19
-        <span class="nt">&lt;/autogen&gt;</span>
-    <span class="nt">&lt;/item&gt;</span>
-<span class="nt">&lt;/root&gt;</span>
-</pre></div>
+<p>[gist:id=c18f7c03dd38acd34c692692b0a911d2]</p>
                 </div>
               </div>
 <footer class="post-info">
