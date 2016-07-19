@@ -94,18 +94,20 @@ role="navigation">
               <div class="panel">
                 <div class="panel-body">
                   <!--  -->
-                  <h1 id="issue">Issue</h1>
+                  <h1 id="issue-first-pass">Issue First&nbsp;Pass</h1>
 <p>I have always found the caps lock key (herein ⇪) key to be an annoyance at best and an accidental shout inducer at worst. I wanted to make the ⇪ key useful. I like doing things from the keyboard when I can. However, some tasks have no good keyboard shortcut on mac. There are solutions to this issue through software such as BetterTouchTool, Alfred, and Keyboard maestro. They all run into one major issue. There is a good chance that whatever shortcut I choose will be taken by the operating system or some already installed software package. As most software does not like to use the four modifier keys all at once, it is almost always free. Such a keyboard mash requires difficult finger gymnastics and I am not dexterous enough to execute those finger&nbsp;solutes.</p>
-<h1 id="solution">Solution</h1>
+<h2 id="solution">Solution</h2>
 <p><a href="http://leancrew.com/all-this/2012/11/shift-control-option-command-on-caps-lock/">Dr. Drang</a> posted a solution to this issue a while ago. I thought now was the time to follow up. I decided to implement this solution and remove the scourge of the ⇪ key from my life once and for all. I modified his solution slightly so the capslock key&nbsp;represented</p>
-<h1 id="new-issue">New&nbsp;Issue</h1>
-<p>As I leaned back to bask in the glory that was a ⇪ free life, a shout arose from the other room. Figuring this was a minor change, I had not cleared it with my significant other. She was less than pleased at the removal of her beloved ⇪ key. In her words, &ldquo;You needed to give me back the ⇪&nbsp;now.&rdquo;</p>
+<h1 id="issue-second-pass">Issue Second&nbsp;Pass</h1>
+<p>As I leaned back to bask in the glory that was a ⇪ free life, a shout arose from the other room. Figuring this was a minor change, I had not cleared it with my significant other. About a day later she went to use our computer. From the other room arose an angry hurumph. She was less than pleased at the removal of her beloved ⇪ key. In her words, &ldquo;You needed to give me back the ⇪&nbsp;now.&rdquo;</p>
 <p>Shutting off the current solution, I tried to come up with a compromise solution. After a little testing, I though I had it. How about the ⇪ key work the new way as proposed in the Dr. Drang article, with the modification that if you used ⇪+fn it would now activate the ⇪ key to function in the usual way. She was agreeable and I implemented the&nbsp;solution.</p>
-<h1 id="new-solution">New&nbsp;Solution</h1>
+<h2 id="new-solution">New&nbsp;Solution</h2>
+<p>Shutting off the current solution, I tried to come up with a compromise solution. After a little testing, I though I had it. How about the ⇪ key work the new way as proposed in the Dr. Drang article, with the modification that if you used ⇪+fn it would now activate the ⇪ key to function in the usual way. She was agreeable and I implemented the&nbsp;solution.</p>
+<h1 id="implementation-details">Implementation&nbsp;Details</h1>
 <p>The first thing we need to do is disable the ⇪ key. I know this sounds counter intuitive but we don&rsquo;t want the operating system interfering with our&nbsp;modifications.</p>
 <p><figure class="figure"><img alt="Turn off ⇪ key" caption="Turn off the ⇪ key by setting it to no action." class="figure-img img-responsive center-block" src="http://ninetenlevins.com/photos/capslock/settings_modifier_keysa.jpg"/><figcaption class="text-center figure-caption">Turn off the ⇪ key by setting it to no action.</figcaption></figure></p>
 <p>Next we are going to need a little software. Download and install <a href="https://pqrs.org/osx/karabiner/seil.html.en">Seil</a> and <a href="https://pqrs.org/osx/karabiner/index.html.en">Karabiner</a>. These excellent programs are written by Takayama Fumihiko. They make the process of converting the ⇪ key much&nbsp;easier.</p>
-<p>Seil is a powerful key number remapper. It lets you set select keys to send new values. In this case we are going to take the ⇪ key with its default key value of&nbsp;&ldquo;</p>
+<p>Seil is a powerful key number remapper. It lets you set select keys to send new values. In this case we are going to take the ⇪ key with its default key value&nbsp;of </p>
 <p>Karabiner is a powerful and stable keyboard customizer for <span class="caps">OS</span> X. It allows you to capture and remap key&nbsp;presses.</p>
 <script src="https://gist.github.com/bnice5000/c18f7c03dd38acd34c692692b0a911d2.js"></script>
                 </div>
