@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Nine Ten Levins</title><link href="http://ninetenlevins.com/" rel="alternate"></link><link href="http://ninetenlevins.com/feeds/all-en.atom.xml" rel="self"></link><id>http://ninetenlevins.com/</id><updated>2016-05-24T22:06:00-04:00</updated><entry><title>Inline Test</title><link href="http://ninetenlevins.com/posts/2016/05/featuretest1.html" rel="alternate"></link><published>2016-05-24T22:06:00-04:00</published><author><name>Brian Levin</name></author><id>tag:ninetenlevins.com,2016-05-24:posts/2016/05/featuretest1.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Nine Ten Levins</title><link href="http://ninetenlevins.com/" rel="alternate"></link><link href="http://ninetenlevins.com/feeds/all-en.atom.xml" rel="self"></link><id>http://ninetenlevins.com/</id><updated>2016-05-24T22:06:00-04:00</updated><entry><title>Feature Test 1</title><link href="http://ninetenlevins.com/posts/2016/05/featuretest1.html" rel="alternate"></link><published>2016-05-24T22:06:00-04:00</published><author><name>Brian Levin</name></author><id>tag:ninetenlevins.com,2016-05-24:posts/2016/05/featuretest1.html</id><summary type="html">
 &lt;p&gt;Lorem markdownum cadet tamen, si omnia tempore; moderante patre, tum urbes
 &lt;strong&gt;excutit ille&lt;/strong&gt;. Aera cuncta paret unica filia ad tibi malae egressa. Socero
 Threicio, auctoribus insistit tamen scopulus; per exhortantur suas naturalique
@@ -137,7 +137,7 @@ regnat mihi, vel mutua&amp;nbsp;Ossaque.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Ghandi&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;/blockquote&gt;</summary></entry><entry><title>Inline Test</title><link href="http://ninetenlevins.com/posts/2016/05/featuretest2.html" rel="alternate"></link><published>2016-05-24T22:06:00-04:00</published><author><name>Brian Levin</name></author><id>tag:ninetenlevins.com,2016-05-24:posts/2016/05/featuretest2.html</id><summary type="html">
+&lt;/blockquote&gt;</summary></entry><entry><title>Feature Test 2</title><link href="http://ninetenlevins.com/posts/2016/05/featuretest2.html" rel="alternate"></link><published>2016-05-24T22:06:00-04:00</published><author><name>Brian Levin</name></author><id>tag:ninetenlevins.com,2016-05-24:posts/2016/05/featuretest2.html</id><summary type="html">
 &lt;p&gt;Lorem markdownum cadet tamen, si omnia tempore; moderante patre, tum urbes
 &lt;strong&gt;excutit ille&lt;/strong&gt;. Aera cuncta paret unica filia ad tibi malae egressa. Socero
 Threicio, auctoribus insistit tamen scopulus; per exhortantur suas naturalique
@@ -275,7 +275,7 @@ regnat mihi, vel mutua&amp;nbsp;Ossaque.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Ghandi&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;/blockquote&gt;</summary></entry><entry><title>Inline Test</title><link href="http://ninetenlevins.com/posts/2016/05/featuretest3.html" rel="alternate"></link><published>2016-05-24T22:06:00-04:00</published><author><name>Brian Levin</name></author><id>tag:ninetenlevins.com,2016-05-24:posts/2016/05/featuretest3.html</id><summary type="html">
+&lt;/blockquote&gt;</summary></entry><entry><title>Feature Test 3</title><link href="http://ninetenlevins.com/posts/2016/05/featuretest3.html" rel="alternate"></link><published>2016-05-24T22:06:00-04:00</published><author><name>Brian Levin</name></author><id>tag:ninetenlevins.com,2016-05-24:posts/2016/05/featuretest3.html</id><summary type="html">
 &lt;p&gt;Lorem markdownum cadet tamen, si omnia tempore; moderante patre, tum urbes
 &lt;strong&gt;excutit ille&lt;/strong&gt;. Aera cuncta paret unica filia ad tibi malae egressa. Socero
 Threicio, auctoribus insistit tamen scopulus; per exhortantur suas naturalique
