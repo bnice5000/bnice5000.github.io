@@ -62,6 +62,10 @@ div.toc li {
   margin-left: 5px;
 }
 
+kbd {
+  color: #aea79f;
+}
+
 /*figure {
   display: table;
 }*/
