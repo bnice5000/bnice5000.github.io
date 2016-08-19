@@ -20,12 +20,12 @@ obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
 &lt;p&gt;&lt;a href="http://ninetenlevins.com/pages/sausage.html"&gt;Sausage&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="better-figures-images-test"&gt;Better Figures &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Images&amp;nbsp;Test&lt;/h2&gt;
 &lt;h3 id="img-test"&gt;&lt;span class="caps"&gt;IMG&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Test Photo" class="img-responsive center-block" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Test Photo" class="center-block img-responsive" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;/p&gt;
 &lt;h3 id="figure-test-with-caption"&gt;Figure Test With&amp;nbsp;Caption&lt;/h3&gt;
-&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Test Photo" caption="Love the photo!" class="figure-img img-responsive center-block" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;Love the photo!&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Test Photo" caption="Love the photo!" class="center-block figure-img img-responsive" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;Love the photo!&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3 id="figure-html-test"&gt;Figure &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
 &lt;p&gt;&lt;figure class="figure"&gt;
-&lt;img alt="some alt text" class="figure-img img-responsive center-block" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
+&lt;img alt="some alt text" class="center-block figure-img img-responsive" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
 &lt;figcaption class="text-center figure-caption"&gt;This is a test.&lt;/figcaption&gt;
 &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
@@ -34,7 +34,7 @@ illuc. Candore Phrygiae misereri vaccam: nec
 &lt;em&gt;tepentibus Titan&lt;/em&gt;, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
 iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu mearum;&amp;nbsp;exiguo.&lt;/p&gt;
 &lt;h3 id="img-test-with-attributes"&gt;&lt;span class="caps"&gt;IMG&lt;/span&gt; Test with&amp;nbsp;Attributes&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Test Photo" class="pull-left img-responsive center-block gap-right" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Test Photo" class="center-block pull-left gap-right img-responsive" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;&lt;/p&gt;
 &lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
 illuc. Candore Phrygiae misereri vaccam: nec
 &lt;a href="http://reddit.com/r/thathappened"&gt;mihi&lt;/a&gt;, putes eveniet nescius, caede
@@ -60,7 +60,7 @@ iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu m
 bella et sive? Inrupit capreisque, loquor nostroque &lt;strong&gt;lacusque&lt;/strong&gt; iram de
 obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
 &lt;h3 id="table-test"&gt;Table&amp;nbsp;Test&lt;/h3&gt;
-&lt;table class="table table-hover table-striped"&gt;
+&lt;table class="table-hover table table-striped"&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;Tables&lt;/th&gt;
@@ -158,12 +158,12 @@ obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
 &lt;p&gt;&lt;a href="http://ninetenlevins.com/pages/sausage.html"&gt;Sausage&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="better-figures-images-test"&gt;Better Figures &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Images&amp;nbsp;Test&lt;/h2&gt;
 &lt;h3 id="img-test"&gt;&lt;span class="caps"&gt;IMG&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Test Photo" class="img-responsive center-block" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Test Photo" class="center-block img-responsive" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;/p&gt;
 &lt;h3 id="figure-test-with-caption"&gt;Figure Test With&amp;nbsp;Caption&lt;/h3&gt;
-&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Test Photo" caption="Love the photo!" class="figure-img img-responsive center-block" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;Love the photo!&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Test Photo" caption="Love the photo!" class="center-block figure-img img-responsive" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;Love the photo!&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3 id="figure-html-test"&gt;Figure &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
 &lt;p&gt;&lt;figure class="figure"&gt;
-&lt;img alt="some alt text" class="figure-img img-responsive center-block" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
+&lt;img alt="some alt text" class="center-block figure-img img-responsive" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
 &lt;figcaption class="text-center figure-caption"&gt;This is a test.&lt;/figcaption&gt;
 &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
@@ -172,7 +172,7 @@ illuc. Candore Phrygiae misereri vaccam: nec
 &lt;em&gt;tepentibus Titan&lt;/em&gt;, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
 iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu mearum;&amp;nbsp;exiguo.&lt;/p&gt;
 &lt;h3 id="img-test-with-attributes"&gt;&lt;span class="caps"&gt;IMG&lt;/span&gt; Test with&amp;nbsp;Attributes&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Test Photo" class="pull-left img-responsive center-block gap-right" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Test Photo" class="center-block pull-left gap-right img-responsive" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;&lt;/p&gt;
 &lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
 illuc. Candore Phrygiae misereri vaccam: nec
 &lt;a href="http://reddit.com/r/thathappened"&gt;mihi&lt;/a&gt;, putes eveniet nescius, caede
@@ -198,7 +198,7 @@ iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu m
 bella et sive? Inrupit capreisque, loquor nostroque &lt;strong&gt;lacusque&lt;/strong&gt; iram de
 obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
 &lt;h3 id="table-test"&gt;Table&amp;nbsp;Test&lt;/h3&gt;
-&lt;table class="table table-hover table-striped"&gt;
+&lt;table class="table-hover table table-striped"&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;Tables&lt;/th&gt;
@@ -296,12 +296,12 @@ obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
 &lt;p&gt;&lt;a href="http://ninetenlevins.com/pages/sausage.html"&gt;Sausage&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="better-figures-images-test"&gt;Better Figures &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Images&amp;nbsp;Test&lt;/h2&gt;
 &lt;h3 id="img-test"&gt;&lt;span class="caps"&gt;IMG&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Test Photo" class="img-responsive center-block" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Test Photo" class="center-block img-responsive" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;/p&gt;
 &lt;h3 id="figure-test-with-caption"&gt;Figure Test With&amp;nbsp;Caption&lt;/h3&gt;
-&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Test Photo" caption="Love the photo!" class="figure-img img-responsive center-block" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;Love the photo!&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Test Photo" caption="Love the photo!" class="center-block figure-img img-responsive" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;Love the photo!&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3 id="figure-html-test"&gt;Figure &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
 &lt;p&gt;&lt;figure class="figure"&gt;
-&lt;img alt="some alt text" class="figure-img img-responsive center-block" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
+&lt;img alt="some alt text" class="center-block figure-img img-responsive" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
 &lt;figcaption class="text-center figure-caption"&gt;This is a test.&lt;/figcaption&gt;
 &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
@@ -310,7 +310,7 @@ illuc. Candore Phrygiae misereri vaccam: nec
 &lt;em&gt;tepentibus Titan&lt;/em&gt;, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
 iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu mearum;&amp;nbsp;exiguo.&lt;/p&gt;
 &lt;h3 id="img-test-with-attributes"&gt;&lt;span class="caps"&gt;IMG&lt;/span&gt; Test with&amp;nbsp;Attributes&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Test Photo" class="pull-left img-responsive center-block gap-right" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Test Photo" class="center-block pull-left gap-right img-responsive" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;&lt;/p&gt;
 &lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
 illuc. Candore Phrygiae misereri vaccam: nec
 &lt;a href="http://reddit.com/r/thathappened"&gt;mihi&lt;/a&gt;, putes eveniet nescius, caede
@@ -336,7 +336,7 @@ iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu m
 bella et sive? Inrupit capreisque, loquor nostroque &lt;strong&gt;lacusque&lt;/strong&gt; iram de
 obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
 &lt;h3 id="table-test"&gt;Table&amp;nbsp;Test&lt;/h3&gt;
-&lt;table class="table table-hover table-striped"&gt;
+&lt;table class="table-hover table table-striped"&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;Tables&lt;/th&gt;
