@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Nine Ten Levins</title><link>http://ninetenlevins.com/</link><description></description><lastBuildDate>Tue, 24 May 2016 22:06:00 -0400</lastBuildDate><item><title>Feature Test 1</title><link>http://ninetenlevins.com/posts/2016/05/featuretest1.html</link><description>
+<rss version="2.0"><channel><title>Nine Ten Levins</title><link>http://ninetenlevins.com/</link><description></description><lastBuildDate>Sun, 17 Jul 2016 13:39:00 -0400</lastBuildDate><item><title>Caps Lock Compromise</title><link>http://ninetenlevins.com/posts/2016/07/capslockcompromise.html</link><description>&lt;h1 id="issue-first-attempt"&gt;Issue (First&amp;nbsp;Attempt)&lt;/h1&gt;
+&lt;p&gt;I have always found the &lt;kbd&gt;caps lock&lt;/kbd&gt; key to be an annoyance at best and an accidental shout inducer at worst. I wanted to make the &lt;kbd&gt;caps lock&lt;/kbd&gt; key useful. I like doing things from the keyboard when I can. However, some tasks have no good keyboard shortcut on mac. There are solutions to this issue through software such as BetterTouchTool, Alfred, and Keyboard maestro. They all run into one major issue. There is a good chance that whatever shortcut I choose will be taken by the operating system or some already installed software package. As most software does not like to use the four modifier keys all at once, it is almost always free. Such a keyboard mash requires difficult finger gymnastics that I am not dexterous enough to&amp;nbsp;execute.&lt;/p&gt;
+&lt;h2 id="solution-first-attempt"&gt;Solution (First&amp;nbsp;Attempt)&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://leancrew.com/all-this/2012/11/shift-control-option-command-on-caps-lock/"&gt;Dr. Drang&lt;/a&gt; posted a solution to this issue a while ago. It is still mostly correct but there have been some advancements. I thought now was the time to follow up. I decided to implement his solution and remove the scourge of the &lt;kbd&gt;caps lock&lt;/kbd&gt; key from my life once and for all. I modified his solution slightly so the &lt;kbd&gt;caps lock&lt;/kbd&gt; key represented &lt;kbd&gt;control&lt;/kbd&gt;+&lt;kbd&gt;option&lt;/kbd&gt;+&lt;kbd&gt;command&lt;/kbd&gt;+&lt;kbd&gt;shift&lt;/kbd&gt;.&lt;/p&gt;
+&lt;h2 id="solution-second-attempt"&gt;Solution (Second&amp;nbsp;Attempt)&lt;/h2&gt;
+&lt;p&gt;As I leaned back to bask in the glory that was a &lt;kbd&gt;caps lock&lt;/kbd&gt; key free life, a shout arose from the other room. Figuring this was a minor change, I had not cleared it with my significant other. From the other room arose an angry hurumph. She was less than pleased at the removal of her beloved &lt;kbd&gt;caps lock&lt;/kbd&gt; key. And I quote, &amp;ldquo;You needed to give me back the &lt;kbd&gt;caps lock&lt;/kbd&gt; key&amp;nbsp;now.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Shutting off the current solution, I tried to come up with a compromise solution. After a little testing, I though I had it. How about the &lt;kbd&gt;caps lock&lt;/kbd&gt; key work the new way as proposed in the Dr. Drang article, with the modification that if you used &lt;kbd&gt;caps lock&lt;/kbd&gt; key+&lt;kbd&gt;fn&lt;/kbd&gt; it would now activate the &lt;kbd&gt;caps lock&lt;/kbd&gt; key to function in the usual way. She was agreeable to the new proposed&amp;nbsp;solution.&lt;/p&gt;
+&lt;h1 id="implementation-details"&gt;Implementation&amp;nbsp;Details&lt;/h1&gt;
+&lt;p&gt;The first thing we need to do is disable the &lt;kbd&gt;caps lock&lt;/kbd&gt; key. I know this sounds counter intuitive but we don&amp;rsquo;t want the operating system interfering with our&amp;nbsp;modifications.&lt;/p&gt;
+&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Turn off caps lock key" caption="Turn off the caps lock key by setting it to no action." class="center-block figure-img img-responsive" src="http://ninetenlevins.com/photos/capslock/settings_modifier_keysa.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;Turn off the caps lock key by setting it to no action.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Next we are going to need a little software. Download and install &lt;a href="https://pqrs.org/osx/karabiner/seil.html.en"&gt;Seil&lt;/a&gt; and &lt;a href="https://pqrs.org/osx/karabiner/index.html.en"&gt;Karabiner&lt;/a&gt;. These excellent programs are written by Takayama Fumihiko. They make the process of converting the &lt;kbd&gt;caps lock&lt;/kbd&gt; key much easier. Seil is a powerful key number remapper. It lets you set select keys to send new values. Karabiner is a powerful and stable keyboard customizer for &lt;span class="caps"&gt;OS&lt;/span&gt; X. It allows you to capture and remap key&amp;nbsp;presses.&lt;/p&gt;
+&lt;p&gt;We need to change the key code value of the &lt;kbd&gt;caps lock&lt;/kbd&gt; key. It is best to choose a value that is not in common use on your mac keyboard. In this case we are going to take the &lt;kbd&gt;caps lock&lt;/kbd&gt; key with its default key value of &lt;code&gt;57&lt;/code&gt; to a new value of &lt;code&gt;80&lt;/code&gt; which maps to the &lt;kbd&gt;F19&lt;/kbd&gt; key.&lt;/p&gt;
+&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Seil Settings Screen" caption="Change the key code to 80." class="center-block figure-img img-responsive" src="http://ninetenlevins.com/photos/capslock/seil_settings_screena.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;Change the key code to 80.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;With that change, the &lt;kbd&gt;caps lock&lt;/kbd&gt; key press will now emit the &lt;kbd&gt;F19&lt;/kbd&gt; key code. Now to make the &lt;kbd&gt;caps lock&lt;/kbd&gt; key press actually useful we need to add some additional behavior when the &lt;kbd&gt;F19&lt;/kbd&gt; key is pressed. I this case we are going to have it emit three different&amp;nbsp;behaviors.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If pressed alone, it will still emit the &lt;kbd&gt;F19&lt;/kbd&gt; key&amp;nbsp;code.&lt;/li&gt;
+&lt;li&gt;If pressed in conjunction with the &lt;kbd&gt;fn&lt;/kbd&gt; key it will toggle the &lt;kbd&gt;caps lock&lt;/kbd&gt; key per its normal&amp;nbsp;function.&lt;/li&gt;
+&lt;li&gt;If pressed in conjunction with any other key it will emit the key code for the modifier keys control+option+command+shift + whatever key was&amp;nbsp;pressed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Launch Karabiner and go to the &lt;strong&gt;&lt;span class="caps"&gt;MISC&lt;/span&gt; &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Uninstall&lt;/strong&gt; tab. Click on the &lt;strong&gt;Open private.xml&lt;/strong&gt; button. This will launch the &lt;code&gt;private.xml&lt;/code&gt; in your default xml&amp;nbsp;editor.&lt;/p&gt;
+&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Karabiner Misc Settings Screen" caption="Click on the Open private.xml button." class="center-block figure-img img-responsive" src="http://ninetenlevins.com/photos/capslock/karabiner_misc_settingsa.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;Click on the Open private.xml button.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Paste the following script into your editor and save the&amp;nbsp;file.&lt;/p&gt;
+&lt;script src="https://gist.github.com/bnice5000/c18f7c03dd38acd34c692692b0a911d2.js"&gt;&lt;/script&gt;
+&lt;p&gt;We are in the home stretch now. All you need to do is enable the change key we just&amp;nbsp;created.&lt;/p&gt;
+&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Karabiner Misc Settings Screen" caption="Check the Super Charge Caps Lock box." class="center-block figure-img img-responsive" src="http://ninetenlevins.com/photos/capslock/karabiner_misc_settingsa.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;Check the Super Charge Caps Lock box.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Now you are all set. You have a super charged &lt;kbd&gt;caps lock&lt;/kbd&gt; key. Let&amp;rsquo;s test it out. Press &lt;kbd&gt;fn&lt;/kbd&gt;+&lt;kbd&gt;caps lock&lt;/kbd&gt;. Did the &lt;kbd&gt;caps lock&lt;/kbd&gt; light turn on? Press &lt;kbd&gt;fn&lt;/kbd&gt;+&lt;kbd&gt;caps lock&lt;/kbd&gt;. Did the &lt;kbd&gt;caps lock&lt;/kbd&gt; light turn off? You are off to the&amp;nbsp;races.&lt;/p&gt;
+&lt;p&gt;I can already see you asking what to do with this new&amp;nbsp;feature.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Brian Levin</dc:creator><pubDate>Sun, 17 Jul 2016 13:39:00 -0400</pubDate><guid isPermaLink="false">tag:ninetenlevins.com,2016-07-17:posts/2016/07/capslockcompromise.html</guid></item><item><title>Feature Test 1</title><link>http://ninetenlevins.com/posts/2016/05/featuretest1.html</link><description>
 &lt;p&gt;Lorem markdownum cadet tamen, si omnia tempore; moderante patre, tum urbes
 &lt;strong&gt;excutit ille&lt;/strong&gt;. Aera cuncta paret unica filia ad tibi malae egressa. Socero
 Threicio, auctoribus insistit tamen scopulus; per exhortantur suas naturalique
@@ -22,11 +48,11 @@ obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
 &lt;h3 id="img-test"&gt;&lt;span class="caps"&gt;IMG&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Test Photo" class="center-block img-responsive" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;/p&gt;
 &lt;h3 id="figure-test-with-caption"&gt;Figure Test With&amp;nbsp;Caption&lt;/h3&gt;
-&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Test Photo" caption="Love the photo!" class="center-block img-responsive figure-img" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="figure-caption text-center"&gt;Love the photo!&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Test Photo" caption="Love the photo!" class="center-block figure-img img-responsive" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;Love the photo!&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3 id="figure-html-test"&gt;Figure &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
 &lt;p&gt;&lt;figure class="figure"&gt;
-&lt;img alt="some alt text" class="center-block img-responsive figure-img" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
-&lt;figcaption class="figure-caption text-center"&gt;This is a test.&lt;/figcaption&gt;
+&lt;img alt="some alt text" class="center-block figure-img img-responsive" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
+&lt;figcaption class="text-center figure-caption"&gt;This is a test.&lt;/figcaption&gt;
 &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
 illuc. Candore Phrygiae misereri vaccam: nec
@@ -34,7 +60,7 @@ illuc. Candore Phrygiae misereri vaccam: nec
 &lt;em&gt;tepentibus Titan&lt;/em&gt;, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
 iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu mearum;&amp;nbsp;exiguo.&lt;/p&gt;
 &lt;h3 id="img-test-with-attributes"&gt;&lt;span class="caps"&gt;IMG&lt;/span&gt; Test with&amp;nbsp;Attributes&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Test Photo" class="center-block gap-right pull-left img-responsive" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Test Photo" class="center-block pull-left gap-right img-responsive" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;&lt;/p&gt;
 &lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
 illuc. Candore Phrygiae misereri vaccam: nec
 &lt;a href="http://reddit.com/r/thathappened"&gt;mihi&lt;/a&gt;, putes eveniet nescius, caede
@@ -160,11 +186,11 @@ obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
 &lt;h3 id="img-test"&gt;&lt;span class="caps"&gt;IMG&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Test Photo" class="center-block img-responsive" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;/p&gt;
 &lt;h3 id="figure-test-with-caption"&gt;Figure Test With&amp;nbsp;Caption&lt;/h3&gt;
-&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Test Photo" caption="Love the photo!" class="center-block img-responsive figure-img" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="figure-caption text-center"&gt;Love the photo!&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Test Photo" caption="Love the photo!" class="center-block figure-img img-responsive" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;Love the photo!&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3 id="figure-html-test"&gt;Figure &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
 &lt;p&gt;&lt;figure class="figure"&gt;
-&lt;img alt="some alt text" class="center-block img-responsive figure-img" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
-&lt;figcaption class="figure-caption text-center"&gt;This is a test.&lt;/figcaption&gt;
+&lt;img alt="some alt text" class="center-block figure-img img-responsive" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
+&lt;figcaption class="text-center figure-caption"&gt;This is a test.&lt;/figcaption&gt;
 &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
 illuc. Candore Phrygiae misereri vaccam: nec
@@ -172,7 +198,7 @@ illuc. Candore Phrygiae misereri vaccam: nec
 &lt;em&gt;tepentibus Titan&lt;/em&gt;, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
 iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu mearum;&amp;nbsp;exiguo.&lt;/p&gt;
 &lt;h3 id="img-test-with-attributes"&gt;&lt;span class="caps"&gt;IMG&lt;/span&gt; Test with&amp;nbsp;Attributes&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Test Photo" class="center-block gap-right pull-left img-responsive" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Test Photo" class="center-block pull-left gap-right img-responsive" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;&lt;/p&gt;
 &lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
 illuc. Candore Phrygiae misereri vaccam: nec
 &lt;a href="http://reddit.com/r/thathappened"&gt;mihi&lt;/a&gt;, putes eveniet nescius, caede
@@ -298,11 +324,11 @@ obstipuit, Smilace&amp;nbsp;sine.  &lt;/p&gt;
 &lt;h3 id="img-test"&gt;&lt;span class="caps"&gt;IMG&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Test Photo" class="center-block img-responsive" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;/p&gt;
 &lt;h3 id="figure-test-with-caption"&gt;Figure Test With&amp;nbsp;Caption&lt;/h3&gt;
-&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Test Photo" caption="Love the photo!" class="center-block img-responsive figure-img" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="figure-caption text-center"&gt;Love the photo!&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class="figure"&gt;&lt;img alt="Test Photo" caption="Love the photo!" class="center-block figure-img img-responsive" src="http://ninetenlevins.com/photos/testgallery/img_0264a.jpg"/&gt;&lt;figcaption class="text-center figure-caption"&gt;Love the photo!&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3 id="figure-html-test"&gt;Figure &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;nbsp;Test&lt;/h3&gt;
 &lt;p&gt;&lt;figure class="figure"&gt;
-&lt;img alt="some alt text" class="center-block img-responsive figure-img" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
-&lt;figcaption class="figure-caption text-center"&gt;This is a test.&lt;/figcaption&gt;
+&lt;img alt="some alt text" class="center-block figure-img img-responsive" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;
+&lt;figcaption class="text-center figure-caption"&gt;This is a test.&lt;/figcaption&gt;
 &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
 illuc. Candore Phrygiae misereri vaccam: nec
@@ -310,7 +336,7 @@ illuc. Candore Phrygiae misereri vaccam: nec
 &lt;em&gt;tepentibus Titan&lt;/em&gt;, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
 iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu mearum;&amp;nbsp;exiguo.&lt;/p&gt;
 &lt;h3 id="img-test-with-attributes"&gt;&lt;span class="caps"&gt;IMG&lt;/span&gt; Test with&amp;nbsp;Attributes&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Test Photo" class="center-block gap-right pull-left img-responsive" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Test Photo" class="center-block pull-left gap-right img-responsive" src="http://ninetenlevins.com/photos/20160524_test_entrya.jpg"/&gt;&lt;/p&gt;
 &lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
 illuc. Candore Phrygiae misereri vaccam: nec
 &lt;a href="http://reddit.com/r/thathappened"&gt;mihi&lt;/a&gt;, putes eveniet nescius, caede
