@@ -1,2 +1,367 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Nine Ten Levins</title><link href="http://ninetenlevins.com/" rel="alternate"></link><link href="http://ninetenlevins.com/feeds/all.atom.xml" rel="self"></link><id>http://ninetenlevins.com/</id><updated>2017-04-06T13:45:37Z</updated></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Nine Ten Levins</title><link href="https://ninetenlevins.com/" rel="alternate"></link><link href="https://ninetenlevins.com/feeds/all.atom.xml" rel="self"></link><id>https://ninetenlevins.com/</id><updated>2016-05-24T22:06:00-04:00</updated><entry><title>Feature Test 1</title><link href="https://ninetenlevins.com/posts/2016/05/featuretest1.html" rel="alternate"></link><published>2016-05-24T22:06:00-04:00</published><updated>2016-05-24T22:06:00-04:00</updated><author><name>Brian Levin</name></author><id>tag:ninetenlevins.com,2016-05-24:/posts/2016/05/featuretest1.html</id><summary type="html">&lt;p&gt;This is a photo gallery test&amp;nbsp;article.&lt;/p&gt;</summary><content type="html">
+&lt;h1 id="markdown-syntax"&gt;Markdown: Syntax&lt;/h1&gt;
+&lt;hr/&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;h3 id="philosophy"&gt;Philosophy&lt;/h3&gt;
+&lt;p&gt;Markdown is intended to be as easy-to-read and easy-to-write as is feasible.&lt;/p&gt;
+&lt;p&gt;Readability, however, is emphasized above all else. A Markdown-formatted
+document should be publishable as-is, as plain text, without looking
+like it’s been marked up with tags or formatting instructions. While
+Markdown’s syntax has been influenced by several existing text-to-&lt;span class="caps"&gt;HTML&lt;/span&gt;
+filters – including &lt;a href="http://docutils.sourceforge.net/mirror/setext.html"&gt;Setext&lt;/a&gt;, &lt;a href="http://www.aaronsw.com/2002/atx/"&gt;atx&lt;/a&gt;, &lt;a href="http://textism.com/tools/textile/"&gt;Textile&lt;/a&gt;, &lt;a href="http://docutils.sourceforge.net/rst.html"&gt;reStructuredText&lt;/a&gt;,
+&lt;a href="http://www.triptico.com/software/grutatxt.html"&gt;Grutatext&lt;/a&gt;, and &lt;a href="http://ettext.taint.org/doc/"&gt;EtText&lt;/a&gt; – the single biggest source of
+inspiration for Markdown’s syntax is the format of plain text email.&lt;/p&gt;
+&lt;h2 id="block-elements"&gt;Block Elements&lt;/h2&gt;
+&lt;h3 id="paragraphs-and-line-breaks"&gt;Paragraphs and Line Breaks&lt;/h3&gt;
+&lt;p&gt;A paragraph is simply one or more consecutive lines of text, separated
+by one or more blank lines. (A blank line is any line that looks like a
+blank line – a line containing nothing but spaces or tabs is considered
+blank.) Normal paragraphs should not be indented with spaces or tabs.&lt;/p&gt;
+&lt;p&gt;The implication of the “one or more consecutive lines of text” rule is
+that Markdown supports “hard-wrapped” text paragraphs. This differs
+significantly from most other text-to-&lt;span class="caps"&gt;HTML&lt;/span&gt; formatters (including Movable
+Type’s “Convert Line Breaks” option) which translate every line break
+character in a paragraph into a &lt;code&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
+&lt;p&gt;When you &lt;em&gt;do&lt;/em&gt; want to insert a &lt;code&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; break tag using Markdown, you
+end a line with two or more spaces, then type return.&lt;/p&gt;
+&lt;h3 id="headers"&gt;Headers&lt;/h3&gt;
+&lt;p&gt;Markdown supports two styles of headers, [Setext] [1] and [atx] [2].&lt;/p&gt;
+&lt;p&gt;Optionally, you may “close” atx-style headers. This is purely
+cosmetic – you can use this if you think it looks better. The
+closing hashes don’t even need to match the number of hashes
+used to open the header. (The number of opening hashes
+determines the header level.)&lt;/p&gt;
+&lt;h3 id="blockquotes"&gt;Blockquotes&lt;/h3&gt;
+&lt;p&gt;Markdown uses email-style &lt;code&gt;&amp;gt;&lt;/code&gt; characters for blockquoting. If you’re
+familiar with quoting passages of text in an email message, then you
+know how to create a blockquote in Markdown. It looks best if you hard
+wrap the text and put a &lt;code&gt;&amp;gt;&lt;/code&gt; before every line:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;
+&lt;p&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Markdown allows you to be lazy and only put the &lt;code&gt;&amp;gt;&lt;/code&gt; before the first
+line of a hard-wrapped paragraph:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;
+&lt;p&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by
+adding additional levels of &lt;code&gt;&amp;gt;&lt;/code&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is the first level of quoting.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is nested blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Back to the first level.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Blockquotes can contain other Markdown elements, including headers, lists,
+and code blocks:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2 id="this-is-a-header"&gt;This is a header.&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;This is the first list item.&lt;/li&gt;
+&lt;li&gt;This is the second list item.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here’s some example code:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;return shell_exec("echo $input | $markdown_script");&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Any decent text editor should make email-style quoting easy. For
+example, with BBEdit, you can make a selection and choose Increase
+Quote Level from the Text menu.&lt;/p&gt;
+&lt;h3 id="lists"&gt;Lists&lt;/h3&gt;
+&lt;p&gt;Markdown supports ordered (numbered) and unordered (bulleted) lists.&lt;/p&gt;
+&lt;p&gt;Unordered lists use asterisks, pluses, and hyphens – interchangably
+– as list markers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Red&lt;/li&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;li&gt;Blue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;is equivalent to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Red&lt;/li&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;li&gt;Blue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Red&lt;/li&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;li&gt;Blue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ordered lists use numbers followed by periods:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Bird&lt;/li&gt;
+&lt;li&gt;McHale&lt;/li&gt;
+&lt;li&gt;Parish&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It’s important to note that the actual numbers you use to mark the
+list have no effect on the &lt;span class="caps"&gt;HTML&lt;/span&gt; output Markdown produces. The &lt;span class="caps"&gt;HTML&lt;/span&gt;
+Markdown produces from the above list is:&lt;/p&gt;
+&lt;p&gt;If you instead wrote the list in Markdown like this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Bird&lt;/li&gt;
+&lt;li&gt;McHale&lt;/li&gt;
+&lt;li&gt;Parish&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;or even:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Bird&lt;/li&gt;
+&lt;li&gt;McHale&lt;/li&gt;
+&lt;li&gt;Parish&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;you’d get the exact same &lt;span class="caps"&gt;HTML&lt;/span&gt; output. The point is, if you want to,
+you can use ordinal numbers in your ordered Markdown lists, so that
+the numbers in your source match the numbers in your published &lt;span class="caps"&gt;HTML&lt;/span&gt;.
+But if you want to be lazy, you don’t have to.&lt;/p&gt;
+&lt;p&gt;To make lists look nice, you can wrap items with hanging indents:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+    viverra nec, fringilla in, laoreet vitae, risus.&lt;/li&gt;
+&lt;li&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+    Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But if you want to be lazy, you don’t have to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+viverra nec, fringilla in, laoreet vitae, risus.&lt;/li&gt;
+&lt;li&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;List items may consist of multiple paragraphs. Each subsequent
+paragraph in a list item must be indented by either 4 spaces
+or one tab:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;This is a list item with two paragraphs. Lorem ipsum dolor
+    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+    mi posuere lectus.&lt;/p&gt;
+&lt;p&gt;Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+sit amet velit.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It looks nice if you indent every line of the subsequent
+paragraphs, but here again, Markdown will allow you to be lazy:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;This is a list item with two paragraphs.&lt;/p&gt;
+&lt;p&gt;This is the second paragraph in the list item. You’re
+only required to indent the first line. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Another item in the same list.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To put a blockquote within a list item, the blockquote’s &lt;code&gt;&amp;gt;&lt;/code&gt;
+delimiters need to be indented:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A list item with a blockquote:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote
+inside a list item.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To put a code block within a list item, the code block needs
+to be indented &lt;em&gt;twice&lt;/em&gt; – 8 spaces or two tabs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A list item with a code block:&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;&amp;lt;code goes here&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="code-blocks"&gt;Code Blocks&lt;/h3&gt;
+&lt;p&gt;Pre-formatted code blocks are used for writing about programming or
+markup source code. Rather than forming normal paragraphs, the lines
+of a code block are interpreted literally. Markdown wraps a code block
+in both &lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;code&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;
+&lt;p&gt;To produce a code block in Markdown, simply indent every line of the
+block by at least 4 spaces or 1 tab.&lt;/p&gt;
+&lt;p&gt;This is a normal paragraph:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;This is a code block.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Here is an example of AppleScript:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;tell application "Foo"&lt;/span&gt;
+&lt;span class="err"&gt;    beep&lt;/span&gt;
+&lt;span class="err"&gt;end tell&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;A code block continues until it reaches a line that is not indented
+(or the end of the article).&lt;/p&gt;
+&lt;p&gt;Within a code block, ampersands (&lt;code&gt;&amp;amp;&lt;/code&gt;) and angle brackets (&lt;code&gt;&amp;lt;&lt;/code&gt; and &lt;code&gt;&amp;gt;&lt;/code&gt;)
+are automatically converted into &lt;span class="caps"&gt;HTML&lt;/span&gt; entities. This makes it very
+easy to include example &lt;span class="caps"&gt;HTML&lt;/span&gt; source code using Markdown – just paste
+it and indent it, and Markdown will handle the hassle of encoding the
+ampersands and angle brackets. For example, this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;div&lt;/span&gt; &lt;span class="na"&gt;class=&lt;/span&gt;&lt;span class="s"&gt;"footer"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="ni"&gt;&amp;amp;copy;&lt;/span&gt; 2004 Foo Corporation
+&lt;span class="nt"&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Regular Markdown syntax is not processed within code blocks. E.g.,
+asterisks are just literal asterisks within a code block. This means
+it’s also easy to use Markdown to write about Markdown’s own syntax.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;tell application "Foo"
+    beep
+end tell
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id="span-elements"&gt;Span Elements&lt;/h2&gt;
+&lt;h3 id="links"&gt;Links&lt;/h3&gt;
+&lt;p&gt;Markdown supports two style of links: &lt;em&gt;inline&lt;/em&gt; and &lt;em&gt;reference&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In both styles, the link text is delimited by [square brackets].&lt;/p&gt;
+&lt;p&gt;To create an inline link, use a set of regular parentheses immediately
+after the link text’s closing square bracket. Inside the parentheses,
+put the &lt;span class="caps"&gt;URL&lt;/span&gt; where you want the link to point, along with an &lt;em&gt;optional&lt;/em&gt;
+title for the link, surrounded in quotes. For example:&lt;/p&gt;
+&lt;p&gt;This is &lt;a href="http://example.com/"&gt;an example&lt;/a&gt; inline link.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://example.net/"&gt;This link&lt;/a&gt; has no title attribute.&lt;/p&gt;
+&lt;h3 id="emphasis"&gt;Emphasis&lt;/h3&gt;
+&lt;p&gt;Markdown treats asterisks (&lt;code&gt;*&lt;/code&gt;) and underscores (&lt;code&gt;_&lt;/code&gt;) as indicators of
+emphasis. Text wrapped with one &lt;code&gt;*&lt;/code&gt; or &lt;code&gt;_&lt;/code&gt; will be wrapped with an
+&lt;span class="caps"&gt;HTML&lt;/span&gt; &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt; tag; double &lt;code&gt;*&lt;/code&gt;&lt;span class="quo"&gt;‘&lt;/span&gt;s or &lt;code&gt;_&lt;/code&gt;&lt;span class="quo"&gt;‘&lt;/span&gt;s will be wrapped with an &lt;span class="caps"&gt;HTML&lt;/span&gt;
+&lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt; tag. E.g., this input:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;single asterisks&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;single underscores&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;double asterisks&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;double underscores&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="code"&gt;Code&lt;/h3&gt;
+&lt;p&gt;To indicate a span of code, wrap it with backtick quotes (&lt;code&gt;`&lt;/code&gt;).
+Unlike a pre-formatted code block, a code span indicates code within a
+normal paragraph. For example:&lt;/p&gt;
+&lt;p&gt;Use the &lt;code&gt;printf()&lt;/code&gt; function.&lt;/p&gt;
+&lt;h1 id="my-tests-for-plugins"&gt;My Tests for Plugins&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://ninetenlevins.com/pages/sausage.html"&gt;Sausage&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="better-figures-images-test"&gt;Better Figures &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Images Test&lt;/h2&gt;
+&lt;h3 id="img-test"&gt;&lt;span class="caps"&gt;IMG&lt;/span&gt; Test&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Test Photo" src="{photo}/testgallery/IMG_0264.jpg"/&gt;&lt;/p&gt;
+&lt;h3 id="figure-test-with-caption"&gt;Figure Test With Caption&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Test Photo" caption="Love the photo!" src="{photo}testgallery/IMG_0264.jpg" type="figure"/&gt;&lt;/p&gt;
+&lt;h3 id="figure-html-test"&gt;Figure &lt;span class="caps"&gt;HTML&lt;/span&gt; Test&lt;/h3&gt;
+&lt;p&gt;&lt;figure&gt;
+&lt;img alt="some alt text" src="{photo}20160524_test_entry.png"&gt;
+&lt;figcaption&gt;This is a test.&lt;/figcaption&gt;
+&lt;/img&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
+illuc. Candore Phrygiae misereri vaccam: nec
+&lt;a href="http://reddit.com/r/thathappened"&gt;mihi&lt;/a&gt;, putes eveniet nescius, caede
+&lt;em&gt;tepentibus Titan&lt;/em&gt;, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
+iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu mearum; exiguo.&lt;/p&gt;
+&lt;h3 id="img-test-with-attributes"&gt;&lt;span class="caps"&gt;IMG&lt;/span&gt; Test with Attributes&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Test Photo" class="pull-left gap-right" src="{photo}20160524_test_entry.png"/&gt;&lt;/p&gt;
+&lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
+illuc. Candore Phrygiae misereri vaccam: nec
+&lt;a href="http://reddit.com/r/thathappened"&gt;mihi&lt;/a&gt;, putes eveniet nescius, caede
+&lt;em&gt;tepentibus Titan&lt;/em&gt;, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
+iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu mearum; exiguo.&lt;/p&gt;
+&lt;p&gt;Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
+bella et sive? Inrupit capreisque, loquor nostroque &lt;strong&gt;lacusque&lt;/strong&gt; iram de
+obstipuit, Smilace sine.  &lt;/p&gt;
+&lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
+illuc. Candore Phrygiae misereri vaccam: nec
+&lt;a href="http://reddit.com/r/thathappened"&gt;mihi&lt;/a&gt;, putes eveniet nescius, caede
+&lt;em&gt;tepentibus Titan&lt;/em&gt;, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
+iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu mearum; exiguo.&lt;/p&gt;
+&lt;p&gt;Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
+bella et sive? Inrupit capreisque, loquor nostroque &lt;strong&gt;lacusque&lt;/strong&gt; iram de
+obstipuit, Smilace sine.  &lt;/p&gt;
+&lt;p&gt;Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
+illuc. Candore Phrygiae misereri vaccam: nec
+&lt;a href="http://reddit.com/r/thathappened"&gt;mihi&lt;/a&gt;, putes eveniet nescius, caede
+&lt;em&gt;tepentibus Titan&lt;/em&gt;, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
+iniquae pede quoque &lt;strong&gt;fulgentem&lt;/strong&gt; fecere vicimus manu mearum; exiguo.&lt;/p&gt;
+&lt;p&gt;Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
+bella et sive? Inrupit capreisque, loquor nostroque &lt;strong&gt;lacusque&lt;/strong&gt; iram de
+obstipuit, Smilace sine.  &lt;/p&gt;
+&lt;h3 id="table-test"&gt;Table Test&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Tables&lt;/th&gt;
+&lt;th align="center"&gt;Are&lt;/th&gt;
+&lt;th align="right"&gt;Cool&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;col 3 is&lt;/td&gt;
+&lt;td align="center"&gt;right-aligned&lt;/td&gt;
+&lt;td align="right"&gt;$1600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;col 2 is&lt;/td&gt;
+&lt;td align="center"&gt;centered&lt;/td&gt;
+&lt;td align="right"&gt;$12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;zebra stripes&lt;/td&gt;
+&lt;td align="center"&gt;are neat&lt;/td&gt;
+&lt;td align="right"&gt;$1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="super-fences-test-flow-test"&gt;Super Fences Test (Flow) Test&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;st=&amp;gt;start: Start:&amp;gt;http://www.google.com[blank]
+e=&amp;gt;end:&amp;gt;http://www.google.com
+op1=&amp;gt;operation: My Operation
+sub1=&amp;gt;subroutine: My Subroutine
+cond=&amp;gt;condition: Yes
+or No?:&amp;gt;http://www.google.com
+io=&amp;gt;inputoutput: catch something...
+
+st-&amp;gt;op1-&amp;gt;cond
+cond(yes)-&amp;gt;io-&amp;gt;e
+cond(no)-&amp;gt;sub1(right)-&amp;gt;op1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id="super-fences-test-uml-test"&gt;Super Fences Test (&lt;span class="caps"&gt;UML&lt;/span&gt;) Test&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Title: Here is a title
+A-&amp;gt;B: Normal line
+B--&amp;gt;C: Dashed line
+C-&amp;gt;&amp;gt;D: Open arrow
+D--&amp;gt;&amp;gt;A: Dashed open arrow
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id="iacet-mensum-duxere-adludit-et-ille-decipit"&gt;Iacet mensum duxere adludit et ille decipit&lt;/h2&gt;
+&lt;p&gt;Iactas caeli illic fodiebant aenea &lt;strong&gt;super&lt;/strong&gt; artus; ritu inque. &lt;a href="http://hipstermerkel.tumblr.com/"&gt;Toto natam
+Phlegraeon&lt;/a&gt; modo; est Philemon protinus iuvere
+pondus languentique &lt;strong&gt;duro&lt;/strong&gt;. Herbas putet herbas: tandem nova conplexa; et
+ultima fecit. Mea rite inimica quotiensque quemque
+&lt;a href="http://www.metafilter.com/"&gt;regale&lt;/a&gt; esse locuti volucrum triste hoc iaces.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;wpaDomainHyperlink = browser;&lt;/span&gt;
+&lt;span class="err"&gt;if (xmpConstantKeylogger.smishing_storage_bankruptcy(1)) {&lt;/span&gt;
+&lt;span class="err"&gt;    dotIntegrated.state += dimm;&lt;/span&gt;
+&lt;span class="err"&gt;    ddr = -4;&lt;/span&gt;
+&lt;span class="err"&gt;    spam += sidebar;&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;    &lt;span class="nx"&gt;smtp_margin_print&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;character_video_internic&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;simm_responsive&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nx"&gt;backlink&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;hdtvMemory&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;responsive_mountain&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;cdLifoAlpha&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;cross&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="nx"&gt;controllerSurgeDesign&lt;/span&gt;&lt;span class="p"&gt;)),&lt;/span&gt; &lt;span class="nx"&gt;radcab_lion&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;ircHoneypot&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="nx"&gt;column_socket_edutainment&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+        &lt;span class="nx"&gt;compileCss&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;dtd_system&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;captcha&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Nunc faces utroque, at moenia miles? Remoretur propter; dum decimo, candida
+nautas. In si Oeneus quibus gener et manus vitibus Stygiam trepidoque nascuntur
+erat, dea, quamque. Aliquis iacent &lt;em&gt;quodque petens&lt;/em&gt;, ambiguis mirum minores
+iniuria inposuit quae expers caput saepe modo, si non. Mentique fama Thoantis
+&lt;em&gt;excipit&lt;/em&gt;, picea placandam guttura stabat protinus &lt;strong&gt;praetincta&lt;/strong&gt;, teneret de
+regnat mihi, vel mutua Ossaque.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The weak can never forgive. Forgiveness is the attribute of the strong.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ghandi&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;</content><category term="Test"></category></entry><entry><title>America’s Test Kitchen’s Hummingbird Cake</title><link href="https://ninetenlevins.com/posts/2014/03/ATK-Hummingbird-Cake.html" rel="alternate"></link><published>2014-03-19T06:22:00-04:00</published><updated>2014-03-19T06:25:00-04:00</updated><author><name>Brian Levin</name></author><id>tag:ninetenlevins.com,2014-03-19:/posts/2014/03/ATK-Hummingbird-Cake.html</id><summary type="html">&lt;p&gt;A review of America&amp;rsquo;s Test Kitchen&amp;rsquo;s Hummingbird cake.  A moist and sweet southern&amp;nbsp;tradition.&lt;/p&gt;</summary><content type="html">&lt;h1 id="americas-test-kitchens-hummingbird-cake-review"&gt;America&amp;rsquo;s Test Kitchen&amp;rsquo;s Hummingbird Cake&amp;nbsp;Review&lt;/h1&gt;</content><category term="Recipes"></category><category term="Food"></category><category term="Review"></category></entry></feed>
