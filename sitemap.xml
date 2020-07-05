@@ -4,106 +4,120 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://ninetenlevins.com/</loc>
-<lastmod>2020-06-27T23:39:00-00:00</lastmod>
+<loc>http://127.0.0.1:8000/</loc>
+<lastmod>2020-07-05T11:26:16-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ninetenlevins.com/authors.html</loc>
-<lastmod>2020-06-27T23:39:00-00:00</lastmod>
+<loc>http://127.0.0.1:8000/authors.html</loc>
+<lastmod>2020-07-05T11:26:16-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ninetenlevins.com/categories.html</loc>
-<lastmod>2020-06-27T23:39:00-00:00</lastmod>
+<loc>http://127.0.0.1:8000/categories.html</loc>
+<lastmod>2020-07-05T11:26:16-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ninetenlevins.com/tags.html</loc>
-<lastmod>2020-06-27T23:39:00-00:00</lastmod>
+<loc>http://127.0.0.1:8000/tags.html</loc>
+<lastmod>2020-07-05T11:26:16-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ninetenlevins.com/period_archives.html</loc>
-<lastmod>2020-06-27T23:39:00-00:00</lastmod>
+<loc>http://127.0.0.1:8000/period_archives.html</loc>
+<lastmod>2020-07-05T11:26:16-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ninetenlevins.com/archives.html</loc>
-<lastmod>2020-06-27T23:39:00-00:00</lastmod>
+<loc>http://127.0.0.1:8000/archives.html</loc>
+<lastmod>2020-07-05T11:26:16-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ninetenlevins.com/search.html</loc>
-<lastmod>2020-06-27T23:39:00-00:00</lastmod>
+<loc>http://127.0.0.1:8000/search.html</loc>
+<lastmod>2020-07-05T11:26:16-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ninetenlevins.com/pages/sausage.html</loc>
+<loc>http://127.0.0.1:8000/pages/sausage.html</loc>
 <lastmod>2016-05-30T14:05:00-04:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ninetenlevins.com/posts/2016/05/featuretest1.html</loc>
+<loc>http://127.0.0.1:8000/posts/2019/05/featuretest3.html</loc>
+<lastmod>2020-05-24T22:06:00-04:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://127.0.0.1:8000/posts/2019/05/featuretest2.html</loc>
+<lastmod>2019-05-23T22:06:00-04:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://127.0.0.1:8000/posts/2016/05/featuretest1.html</loc>
 <lastmod>2016-05-24T22:06:00-04:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ninetenlevins.com/posts/2014/03/ATK-Hummingbird-Cake.html</loc>
+<loc>http://127.0.0.1:8000/posts/2014/03/ATK-Hummingbird-Cake.html</loc>
 <lastmod>2014-03-19T06:25:00-04:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ninetenlevins.com/category/recipes.html</loc>
+<loc>http://127.0.0.1:8000/category/recipes.html</loc>
 <lastmod>2014-03-19T06:25:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ninetenlevins.com/category/test.html</loc>
-<lastmod>2016-05-24T22:06:00-04:56</lastmod>
+<loc>http://127.0.0.1:8000/category/test.html</loc>
+<lastmod>2020-05-24T22:06:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ninetenlevins.com/tag/food.html</loc>
+<loc>http://127.0.0.1:8000/tag/food.html</loc>
 <lastmod>2014-03-19T06:25:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ninetenlevins.com/tag/review.html</loc>
+<loc>http://127.0.0.1:8000/tag/review.html</loc>
 <lastmod>2014-03-19T06:25:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ninetenlevins.com/author/brian-levin.html</loc>
-<lastmod>2016-05-24T22:06:00-04:56</lastmod>
+<loc>http://127.0.0.1:8000/author/brian-levin.html</loc>
+<lastmod>2020-05-24T22:06:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
