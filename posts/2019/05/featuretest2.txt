@@ -1,427 +1,554 @@
-Title: Feature Test 2
+Title: Feature Test 2 - Extensions
 Date: 2019-05-23 22:06
 Modified: 2019-05-23 22:06
-Category: Test
+Category: WIP
+Tags: Test
 Slug: featuretest2
-Authors: Brian Levin
-Summary: This is a photo gallery test article.
+Authors: Brian Levin, Sarah Levin
+Summary: This tests the of extensions the theme natively will support.
 Show_source: True
 Series: Feature Test
-JavaScripts: //cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js, //cdnjs.cloudflare.com/ajax/libs/underscore.js/1.10.2/underscore-min.js, //cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js, //cdnjs.cloudflare.com/ajax/libs/flowchart/1.13.0/flowchart.min.js, uml-converter.js, super_fences.js
-
+JavaScripts: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.5.1/mermaid.min.js
 [TOC]
 
-# Markdown: Syntax
+# Markdown Extensions: Syntax
+
+**Note:** This document is itself written using the python Markdown library extensions syntax. You can [see the source for it by adding '.txt' to the URL](./featuretest2.txt).
 
 ----
 
-## Overview
+## Python Markdown Extensions
 
-### Philosophy
+### Abbreviations
 
-Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
+The HTML specification
+is maintained by the W3C.
 
-Readability, however, is emphasized above all else. A Markdown-formatted
-document should be publishable as-is, as plain text, without looking
-like it's been marked up with tags or formatting instructions. While
-Markdown's syntax has been influenced by several existing text-to-HTML
-filters -- including [Setext](http://docutils.sourceforge.net/mirror/setext.html), [atx](http://www.aaronsw.com/2002/atx/), [Textile](http://textism.com/tools/textile/), [reStructuredText](http://docutils.sourceforge.net/rst.html),
-[Grutatext](http://www.triptico.com/software/grutatxt.html), and [EtText](http://ettext.taint.org/doc/) -- the single biggest source of
-inspiration for Markdown's syntax is the format of plain text email.
+*[HTML]: Hyper Text Markup Language
+*[W3C]:  World Wide Web Consortium
 
-## Block Elements
+### Admonition
 
-### Paragraphs and Line Breaks
+!!! alert-info "optional explicit title within double quotes"
+    Any number of other indented markdown elements.
+    
+    This is the second paragraph.
 
-A paragraph is simply one or more consecutive lines of text, separated
-by one or more blank lines. (A blank line is any line that looks like a
-blank line -- a line containing nothing but spaces or tabs is considered
-blank.) Normal paragraphs should not be indented with spaces or tabs.
 
-The implication of the "one or more consecutive lines of text" rule is
-that Markdown supports "hard-wrapped" text paragraphs. This differs
-significantly from most other text-to-HTML formatters (including Movable
-Type's "Convert Line Breaks" option) which translate every line break
-character in a paragraph into a `<br />` tag.
+!!! alert-danger
+    You should note that the title will be automatically capitalized.
 
-When you *do* want to insert a `<br />` break tag using Markdown, you
-end a line with two or more spaces, then type return.
 
-### Headers
+!!! alert-success "Don't try this at home"
+    ...  
+  
+!!! alert-primary ""
+    This is an admonition box without a title. 
+    
+!!! alert-secondary "Don't try this at home"
+    ... 
 
-Markdown supports two styles of headers, [Setext] [1] and [atx] [2].
 
-Optionally, you may "close" atx-style headers. This is purely
-cosmetic -- you can use this if you think it looks better. The
-closing hashes don't even need to match the number of hashes
-used to open the header. (The number of opening hashes
-determines the header level.)
+### Attribute Lists
 
+This is a paragraph.
+{: #shhh .text-muted }
 
-### Blockquotes
+###### H6 Attr Test ###### {: #hash .text-primary}
 
-Markdown uses email-style `>` characters for blockquoting. If you're
-familiar with quoting passages of text in an email message, then you
-know how to create a blockquote in Markdown. It looks best if you hard
-wrap the text and put a `>` before every line:
+[Attr Test Link](http://ninetenlevins.com){: class="text-info" title="Some title!" }
 
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-> 
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
+### Definition Lists
 
-Markdown allows you to be lazy and only put the `>` before the first
-line of a hard-wrapped paragraph:
 
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+Apple
+: Pomaceous fruit of plants of the genus Malus in
+  the family Rosaceae.
 
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-id sem consectetuer libero luctus adipiscing.
+Orange
+:   The fruit of an evergreen tree of the genus Citrus.
 
-Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by
-adding additional levels of `>`:
+### Footnotes
 
-> This is the first level of quoting.
->
-> > This is nested blockquote.
->
-> Back to the first level.
+Footnotes[^1] have a label[^@#$%] and the footnote's content[^2].
 
-Blockquotes can contain other Markdown elements, including headers, lists,
-and code blocks:
+[^1]: This is a footnote content.
+[^@#$%]: A footnote on the label: "@#$%".
 
-> ## This is a header.
-> 
-> 1.   This is the first list item.
-> 2.   This is the second list item.
-> 
-> Here's some example code:
-> 
->     return shell_exec("echo $input | $markdown_script");
+[^2]:
+     The first paragraph of the definition.
+     Paragraph two of the definition.
 
-Any decent text editor should make email-style quoting easy. For
-example, with BBEdit, you can make a selection and choose Increase
-Quote Level from the Text menu.
+     > A blockquote with
+     > multiple lines.
+       
+        a code block
+     
+     A final paragraph.
+     
+### Markdown in HTML
 
+This is *true* markdown text.
 
-### Lists
+<div markdown="1">
+This is *true* markdown text.
+</div>
 
-Markdown supports ordered (numbered) and unordered (bulleted) lists.
+<div markdown="1" name="Example">
 
-Unordered lists use asterisks, pluses, and hyphens -- interchangably
--- as list markers:
+The text of the `Example` element.
 
-*   Red
-*   Green
-*   Blue
+<div markdown="1" name="DefaultBlockMode">
+This text gets wrapped in `p` tags.
+</div>
 
-is equivalent to:
+The tail of the `DefaultBlockMode` subelement.
 
-+   Red
-+   Green
-+   Blue
+<p markdown="1" name="DefaultSpanMode">
+This text *is not* wrapped in additional `p` tags.
+</p>
 
-and:
+The tail of the `DefaultSpanMode` subelement.
 
--   Red
--   Green
--   Blue
+<div markdown="span" name="SpanModeOverride">
+This `div` block is not wrapped in paragraph tags.
+Note: Subelements are not required to have tail text.
+</div>
 
-Ordered lists use numbers followed by periods:
+<p markdown="block" name="BlockModeOverride">
+This `p` block *is* foolishly wrapped in further paragraph tags.
+</p>
 
-1.  Bird
-2.  McHale
-3.  Parish
+The tail of the `BlockModeOverride` subelement.
 
-It's important to note that the actual numbers you use to mark the
-list have no effect on the HTML output Markdown produces. The HTML
-Markdown produces from the above list is:
+<div name="RawHtml">
+Raw HTML blocks may also be nested.
+</div>
 
-If you instead wrote the list in Markdown like this:
+</div>
 
-1.  Bird
-1.  McHale
-1.  Parish
+This text is after the markdown in HTML.
 
-or even:
+### Sane Lists
 
-3. Bird
-1. McHale
-8. Parish
+1. Ordered item 1
+2. Ordered item 2
 
-you'd get the exact same HTML output. The point is, if you want to,
-you can use ordinal numbers in your ordered Markdown lists, so that
-the numbers in your source match the numbers in your published HTML.
-But if you want to be lazy, you don't have to.
+* Unordered item 1
+* Unordered item 2
 
-To make lists look nice, you can wrap items with hanging indents:
+3. Apples
+4. Oranges
+5. Pears
 
-*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-    viverra nec, fringilla in, laoreet vitae, risus.
-*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-    Suspendisse id sem consectetuer libero luctus adipiscing.
+### SmartyPants
 
-But if you want to be lazy, you don't have to:
+'Text in single quotes.'
+"Text in double quotes."
+<<Text in french quotes>>
+Text with an ellipsis...
+-- Text that starts with and en dash.
+--- Text that starts with an em dash.
 
-*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-viverra nec, fringilla in, laoreet vitae, risus.
-*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-Suspendisse id sem consectetuer libero luctus adipiscing.
+### Tables
 
-List items may consist of multiple paragraphs. Each subsequent
-paragraph in a list item must be indented by either 4 spaces
-or one tab:
+#### Simple Table
 
-1.  This is a list item with two paragraphs. Lorem ipsum dolor
-    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-    mi posuere lectus.
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
 
-    Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-    sit amet velit.
+#### Complex Table
 
-2.  Suspendisse id sem consectetuer libero luctus adipiscing.
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
 
-It looks nice if you indent every line of the subsequent
-paragraphs, but here again, Markdown will allow you to be
-lazy:
+## PyMDownX Extensions
 
-*   This is a list item with two paragraphs.
+Please see the [PyMDownX](https://facelessuser.github.io/pymdown-extensions/) documentation for more information about how these examples work.
 
-    This is the second paragraph in the list item. You're
-only required to indent the first line. Lorem ipsum dolor
-sit amet, consectetuer adipiscing elit.
+### Arithmatex
 
-*   Another item in the same list.
+***I was not able to get this module to work correctly. Instead see inlinehilite and superfences.
 
-To put a blockquote within a list item, the blockquote's `>`
-delimiters need to be indented:
+### BetterEm
 
-*   A list item with a blockquote:
+* Won't highlight *
 
-    > This is a blockquote
-    > inside a list item.
+*Will highlight*
 
-To put a code block within a list item, the code block needs
-to be indented *twice* -- 8 spaces or two tabs:
+***I'm italic and bold* I am just bold.**
 
-*   A list item with a code block:
+***I'm bold and italic!** I am just italic.*
 
-        <code goes here>
+___A lot of underscores____________is okay___
 
-### Code Blocks
+___A lot of underscores____________is okay___
 
-Pre-formatted code blocks are used for writing about programming or
-markup source code. Rather than forming normal paragraphs, the lines
-of a code block are interpreted literally. Markdown wraps a code block
-in both `<pre>` and `<code>` tags.
+__This will all be bold __because of the placement of the center underscores.__
 
-To produce a code block in Markdown, simply indent every line of the
-block by at least 4 spaces or 1 tab.
+__This will all be bold __ because of the placement of the center underscores.__
 
-This is a normal paragraph:
+__This will NOT all be bold__ because of the placement of the center underscores.__
 
-    This is a code block.
+__This will all be bold_ because of the token is less than that of the surrounding.__
 
-Here is an example of AppleScript:
+*All will * be italic*
 
-    tell application "Foo"
-        beep
-    end tell
+*All will *be italic*
 
-A code block continues until it reaches a line that is not indented
-(or the end of the article).
+*All will not* be italic*
 
-Within a code block, ampersands (`&`) and angle brackets (`<` and `>`)
-are automatically converted into HTML entities. This makes it very
-easy to include example HTML source code using Markdown -- just paste
-it and indent it, and Markdown will handle the hassle of encoding the
-ampersands and angle brackets. For example, this:
+*All will not ** be italic*
 
-    <div class="footer">
-        &copy; 2004 Foo Corporation
-    </div>
+**All will * be bold**
 
-Regular Markdown syntax is not processed within code blocks. E.g.,
-asterisks are just literal asterisks within a code block. This means
-it's also easy to use Markdown to write about Markdown's own syntax.
+**All will *be bold**
+
+**All will not*** be bold**
+
+**All will not *** be bold**
+
+### Caret
+
+^^Insert me^^
+
+H^2^0
+
+text^a\ superscript^
+
+### Critic
+
+Here is some {--*incorrect*--} Markdown.  I am adding this{++ here++}.  Here is some more {--text
+ that I am removing--}text.  And here is even more {++text that I 
+ am ++}adding.{~~
+
+~>  ~~}Paragraph was deleted and replaced with some spaces.{~~  ~>
+
+~~}Spaces were removed and a paragraph was added.
+
+And here is a comment on {==some
+ text==}{>>This works quite well. I just wanted to comment on it.<<}. Substitutions {~~is~>are~~} great!
+
+General block handling.
+
+{--
+
+* test remove
+* test remove
+* test remove
+    * test remove
+* test remove
+
+--}
+
+{++
+
+* test add
+* test add
+* test add
+    * test add
+* test add
+
+++}
+
+Here is some {--*incorrect*--} Markdown.  I am adding this{++ here++}.  Here is some more {--text
+ that I am removing--}text.  And here is even more {++text that I 
+ am ++}adding.{~~
+
+~>  ~~}Paragraph was deleted and replaced with some spaces.{~~  ~>
+
+~~}Spaces were removed and a paragraph was added.
+
+And here is a comment on {==some text==}{>>This works quite well. I just wanted to comment on it.<<}. Substitutions {~~is~>are~~} great!
+
+General block handling.
+
+{--
+
+* test remove
+* test remove
+* test remove
+    * test remove
+* test remove
+
+--}
+
+{++
+
+* test add
+* test add
+* test add
+    * test add
+* test add
+
+++}
+
+### Details
+
+???+ note "Open styled details"
+    ??? danger "Nested details!"
+        And more content again.
+
+??? success
+    Content.
+
+??? warning classes
+    Content.
+  
+    
+### Emoji :smile:
+:smile: :heart: :thumbsup:
+
+This is emoji inline: :octocat:
+
+### Escape All
+
+\W\e\ \c\a\n\ \e\s\c\a\p\e
+\e\v\e\r\y\t\h\i\n\g\!\ \
+\❤\😄
+
+
+### Highlight
+
+`#!python print('Hello World')`
+
+Here is some code: `#!py import pymdownx; pymdownx.__version__`
+
+The mock shebang will be treated like text here:` #!js var test = 0; `.
+
+### Inline Hilite
+
+This is JS Highlite code
+`#!php $a = array("foo" => 0, "bar" => 1);`
+
+This is the Math Custom Filter
+
+This is an inline example: `#!math p(x|y) = \frac{p(y|x)p(x)}{p(y)}`
+
+`#!math p(x|y) = \frac{p(y|x)p(x)}{p(y)} (p(x|y) = \frac{p(y|x)p(x)}{p(y)}).`
+
+This is the FontAwesome custom Filter
+Chanukah: `#!fa fas fa-hanukiah`
+
+Cameras: `#!fa fa fa-camera-retro` `#!fa fa fa-camera-retro fa-lg` `#!fa fa fa-camera-retro fa-2x` `#!fa fa fa-camera-retro fa-3x` `#!fa fa fa-camera-retro fa-4x` `#!fa fa fa-camera-retro fa-5x` `#!fa fa fa-camera-retro fa-6x` `#!fa fa fa-camera-retro fa-7x`
+
+>`#!fa fa fa-quote-left fa-3x fa-pull-left`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+### Keys
+
+++ctrl+alt+delete++
+
+++ctrl+alt+"My Special Key"++
+
+++cmd+alt+"&Uuml;"++
+
+
+### MagicLink
+
+- Just paste links directly in the document like this: https://google.com.
+- Or even an email address: fake.email@email.com.
+
+@brian.g.levin
+
+@twitter:twitter
+
+@brian.g.levin/pymdown-extensions
+
+@gitlab:pycqa/flake8
+
+Issue #1
+
+Issue backrefs#1
+
+Issue Python-Markdown/markdown#1
+
+Issue gitlab:pycqa/flake8#385
+
+Pull request !13
+
+Pull request backrefs!4
+
+Pull request Python-Markdown/markdown!598
+
+Pull request gitlab:pycqa/flake8!213
+
+0094711c911ef0bc3e989483ed7c5840d2a3a463
+
+backrefs@4a41cc75cc618a8969bf0ac12d6e5c70534f8ea5
+
+Python-Markdown/markdown@de5c696f94e8dde242c29d4be50b7bbf3c17fedb
+
+gitlab:pycqa/flake8@8acf55e0f85233c51c291816d73d828cc62d30d1
+
+0094711c911ef0bc3e989483ed7c5840d2a3a463...90b6fb8711e75732f987982cc024e9bb0111beac
+
+backrefs@88c6238a1c2cf71a96eb9abb4b0213f79d6ca81f...4a41cc75cc618a8969bf0ac12d6e5c70534f8ea5
+
+Python-Markdown/markdown@007bd2aa4c184b28f710d041a0abe78bffc0ec2e...de5c696f94e8dde242c29d4be50b7bbf3c17fedb
+
+gitlab:pycqa/flake8@1ecf97005a024391fb07ad8941f4d25c4e0aae6e...9bea7576ac33a8e4f72f87ffa81dfa10256fca6e
+
+- https://github.com/bnice5000
+- https://github.com/bnice5000/COVID-STATS
+- https://gitlab.com/pycqa/flake8/issues/385
+- https://bitbucket.org/mrabarnett/mrab-regex/issues/260/extremely-slow-matching-using-ignorecase
+
+### Mark
+
+==mark me==
+
+==smart==mark==
+
+### ProgressBar
+
+[=0% "0%"]
+[=5% "5%"]
+[=25% "25%"]
+[=45% "45%"]
+[=65% "65%"]
+[=85% "85%"]
+[=100% "100%"]
+
+[=85% "85%"]{: .progress-bar-striped}
+[=100% "100%"]{: .progress-bar-striped .progress-bar-animated}
+
+
+### SmartSymbols
+
+(tm) (c) (r) c/o 
++/- --> <-- <--> =/= 
+1/2 1/4 1/8 
+1st 2nd 3rd
+
+### Snippets
+
+--8<-- "snippetexample.md"
+
+--8<--
+somewhereovertherainbow.md
+
+gilbert.md
+--8<--
+
+--8<-- "; gilbert.md"
+
+--8<--
+snippetexample.md
+; gilbert.md
+--8<--
+
+### Superfences
 
 ```
-tell application "Foo"
-    beep
-end tell
+a fenced block
 ```
 
-## Span Elements
+  > ```
+    a fenced block
 
-### Links
+  > with blank lines
+    ```
 
-Markdown supports two style of links: *inline* and *reference*.
-
-In both styles, the link text is delimited by [square brackets].
-
-To create an inline link, use a set of regular parentheses immediately
-after the link text's closing square bracket. Inside the parentheses,
-put the URL where you want the link to point, along with an *optional*
-title for the link, surrounded in quotes. For example:
-
-This is [an example](http://example.com/) inline link.
-
-[This link](http://example.net/) has no title attribute.
-
-### Emphasis
-
-Markdown treats asterisks (`*`) and underscores (`_`) as indicators of
-emphasis. Text wrapped with one `*` or `_` will be wrapped with an
-HTML `<em>` tag; double `*`'s or `_`'s will be wrapped with an HTML
-`<strong>` tag. E.g., this input:
-
-*single asterisks*
-
-_single underscores_
-
-**double asterisks**
-
-__double underscores__
-
-### Code
-
-To indicate a span of code, wrap it with backtick quotes (`` ` ``).
-Unlike a pre-formatted code block, a code span indicates code within a
-normal paragraph. For example:
-
-Use the `printf()` function.
-
-# My Tests for Plugins
-
-[Sausage]({filename}../pages/sausage.md)
-
-## Better Figures & Images Test
-
-### IMG Test
-![Test Photo]({photo}/testgallery/IMG_0264.jpg)
-
-### Figure Test With Caption
-![Test Photo]({photo}testgallery/IMG_0264.jpg){:type="figure" caption="Love the photo!"}
-
-### Figure HTML Test
-<figure>
-  <img src="{photo}20160524_test_entry.png" alt="some alt text"/>
-  <figcaption>This is a test.</figcaption>
-</figure>
-
-Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
-illuc. Candore Phrygiae misereri vaccam: nec
-[mihi](http://reddit.com/r/thathappened), putes eveniet nescius, caede
-*tepentibus Titan*, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque **fulgentem** fecere vicimus manu mearum; exiguo.
-
-### IMG Test with Attributes
-![Test Photo]({photo}20160524_test_entry.png){:class="pull-left gap-right"}
-
-Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
-illuc. Candore Phrygiae misereri vaccam: nec
-[mihi](http://reddit.com/r/thathappened), putes eveniet nescius, caede
-*tepentibus Titan*, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque **fulgentem** fecere vicimus manu mearum; exiguo.
-
-Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
-bella et sive? Inrupit capreisque, loquor nostroque **lacusque** iram de
-obstipuit, Smilace sine.  
-
-Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
-illuc. Candore Phrygiae misereri vaccam: nec
-[mihi](http://reddit.com/r/thathappened), putes eveniet nescius, caede
-*tepentibus Titan*, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque **fulgentem** fecere vicimus manu mearum; exiguo.
-
-Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
-bella et sive? Inrupit capreisque, loquor nostroque **lacusque** iram de
-obstipuit, Smilace sine.  
-
-
-Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
-illuc. Candore Phrygiae misereri vaccam: nec
-[mihi](http://reddit.com/r/thathappened), putes eveniet nescius, caede
-*tepentibus Titan*, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque **fulgentem** fecere vicimus manu mearum; exiguo.
-
-Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
-bella et sive? Inrupit capreisque, loquor nostroque **lacusque** iram de
-obstipuit, Smilace sine.  
-
-### Table Test
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-
-### Super Fences Test (Flow) Test
-
-```flow
-st=>start: Start:>http://www.google.com[blank]
-e=>end:>http://www.google.com
-op1=>operation: My Operation
-sub1=>subroutine: My Subroutine
-cond=>condition: Yes
-or No?:>http://www.google.com
-io=>inputoutput: catch something...
-
-st->op1->cond
-cond(yes)->io->e
-cond(no)->sub1(right)->op1
-```
-
-### Super Fences Test (UML) Test
-
-```sequence
-Title: Here is a title
-A->B: Normal line
-B-->C: Dashed line
-C->>D: Open arrow
-D-->>A: Dashed open arrow
+```python
+import foo.bar
 ```
 
 
-## Iacet mensum duxere adludit et ille decipit
-
-Iactas caeli illic fodiebant aenea **super** artus; ritu inque. [Toto natam
-Phlegraeon](http://hipstermerkel.tumblr.com/) modo; est Philemon protinus iuvere
-pondus languentique **duro**. Herbas putet herbas: tandem nova conplexa; et
-ultima fecit. Mea rite inimica quotiensque quemque
-[regale](http://www.metafilter.com/) esse locuti volucrum triste hoc iaces.
-
-    wpaDomainHyperlink = browser;
-    if (xmpConstantKeylogger.smishing_storage_bankruptcy(1)) {
-        dotIntegrated.state += dimm;
-        ddr = -4;
-        spam += sidebar;
-    }
-
-```javascript
-    smtp_margin_print.character_video_internic = simm_responsive + backlink;
-    if (hdtvMemory(responsive_mountain(cdLifoAlpha(-2, cross,
-            controllerSurgeDesign)), radcab_lion, ircHoneypot)) {
-        column_socket_edutainment = 3;
-        compileCss = dtd_system(captcha);
-    }
+```mermaid
+graph TD
+    A[Hard] -->|Text| B(Round)
+    B --> C{Decision}
+    C -->|One| D[Result 1]
+    C -->|Two| E[Result 2]
 ```
 
-Nunc faces utroque, at moenia miles? Remoretur propter; dum decimo, candida
-nautas. In si Oeneus quibus gener et manus vitibus Stygiam trepidoque nascuntur
-erat, dea, quamque. Aliquis iacent *quodque petens*, ambiguis mirum minores
-iniuria inposuit quae expers caput saepe modo, si non. Mentique fama Thoantis
-*excipit*, picea placandam guttura stabat protinus **praetincta**, teneret de
-regnat mihi, vel mutua Ossaque.
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
 
-> The weak can never forgive. Forgiveness is the attribute of the strong.
->> Ghandi
+
+```math
+
+E(\mathbf{v}, \mathbf{h}) = -\sum_{i,j}w_{ij}v_i h_j - \sum_i b_i v_i - \sum_j c_j h_j
+
+```
+
+```math
+\begin{align}
+    p(v_i=1|\mathbf{h}) & = \sigma\left(\sum_j w_{ij}h_j + b_i\right) \\
+    p(h_j=1|\mathbf{v}) & = \sigma\left(\sum_i w_{ij}v_i + c_j\right)
+\end{align}
+```
+
+### Tabbed
+
+=== "Tab 1"
+    Markdown **content**.
+
+    Multiple paragraphs.
+
+=== "Tab 2"
+    More Markdown **content**.
+
+    - list item a
+    - list item b
+
+**More Tabs**
+
+===! "Tab A"
+    Different tab set.
+
+=== "Tab B"
+    ```
+    More content.
+    ```
+    
+### Tasklist
+
+Task List
+
+- [X] item 1
+    * [X] item A
+    * [ ] item B
+        more text
+        + [x] item a
+        + [ ] item b
+        + [x] item c
+    * [X] item C
+- [ ] item 2
+- [ ] item 3
+
+### Tilde
+
+~~Delete me~~
+
+CH~3~CH~2~OH
+
+text~a\ subscript~
+
+## Markdown Fig-cap Extension
+
+%%%
+
+%%% figure-class here
+    ![img-alt]({static}/images/testgallery/IMG_1408.jpg){: testAttr}
+
+    %: figcaption here
+    {: caption testAttr}
+
+%: will not be a figcaption

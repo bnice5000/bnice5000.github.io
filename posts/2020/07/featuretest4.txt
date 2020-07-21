@@ -1,0 +1,11 @@
+Title: Feature Test 4 - Pelican Plugins Test
+Date: 2020-07-04 22:06
+Modified: 2020-07-04 22:06
+Category: WIP
+Tags: Test
+Slug: featuretest4
+Authors: Brian Levin
+Summary: This will test Pelican Specific Features
+Show_source: True
+Series: Feature Test
+JavaScripts: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.5.1/mermaid.min.js

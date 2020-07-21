@@ -1,20 +1,20 @@
-Title: Feature Test 1
+Title: Feature Test 1 - Pure Markdown
 Date: 2016-05-24 22:06
 Modified: 2016-05-24 22:06
-Category: Test
+Category: WIP
+Tags: Test
 Slug: featuretest1
 Authors: Brian Levin
-Summary: This is a photo gallery test article.
+Summary: This is a pure Markdown feature test. It test the JG version of Markdown.
 Show_source: True
-Image: {photo}20160524_test_entry.png
-Image_Alt: This is some alt text!
-gallery: {filename}testgallery {This is a title}, {photo}/testgallery{This is also a title}
 Series: Feature Test
-JavaScripts: //cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js, //cdnjs.cloudflare.com/ajax/libs/underscore.js/1.10.2/underscore-min.js, //cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js, //cdnjs.cloudflare.com/ajax/libs/flowchart/1.13.0/flowchart.min.js, uml-converter.js, super_fences.js
 
 [TOC]
 
 # Markdown: Syntax
+
+**Note:** This document is itself written using Markdown; you
+can [see the source for it by adding '.txt' to the URL](./featuretest1.txt).
 
 ----
 
@@ -60,6 +60,21 @@ closing hashes don't even need to match the number of hashes
 used to open the header. (The number of opening hashes
 determines the header level.)
 
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+Alternatively, for H1 and H2, an underline-ish style:
+
+Alt-H1
+======
+
+Alt-H2
+------
+
 
 ### Blockquotes
 
@@ -78,8 +93,7 @@ wrap the text and put a `>` before every line:
 Markdown allows you to be lazy and only put the `>` before the first
 line of a hard-wrapped paragraph:
 
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
@@ -98,6 +112,7 @@ Blockquotes can contain other Markdown elements, including headers, lists,
 and code blocks:
 
 > ## This is a header.
+> They can do lists but it looks goofy
 > 
 > 1.   This is the first list item.
 > 2.   This is the second list item.
@@ -105,6 +120,10 @@ and code blocks:
 > Here's some example code:
 > 
 >     return shell_exec("echo $input | $markdown_script");
+
+Block quotes will work with citations if pushed
+> The secret to creativity is knowing how to hide your sources. 
+> <footer class="blockquote-footer">Attributed to <cite>Albert Einstein</cite><footer>
 
 Any decent text editor should make email-style quoting easy. For
 example, with BBEdit, you can make a selection and choose Increase
@@ -293,6 +312,22 @@ _single underscores_
 
 __double underscores__
 
+### Horizontal Rule
+
+Three or more...
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+
 ### Code
 
 To indicate a span of code, wrap it with backtick quotes (`` ` ``).
@@ -301,130 +336,41 @@ normal paragraph. For example:
 
 Use the `printf()` function.
 
-# My Tests for Plugins
+### Links
 
-[Sausage]({filename}../pages/sausage.md)
+[I'm an inline-style link](https://www.google.com)
 
-## Better Figures & Images Test
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 
-### IMG Test
-![Test Photo]({photo}/testgallery/IMG_0264.jpg)
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
 
-### Figure Test With Caption
-![Test Photo]({photo}testgallery/IMG_0264.jpg){:type="figure" caption="Love the photo!"}
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
 
-### Figure HTML Test
-<figure>
-  <img src="{photo}20160524_test_entry.png" alt="some alt text"/>
-  <figcaption>This is a test.</figcaption>
-</figure>
+[You can use numbers for reference-style link definitions][1]
 
-Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
-illuc. Candore Phrygiae misereri vaccam: nec
-[mihi](http://reddit.com/r/thathappened), putes eveniet nescius, caede
-*tepentibus Titan*, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque **fulgentem** fecere vicimus manu mearum; exiguo.
+Or leave it empty and use the [link text itself].
 
-### IMG Test with Attributes
-![Test Photo]({photo}20160524_test_entry.png){:class="pull-left gap-right"}
+URLs and URLs in angle brackets will automatically get turned into links. 
+http://www.example.com or <http://www.example.com> and sometimes 
+example.com (but not on Github, for example).
 
-Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
-illuc. Candore Phrygiae misereri vaccam: nec
-[mihi](http://reddit.com/r/thathappened), putes eveniet nescius, caede
-*tepentibus Titan*, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque **fulgentem** fecere vicimus manu mearum; exiguo.
+Some text to show that the reference links can follow later.
 
-Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
-bella et sive? Inrupit capreisque, loquor nostroque **lacusque** iram de
-obstipuit, Smilace sine.  
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: http://www.reddit.com
 
-Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
-illuc. Candore Phrygiae misereri vaccam: nec
-[mihi](http://reddit.com/r/thathappened), putes eveniet nescius, caede
-*tepentibus Titan*, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque **fulgentem** fecere vicimus manu mearum; exiguo.
+### Photos
 
-Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
-bella et sive? Inrupit capreisque, loquor nostroque **lacusque** iram de
-obstipuit, Smilace sine.  
+Here's our logo (hover to see the title text):
 
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
-Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
-illuc. Candore Phrygiae misereri vaccam: nec
-[mihi](http://reddit.com/r/thathappened), putes eveniet nescius, caede
-*tepentibus Titan*, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque **fulgentem** fecere vicimus manu mearum; exiguo.
+Reference-style: 
+![alt text][logo]
 
-Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
-bella et sive? Inrupit capreisque, loquor nostroque **lacusque** iram de
-obstipuit, Smilace sine.  
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
-### Table Test
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-
-### Super Fences Test (Flow) Test
-
-```flow
-st=>start: Start:>http://www.google.com[blank]
-e=>end:>http://www.google.com
-op1=>operation: My Operation
-sub1=>subroutine: My Subroutine
-cond=>condition: Yes
-or No?:>http://www.google.com
-io=>inputoutput: catch something...
-
-st->op1->cond
-cond(yes)->io->e
-cond(no)->sub1(right)->op1
-```
-
-### Super Fences Test (UML) Test
-
-```sequence
-Title: Here is a title
-A->B: Normal line
-B-->C: Dashed line
-C->>D: Open arrow
-D-->>A: Dashed open arrow
-```
-
-
-## Iacet mensum duxere adludit et ille decipit
-
-Iactas caeli illic fodiebant aenea **super** artus; ritu inque. [Toto natam
-Phlegraeon](http://hipstermerkel.tumblr.com/) modo; est Philemon protinus iuvere
-pondus languentique **duro**. Herbas putet herbas: tandem nova conplexa; et
-ultima fecit. Mea rite inimica quotiensque quemque
-[regale](http://www.metafilter.com/) esse locuti volucrum triste hoc iaces.
-
-    wpaDomainHyperlink = browser;
-    if (xmpConstantKeylogger.smishing_storage_bankruptcy(1)) {
-        dotIntegrated.state += dimm;
-        ddr = -4;
-        spam += sidebar;
-    }
-
-```javascript
-    smtp_margin_print.character_video_internic = simm_responsive + backlink;
-    if (hdtvMemory(responsive_mountain(cdLifoAlpha(-2, cross,
-            controllerSurgeDesign)), radcab_lion, ircHoneypot)) {
-        column_socket_edutainment = 3;
-        compileCss = dtd_system(captcha);
-    }
-```
-
-Nunc faces utroque, at moenia miles? Remoretur propter; dum decimo, candida
-nautas. In si Oeneus quibus gener et manus vitibus Stygiam trepidoque nascuntur
-erat, dea, quamque. Aliquis iacent *quodque petens*, ambiguis mirum minores
-iniuria inposuit quae expers caput saepe modo, si non. Mentique fama Thoantis
-*excipit*, picea placandam guttura stabat protinus **praetincta**, teneret de
-regnat mihi, vel mutua Ossaque.
-
-> The weak can never forgive. Forgiveness is the attribute of the strong.
->> Ghandi
+Local Photos
+![img-alt]({static}/images/testgallery/IMG_2666.jpg)

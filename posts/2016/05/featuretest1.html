@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Feature Test 1 - Nine Ten Levins</title>
+    <title>Feature Test 1 - Pure Markdown - Nine Ten Levins</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://ninetenlevins.com/theme/images/apple-touch-icon.png" rel="icon">
-    <link rel="apple-touch-icon" href="https://ninetenlevins.com/theme/images/apple-touch-icon.png">
+    <link href="http://127.0.0.1:8000/theme/images/apple-touch-icon.png" rel="icon">
+    <link rel="apple-touch-icon" href="http://127.0.0.1:8000/theme/images/apple-touch-icon.png">
 
-<link rel="canonical" href="https://ninetenlevins.com/posts/2016/05/featuretest1.html">
+<link rel="canonical" href="http://127.0.0.1:8000/posts/2016/05/featuretest1.html">
 
         <meta name="author" content="Brian Levin" />
-        <meta name="description" content="This is a photo gallery test article." />
+        <meta name="keywords" content="Test" />
+        <meta name="description" content="This is a pure Markdown feature test. It test the JG version of Markdown." />
+
+    <!-- MathJax Support NOTE: MathJax really really prefers to be loaded into the head.
+         https://docs.mathjax.org/en/latest/web/start.html  -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="http://127.0.0.1:8000/theme/js/mathjax_startup.js"></script>
 
 
-
-    <!-- CDN Libraries -->
+    <!-- CDN CSS Libraries -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/united/bootstrap.min.css" type="text/css"/>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pygments-css@1.0.0/native.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <style>
       body{ font-family: 'Ubuntu', sans-serif;}
     </style>
 
     <!-- Local Libraries -->
-    <link rel="stylesheet" href="https://ninetenlevins.com/theme/css/tipuesearch.css">
-    <link rel="stylesheet" href="https://ninetenlevins.com/theme/css/typogrify.css">
-    <link rel="stylesheet" href="https://ninetenlevins.com/theme/css/style.css" type="text/css"/>
-    <link rel="stylesheet"  href="https://ninetenlevins.com/theme/css/custom.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/theme/css/tipuesearch.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/theme/css/typogrify.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/theme/css/style.css" type="text/css"/>
 
-        <link href="https://ninetenlevins.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+        <link href="http://127.0.0.1:8000/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
               title="Nine Ten Levins ATOM Feed"/>
 
-        <link href="https://ninetenlevins.com/feeds/all.rss.xml" type="application/rss+xml" rel="alternate"
+        <link href="http://127.0.0.1:8000/feeds/all.rss.xml" type="application/rss+xml" rel="alternate"
               title="Nine Ten Levins RSS Feed"/>
-        <link href="https://ninetenlevins.com/feeds/test.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Nine Ten Levins Test ATOM Feed"/>
+        <link href="http://127.0.0.1:8000/feeds/wip.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Nine Ten Levins WIP ATOM Feed"/>
 </head>
 <body>
 
@@ -48,28 +53,28 @@
         <button class="navbar-toggler collapsed " type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon "></span>
         </button>
-      <a href="https://ninetenlevins.com/" class="navbar-brand">
-<img class="img-responsive pull-left gap-right" src="https://ninetenlevins.com/theme/images/apple-touch-icon-57x57.png" width="24"/> Nine Ten Levins      </a>
+      <a href="http://127.0.0.1:8000/" class="navbar-brand">
+<img class="img-responsive pull-left gap-right" src="http://127.0.0.1:8000/theme/images/apple-touch-icon-57x57.png" width="24"/> Nine Ten Levins      </a>
     </div>
     <div class="navbar-collapse collapse" id="navbarColor01" style="">
       <ul class="navbar-nav navbar-nav ml-auto">
                    <li class="nav-item ">
-                     <a class="nav-link" href="https://ninetenlevins.com/pages/sausage.html">
+                     <a class="nav-link" href="http://127.0.0.1:8000/pages/sausage.html">
                        <i class="fas fa-scroll"></i> The&nbsp;Sausage
                     </a></li>
             <li class="nav-item ">
-              <a class="nav-link" href="https://ninetenlevins.com/categories.html">
-                <i class="fa fa-th-list"></i> Categories
+              <a class="nav-link" href="http://127.0.0.1:8000/categories.html">
+                <i class="fas fa-layer-group"></i> Categories
               </a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="https://ninetenlevins.com/tags.html">
+              <a class="nav-link" href="http://127.0.0.1:8000/tags.html">
                 <i class="fa fa-tags"></i> Tags
               </a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="https://ninetenlevins.com/archives.html">
-                <i class="fa fa-list"></i> Archives
+              <a class="nav-link" href="http://127.0.0.1:8000/archives.html">
+                <i class="fas fa-archive"></i> Archives
               </a>
             </li>
       </ul>
@@ -93,39 +98,55 @@
           <!-- Content -->
     <div class="col-sm-9 col-sm-push-3" >
 <ul class="breadcrumb">
-  <li><a href="https://ninetenlevins.com" title="Nine Ten Levins"><span class="fa fa-home fa-lg"></span></a></li>
+  <li><a href="http://127.0.0.1:8000" title="Nine Ten Levins"><span class="fa fa-home fa-lg"></span></a></li>
   <li> / </li>
-  <li class="active">Feature Test&nbsp;1</li>
+  <li class="active">Feature Test 1 - Pure&nbsp;Markdown</li>
 </ul>
         <main>
     <section id="content">
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="https://ninetenlevins.com/posts/2016/05/featuretest1.html"
+                    <a href="http://127.0.0.1:8000/posts/2016/05/featuretest1.html"
                        rel="bookmark"
-                       title="Permalink to Feature Test 1">
-                        Feature Test&nbsp;1
+                       title="Permalink to Feature Test 1 - Pure Markdown">
+                        Feature Test 1 - Pure&nbsp;Markdown
                     </a>
                 </h1>
             </header>
             <div class="entry-content">
                 <div class="panel">
                     <div class="panel-body">
-<footer class="post-info">
-    <span class="label label-default">Date</span>
+<footer class="post-info text-secondary">
     <span class="published">
         <i class="fa fa-calendar"></i><time datetime="2016-05-24T22:06:00-04:00"> 24 May 2016</time>
     </span>
+    &vert;
+      <span class="label label-default">Updated on </span>
+        <span class="modified">
+            <i class="fa fa-calendar"></i><time datetime="2016-05-24T22:06:00-04:00"> 24 May 2016</time>
+        </span>
 
+      &vert;
+      <span class="label label-default">By</span>
+      <a href="http://127.0.0.1:8000/author/brian-levin.html"><i class="fa fa-user"></i> Brian Levin</a>
 
+      &vert;
+      <span class="label label-default">Category</span>
+      <a href="http://127.0.0.1:8000/category/wip.html">WIP</a>
 
+      &vert; <span class="label label-default">Tags</span>
+	<a href="http://127.0.0.1:8000/tag/test.html">Test</a>
 
+      <br>
+      <span class="label label-default">Series</span>
+      Part 1 of Feature Test
 
-
-      <h1 class='toc'>Table of Contents</h1>
-      <nav class="toc">
-        <div class="toc">
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                  <h1 class='toc'>Table of Contents</h1>
+                  <nav class="toc">
+                    <div class="toc">
 <ul>
 <li><a href="#markdown-syntax">Markdown: Syntax</a><ul>
 <li><a href="#overview">Overview</a><ul>
@@ -135,6 +156,28 @@
 <li><a href="#block-elements">Block Elements</a><ul>
 <li><a href="#paragraphs-and-line-breaks">Paragraphs and Line Breaks</a></li>
 <li><a href="#headers">Headers</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#h1">H1</a><ul>
+<li><a href="#h2">H2</a><ul>
+<li><a href="#h3">H3</a><ul>
+<li><a href="#h4">H4</a><ul>
+<li><a href="#h5">H5</a><ul>
+<li><a href="#h6">H6</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#alt-h1">Alt-H1</a><ul>
+<li><a href="#alt-h2">Alt-H2</a><ul>
 <li><a href="#blockquotes">Blockquotes</a></li>
 </ul>
 </li>
@@ -146,86 +189,82 @@
 <li><a href="#span-elements">Span Elements</a><ul>
 <li><a href="#links">Links</a></li>
 <li><a href="#emphasis">Emphasis</a></li>
+<li><a href="#horizontal-rule">Horizontal Rule</a></li>
 <li><a href="#code">Code</a></li>
+<li><a href="#links_1">Links</a></li>
+<li><a href="#photos">Photos</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li><a href="#my-tests-for-plugins">My Tests for Plugins</a><ul>
-<li><a href="#better-figures-images-test">Better Figures <span class="amp">&amp;</span> Images Test</a><ul>
-<li><a href="#img-test"><span class="caps">IMG</span> Test</a></li>
-<li><a href="#figure-test-with-caption">Figure Test With Caption</a></li>
-<li><a href="#figure-html-test">Figure <span class="caps">HTML</span> Test</a></li>
-<li><a href="#img-test-with-attributes"><span class="caps">IMG</span> Test with Attributes</a></li>
-<li><a href="#table-test">Table Test</a></li>
-<li><a href="#super-fences-test-flow-test">Super Fences Test (Flow) Test</a></li>
-<li><a href="#super-fences-test-uml-test">Super Fences Test (<span class="caps">UML</span>) Test</a></li>
-</ul>
-</li>
-<li><a href="#iacet-mensum-duxere-adludit-et-ille-decipit">Iacet mensum duxere adludit et ille decipit</a></li>
 </ul>
 </li>
 </ul>
 </div>
-      </nav>
-
-</footer><!-- /.post-info -->                    </div>
-                </div>
+                  </nav>
                 
 <h1 id="markdown-syntax">Markdown: Syntax</h1>
+<p><strong>Note:</strong> This document is itself written using Markdown; you<br/>
+can <a href="./featuretest1.txt">see the source for it by adding ‘.txt’ to the <span class="caps">URL</span></a>.</p>
 <hr/>
 <h2 id="overview">Overview</h2>
 <h3 id="philosophy">Philosophy</h3>
 <p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</p>
-<p>Readability, however, is emphasized above all else. A Markdown-formatted
-document should be publishable as-is, as plain text, without looking
-like it’s been marked up with tags or formatting instructions. While
-Markdown’s syntax has been influenced by several existing text-to-<span class="caps">HTML</span>
-filters – including <a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a>, <a href="http://www.aaronsw.com/2002/atx/">atx</a>, <a href="http://textism.com/tools/textile/">Textile</a>, <a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>,
-<a href="http://www.triptico.com/software/grutatxt.html">Grutatext</a>, and <a href="http://ettext.taint.org/doc/">EtText</a> – the single biggest source of
+<p>Readability, however, is emphasized above all else. A Markdown-formatted<br/>
+document should be publishable as-is, as plain text, without looking<br/>
+like it’s been marked up with tags or formatting instructions. While<br/>
+Markdown’s syntax has been influenced by several existing text-to-<span class="caps">HTML</span><br/>
+filters – including <a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a>, <a href="http://www.aaronsw.com/2002/atx/">atx</a>, <a href="http://textism.com/tools/textile/">Textile</a>, <a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>,<br/>
+<a href="http://www.triptico.com/software/grutatxt.html">Grutatext</a>, and <a href="http://ettext.taint.org/doc/">EtText</a> – the single biggest source of<br/>
 inspiration for Markdown’s syntax is the format of plain text email.</p>
 <h2 id="block-elements">Block Elements</h2>
 <h3 id="paragraphs-and-line-breaks">Paragraphs and Line Breaks</h3>
-<p>A paragraph is simply one or more consecutive lines of text, separated
-by one or more blank lines. (A blank line is any line that looks like a
-blank line – a line containing nothing but spaces or tabs is considered
+<p>A paragraph is simply one or more consecutive lines of text, separated<br/>
+by one or more blank lines. (A blank line is any line that looks like a<br/>
+blank line – a line containing nothing but spaces or tabs is considered<br/>
 blank.) Normal paragraphs should not be indented with spaces or tabs.</p>
-<p>The implication of the “one or more consecutive lines of text” rule is
-that Markdown supports “hard-wrapped” text paragraphs. This differs
-significantly from most other text-to-<span class="caps">HTML</span> formatters (including Movable
-Type’s “Convert Line Breaks” option) which translate every line break
+<p>The implication of the “one or more consecutive lines of text” rule is<br/>
+that Markdown supports “hard-wrapped” text paragraphs. This differs<br/>
+significantly from most other text-to-<span class="caps">HTML</span> formatters (including Movable<br/>
+Type’s “Convert Line Breaks” option) which translate every line break<br/>
 character in a paragraph into a <code>&lt;br /&gt;</code> tag.</p>
-<p>When you <em>do</em> want to insert a <code>&lt;br /&gt;</code> break tag using Markdown, you
+<p>When you <em>do</em> want to insert a <code>&lt;br /&gt;</code> break tag using Markdown, you<br/>
 end a line with two or more spaces, then type return.</p>
 <h3 id="headers">Headers</h3>
-<p>Markdown supports two styles of headers, [Setext] [1] and [atx] [2].</p>
-<p>Optionally, you may “close” atx-style headers. This is purely
-cosmetic – you can use this if you think it looks better. The
-closing hashes don’t even need to match the number of hashes
-used to open the header. (The number of opening hashes
+<p>Markdown supports two styles of headers, <a href="http://slashdot.org">Setext</a> and [atx] [2].</p>
+<p>Optionally, you may “close” atx-style headers. This is purely<br/>
+cosmetic – you can use this if you think it looks better. The<br/>
+closing hashes don’t even need to match the number of hashes<br/>
+used to open the header. (The number of opening hashes<br/>
 determines the header level.)</p>
+<h1 id="h1">H1</h1>
+<h2 id="h2">H2</h2>
+<h3 id="h3">H3</h3>
+<h4 id="h4">H4</h4>
+<h5 id="h5">H5</h5>
+<h6 id="h6">H6</h6>
+<p>Alternatively, for H1 and H2, an underline-ish style:</p>
+<h1 id="alt-h1">Alt-H1</h1>
+<h2 id="alt-h2">Alt-H2</h2>
 <h3 id="blockquotes">Blockquotes</h3>
-<p>Markdown uses email-style <code>&gt;</code> characters for blockquoting. If you’re
-familiar with quoting passages of text in an email message, then you
-know how to create a blockquote in Markdown. It looks best if you hard
+<p>Markdown uses email-style <code>&gt;</code> characters for blockquoting. If you’re<br/>
+familiar with quoting passages of text in an email message, then you<br/>
+know how to create a blockquote in Markdown. It looks best if you hard<br/>
 wrap the text and put a <code>&gt;</code> before every line:</p>
 <blockquote>
-<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,<br/>
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.<br/>
 Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
-<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse<br/>
 id sem consectetuer libero luctus adipiscing.</p>
 </blockquote>
-<p>Markdown allows you to be lazy and only put the <code>&gt;</code> before the first
+<p>Markdown allows you to be lazy and only put the <code>&gt;</code> before the first<br/>
 line of a hard-wrapped paragraph:</p>
 <blockquote>
-<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.<br/>
 Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
-<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse<br/>
 id sem consectetuer libero luctus adipiscing.</p>
 </blockquote>
-<p>Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by
+<p>Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by<br/>
 adding additional levels of <code>&gt;</code>:</p>
 <blockquote>
 <p>This is the first level of quoting.</p>
@@ -234,24 +273,30 @@ adding additional levels of <code>&gt;</code>:</p>
 </blockquote>
 <p>Back to the first level.</p>
 </blockquote>
-<p>Blockquotes can contain other Markdown elements, including headers, lists,
+<p>Blockquotes can contain other Markdown elements, including headers, lists,<br/>
 and code blocks:</p>
 <blockquote>
 <h2 id="this-is-a-header">This is a header.</h2>
+<p>They can do lists but it looks goofy</p>
 <ol>
 <li>This is the first list item.</li>
 <li>This is the second list item.</li>
 </ol>
 <p>Here’s some example code:</p>
-<div class="highlight"><pre><span></span><code><span class="err">return shell_exec("echo $input | $markdown_script");</span>
-</code></pre></div>
+<pre class="lang"><code>return shell_exec("echo $input | $markdown_script");
+</code></pre>
 </blockquote>
-<p>Any decent text editor should make email-style quoting easy. For
-example, with BBEdit, you can make a selection and choose Increase
+<p>Block quotes will work with citations if pushed</p>
+<blockquote>
+<p>The secret to creativity is knowing how to hide your sources. <br/>
+<footer class="blockquote-footer">Attributed to <cite>Albert Einstein</cite><footer></footer></footer></p>
+</blockquote>
+<p>Any decent text editor should make email-style quoting easy. For<br/>
+example, with BBEdit, you can make a selection and choose Increase<br/>
 Quote Level from the Text menu.</p>
 <h3 id="lists">Lists</h3>
 <p>Markdown supports ordered (numbered) and unordered (bulleted) lists.</p>
-<p>Unordered lists use asterisks, pluses, and hyphens – interchangably
+<p>Unordered lists use asterisks, pluses, and hyphens – interchangably<br/>
 – as list markers:</p>
 <ul>
 <li>Red</li>
@@ -276,8 +321,8 @@ Quote Level from the Text menu.</p>
 <li>McHale</li>
 <li>Parish</li>
 </ol>
-<p>It’s important to note that the actual numbers you use to mark the
-list have no effect on the <span class="caps">HTML</span> output Markdown produces. The <span class="caps">HTML</span>
+<p>It’s important to note that the actual numbers you use to mark the<br/>
+list have no effect on the <span class="caps">HTML</span> output Markdown produces. The <span class="caps">HTML</span><br/>
 Markdown produces from the above list is:</p>
 <p>If you instead wrote the list in Markdown like this:</p>
 <ol>
@@ -286,266 +331,208 @@ Markdown produces from the above list is:</p>
 <li>Parish</li>
 </ol>
 <p>or even:</p>
-<ol>
+<ol start="3">
 <li>Bird</li>
 <li>McHale</li>
 <li>Parish</li>
 </ol>
-<p>you’d get the exact same <span class="caps">HTML</span> output. The point is, if you want to,
-you can use ordinal numbers in your ordered Markdown lists, so that
-the numbers in your source match the numbers in your published <span class="caps">HTML</span>.
+<p>you’d get the exact same <span class="caps">HTML</span> output. The point is, if you want to,<br/>
+you can use ordinal numbers in your ordered Markdown lists, so that<br/>
+the numbers in your source match the numbers in your published <span class="caps">HTML</span>.<br/>
 But if you want to be lazy, you don’t have to.</p>
 <p>To make lists look nice, you can wrap items with hanging indents:</p>
 <ul>
-<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br/>
+    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,<br/>
     viverra nec, fringilla in, laoreet vitae, risus.</li>
-<li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+<li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.<br/>
     Suspendisse id sem consectetuer libero luctus adipiscing.</li>
 </ul>
 <p>But if you want to be lazy, you don’t have to:</p>
 <ul>
-<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br/>
+Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,<br/>
 viverra nec, fringilla in, laoreet vitae, risus.</li>
-<li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+<li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.<br/>
 Suspendisse id sem consectetuer libero luctus adipiscing.</li>
 </ul>
-<p>List items may consist of multiple paragraphs. Each subsequent
-paragraph in a list item must be indented by either 4 spaces
+<p>List items may consist of multiple paragraphs. Each subsequent<br/>
+paragraph in a list item must be indented by either 4 spaces<br/>
 or one tab:</p>
 <ol>
 <li>
-<p>This is a list item with two paragraphs. Lorem ipsum dolor
-    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+<p>This is a list item with two paragraphs. Lorem ipsum dolor<br/>
+    sit amet, consectetuer adipiscing elit. Aliquam hendrerit<br/>
     mi posuere lectus.</p>
-<p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+<p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet<br/>
+vitae, risus. Donec sit amet nisl. Aliquam semper ipsum<br/>
 sit amet velit.</p>
 </li>
 <li>
 <p>Suspendisse id sem consectetuer libero luctus adipiscing.</p>
 </li>
 </ol>
-<p>It looks nice if you indent every line of the subsequent
-paragraphs, but here again, Markdown will allow you to be lazy:</p>
+<p>It looks nice if you indent every line of the subsequent<br/>
+paragraphs, but here again, Markdown will allow you to be<br/> lazy:</p>
 <ul>
 <li>
 <p>This is a list item with two paragraphs.</p>
-<p>This is the second paragraph in the list item. You’re
-only required to indent the first line. Lorem ipsum dolor
+<p>This is the second paragraph in the list item. You’re<br/>
+only required to indent the first line. Lorem ipsum dolor<br/>
 sit amet, consectetuer adipiscing elit.</p>
 </li>
 <li>
 <p>Another item in the same list.</p>
 </li>
 </ul>
-<p>To put a blockquote within a list item, the blockquote’s <code>&gt;</code>
+<p>To put a blockquote within a list item, the blockquote’s <code>&gt;</code><br/>
 delimiters need to be indented:</p>
 <ul>
 <li>
 <p>A list item with a blockquote:</p>
 <blockquote>
-<p>This is a blockquote
+<p>This is a blockquote<br/>
 inside a list item.</p>
 </blockquote>
 </li>
 </ul>
-<p>To put a code block within a list item, the code block needs
+<p>To put a code block within a list item, the code block needs<br/>
 to be indented <em>twice</em> – 8 spaces or two tabs:</p>
 <ul>
-<li>A list item with a code block:<div class="highlight"><pre><span></span><code><span class="err">&lt;code goes here&gt;</span>
-</code></pre></div>
+<li>A list item with a code block:<pre class="lang"><code>&lt;code goes here&gt;
+</code></pre>
 </li>
 </ul>
 <h3 id="code-blocks">Code Blocks</h3>
-<p>Pre-formatted code blocks are used for writing about programming or
-markup source code. Rather than forming normal paragraphs, the lines
-of a code block are interpreted literally. Markdown wraps a code block
+<p>Pre-formatted code blocks are used for writing about programming or<br/>
+markup source code. Rather than forming normal paragraphs, the lines<br/>
+of a code block are interpreted literally. Markdown wraps a code block<br/>
 in both <code>&lt;pre&gt;</code> and <code>&lt;code&gt;</code> tags.</p>
-<p>To produce a code block in Markdown, simply indent every line of the
+<p>To produce a code block in Markdown, simply indent every line of the<br/>
 block by at least 4 spaces or 1 tab.</p>
 <p>This is a normal paragraph:</p>
-<div class="highlight"><pre><span></span><code><span class="err">This is a code block.</span>
-</code></pre></div>
+<pre class="lang"><code>This is a code block.
+</code></pre>
 <p>Here is an example of AppleScript:</p>
-<div class="highlight"><pre><span></span><code><span class="err">tell application "Foo"</span>
-<span class="err">    beep</span>
-<span class="err">end tell</span>
-</code></pre></div>
-<p>A code block continues until it reaches a line that is not indented
-(or the end of the article).</p>
-<p>Within a code block, ampersands (<code>&amp;</code>) and angle brackets (<code>&lt;</code> and <code>&gt;</code>)
-are automatically converted into <span class="caps">HTML</span> entities. This makes it very
-easy to include example <span class="caps">HTML</span> source code using Markdown – just paste
-it and indent it, and Markdown will handle the hassle of encoding the
-ampersands and angle brackets. For example, this:</p>
-<div class="highlight"><pre><span></span><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"footer"</span><span class="nt">&gt;</span>
-    <span class="ni">&amp;copy;</span> 2004 Foo Corporation
-<span class="nt">&lt;/div&gt;</span>
-</code></pre></div>
-<p>Regular Markdown syntax is not processed within code blocks. E.g.,
-asterisks are just literal asterisks within a code block. This means
-it’s also easy to use Markdown to write about Markdown’s own syntax.</p>
-<div class="highlight"><pre><span></span><code>tell application "Foo"
+<pre class="lang"><code>tell application "Foo"
     beep
 end tell
-</code></pre></div>
+</code></pre>
+<p>A code block continues until it reaches a line that is not indented<br/>
+(or the end of the article).</p>
+<p>Within a code block, ampersands (<code>&amp;</code>) and angle brackets (<code>&lt;</code> and <code>&gt;</code>)<br/>
+are automatically converted into <span class="caps">HTML</span> entities. This makes it very<br/>
+easy to include example <span class="caps">HTML</span> source code using Markdown – just paste<br/>
+it and indent it, and Markdown will handle the hassle of encoding the<br/>
+ampersands and angle brackets. For example, this:</p>
+<pre class="lang"><code>&lt;div class="footer"&gt;
+    &amp;copy; 2004 Foo Corporation
+&lt;/div&gt;
+</code></pre>
+<p>Regular Markdown syntax is not processed within code blocks. E.g.,<br/>
+asterisks are just literal asterisks within a code block. This means<br/>
+it’s also easy to use Markdown to write about Markdown’s own syntax.</p>
+<pre class="lang"><code>tell application "Foo"
+    beep
+end tell</code></pre>
 <h2 id="span-elements">Span Elements</h2>
 <h3 id="links">Links</h3>
 <p>Markdown supports two style of links: <em>inline</em> and <em>reference</em>.</p>
 <p>In both styles, the link text is delimited by [square brackets].</p>
-<p>To create an inline link, use a set of regular parentheses immediately
-after the link text’s closing square bracket. Inside the parentheses,
-put the <span class="caps">URL</span> where you want the link to point, along with an <em>optional</em>
+<p>To create an inline link, use a set of regular parentheses immediately<br/>
+after the link text’s closing square bracket. Inside the parentheses,<br/>
+put the <span class="caps">URL</span> where you want the link to point, along with an <em>optional</em><br/>
 title for the link, surrounded in quotes. For example:</p>
 <p>This is <a href="http://example.com/">an example</a> inline link.</p>
 <p><a href="http://example.net/">This link</a> has no title attribute.</p>
 <h3 id="emphasis">Emphasis</h3>
-<p>Markdown treats asterisks (<code>*</code>) and underscores (<code>_</code>) as indicators of
-emphasis. Text wrapped with one <code>*</code> or <code>_</code> will be wrapped with an
-<span class="caps">HTML</span> <code>&lt;em&gt;</code> tag; double <code>*</code><span class="quo">‘</span>s or <code>_</code><span class="quo">‘</span>s will be wrapped with an <span class="caps">HTML</span>
+<p>Markdown treats asterisks (<code>*</code>) and underscores (<code>_</code>) as indicators of<br/>
+emphasis. Text wrapped with one <code>*</code> or <code>_</code> will be wrapped with an<br/>
+<span class="caps">HTML</span> <code>&lt;em&gt;</code> tag; double <code>*</code><span class="quo">‘</span>s or <code>_</code><span class="quo">‘</span>s will be wrapped with an <span class="caps">HTML</span><br/>
 <code>&lt;strong&gt;</code> tag. E.g., this input:</p>
 <p><em>single asterisks</em></p>
 <p><em>single underscores</em></p>
 <p><strong>double asterisks</strong></p>
 <p><strong>double underscores</strong></p>
+<h3 id="horizontal-rule">Horizontal Rule</h3>
+<p>Three or more…</p>
+<hr/>
+<p>Hyphens</p>
+<hr/>
+<p>Asterisks</p>
+<hr/>
+<p>Underscores</p>
 <h3 id="code">Code</h3>
-<p>To indicate a span of code, wrap it with backtick quotes (<code>`</code>).
-Unlike a pre-formatted code block, a code span indicates code within a
+<p>To indicate a span of code, wrap it with backtick quotes (<code>`</code>).<br/>
+Unlike a pre-formatted code block, a code span indicates code within a<br/>
 normal paragraph. For example:</p>
 <p>Use the <code>printf()</code> function.</p>
-<h1 id="my-tests-for-plugins">My Tests for Plugins</h1>
-<p><a href="https://ninetenlevins.com/pages/sausage.html">Sausage</a></p>
-<h2 id="better-figures-images-test">Better Figures <span class="amp">&amp;</span> Images Test</h2>
-<h3 id="img-test"><span class="caps">IMG</span> Test</h3>
-<p><img alt="Test Photo" src="{photo}/testgallery/IMG_0264.jpg"/></p>
-<h3 id="figure-test-with-caption">Figure Test With Caption</h3>
-<p><img alt="Test Photo" caption="Love the photo!" src="{photo}testgallery/IMG_0264.jpg" type="figure"/></p>
-<h3 id="figure-html-test">Figure <span class="caps">HTML</span> Test</h3>
-<p><figure>
-<img alt="some alt text" src="{photo}20160524_test_entry.png">
-<figcaption>This is a test.</figcaption>
-</img></figure></p>
-<p>Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
-illuc. Candore Phrygiae misereri vaccam: nec
-<a href="http://reddit.com/r/thathappened">mihi</a>, putes eveniet nescius, caede
-<em>tepentibus Titan</em>, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque <strong>fulgentem</strong> fecere vicimus manu mearum; exiguo.</p>
-<h3 id="img-test-with-attributes"><span class="caps">IMG</span> Test with Attributes</h3>
-<p><img alt="Test Photo" class="pull-left gap-right" src="{photo}20160524_test_entry.png"/></p>
-<p>Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
-illuc. Candore Phrygiae misereri vaccam: nec
-<a href="http://reddit.com/r/thathappened">mihi</a>, putes eveniet nescius, caede
-<em>tepentibus Titan</em>, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque <strong>fulgentem</strong> fecere vicimus manu mearum; exiguo.</p>
-<p>Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
-bella et sive? Inrupit capreisque, loquor nostroque <strong>lacusque</strong> iram de
-obstipuit, Smilace sine.  </p>
-<p>Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
-illuc. Candore Phrygiae misereri vaccam: nec
-<a href="http://reddit.com/r/thathappened">mihi</a>, putes eveniet nescius, caede
-<em>tepentibus Titan</em>, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque <strong>fulgentem</strong> fecere vicimus manu mearum; exiguo.</p>
-<p>Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
-bella et sive? Inrupit capreisque, loquor nostroque <strong>lacusque</strong> iram de
-obstipuit, Smilace sine.  </p>
-<p>Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
-illuc. Candore Phrygiae misereri vaccam: nec
-<a href="http://reddit.com/r/thathappened">mihi</a>, putes eveniet nescius, caede
-<em>tepentibus Titan</em>, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque <strong>fulgentem</strong> fecere vicimus manu mearum; exiguo.</p>
-<p>Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
-bella et sive? Inrupit capreisque, loquor nostroque <strong>lacusque</strong> iram de
-obstipuit, Smilace sine.  </p>
-<h3 id="table-test">Table Test</h3>
-<table>
-<thead>
-<tr>
-<th>Tables</th>
-<th align="center">Are</th>
-<th align="right">Cool</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>col 3 is</td>
-<td align="center">right-aligned</td>
-<td align="right">$1600</td>
-</tr>
-<tr>
-<td>col 2 is</td>
-<td align="center">centered</td>
-<td align="right">$12</td>
-</tr>
-<tr>
-<td>zebra stripes</td>
-<td align="center">are neat</td>
-<td align="right">$1</td>
-</tr>
-</tbody>
-</table>
-<h3 id="super-fences-test-flow-test">Super Fences Test (Flow) Test</h3>
-<div class="highlight"><pre><span></span><code>st=&gt;start: Start:&gt;http://www.google.com[blank]
-e=&gt;end:&gt;http://www.google.com
-op1=&gt;operation: My Operation
-sub1=&gt;subroutine: My Subroutine
-cond=&gt;condition: Yes
-or No?:&gt;http://www.google.com
-io=&gt;inputoutput: catch something...
-
-st-&gt;op1-&gt;cond
-cond(yes)-&gt;io-&gt;e
-cond(no)-&gt;sub1(right)-&gt;op1
-</code></pre></div>
-<h3 id="super-fences-test-uml-test">Super Fences Test (<span class="caps">UML</span>) Test</h3>
-<div class="highlight"><pre><span></span><code>Title: Here is a title
-A-&gt;B: Normal line
-B--&gt;C: Dashed line
-C-&gt;&gt;D: Open arrow
-D--&gt;&gt;A: Dashed open arrow
-</code></pre></div>
-<h2 id="iacet-mensum-duxere-adludit-et-ille-decipit">Iacet mensum duxere adludit et ille decipit</h2>
-<p>Iactas caeli illic fodiebant aenea <strong>super</strong> artus; ritu inque. <a href="http://hipstermerkel.tumblr.com/">Toto natam
-Phlegraeon</a> modo; est Philemon protinus iuvere
-pondus languentique <strong>duro</strong>. Herbas putet herbas: tandem nova conplexa; et
-ultima fecit. Mea rite inimica quotiensque quemque
-<a href="http://www.metafilter.com/">regale</a> esse locuti volucrum triste hoc iaces.</p>
-<div class="highlight"><pre><span></span><code><span class="err">wpaDomainHyperlink = browser;</span>
-<span class="err">if (xmpConstantKeylogger.smishing_storage_bankruptcy(1)) {</span>
-<span class="err">    dotIntegrated.state += dimm;</span>
-<span class="err">    ddr = -4;</span>
-<span class="err">    spam += sidebar;</span>
-<span class="err">}</span>
-</code></pre></div>
-<div class="highlight"><pre><span></span><code>    <span class="nx">smtp_margin_print</span><span class="p">.</span><span class="nx">character_video_internic</span> <span class="o">=</span> <span class="nx">simm_responsive</span> <span class="o">+</span> <span class="nx">backlink</span><span class="p">;</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nx">hdtvMemory</span><span class="p">(</span><span class="nx">responsive_mountain</span><span class="p">(</span><span class="nx">cdLifoAlpha</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="nx">cross</span><span class="p">,</span>
-            <span class="nx">controllerSurgeDesign</span><span class="p">)),</span> <span class="nx">radcab_lion</span><span class="p">,</span> <span class="nx">ircHoneypot</span><span class="p">))</span> <span class="p">{</span>
-        <span class="nx">column_socket_edutainment</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
-        <span class="nx">compileCss</span> <span class="o">=</span> <span class="nx">dtd_system</span><span class="p">(</span><span class="nx">captcha</span><span class="p">);</span>
-    <span class="p">}</span>
-</code></pre></div>
-<p>Nunc faces utroque, at moenia miles? Remoretur propter; dum decimo, candida
-nautas. In si Oeneus quibus gener et manus vitibus Stygiam trepidoque nascuntur
-erat, dea, quamque. Aliquis iacent <em>quodque petens</em>, ambiguis mirum minores
-iniuria inposuit quae expers caput saepe modo, si non. Mentique fama Thoantis
-<em>excipit</em>, picea placandam guttura stabat protinus <strong>praetincta</strong>, teneret de
-regnat mihi, vel mutua Ossaque.</p>
-<blockquote>
-<p>The weak can never forgive. Forgiveness is the attribute of the strong.</p>
-<blockquote>
-<p>Ghandi</p>
-</blockquote>
-</blockquote>
+<h3 id="links_1">Links</h3>
+<p><a href="https://www.google.com">I’m an inline-style link</a></p>
+<p><a href="https://www.google.com" title="Google's Homepage">I’m an inline-style link with title</a></p>
+<p><a href="https://www.mozilla.org">I’m a reference-style link</a></p>
+<p><a href="../blob/master/LICENSE">I’m a relative reference to a repository file</a></p>
+<p><a href="http://slashdot.org">You can use numbers for reference-style link definitions</a></p>
+<p>Or leave it empty and use the <a href="http://www.reddit.com">link text itself</a>.</p>
+<p>URLs and URLs in angle brackets will automatically get turned into links. <br/>
+<a href="http://www.example.com">http://www.example.com</a> or <a href="http://www.example.com">http://www.example.com</a> and sometimes <br/>
+example.com (but not on Github, for example).</p>
+<p>Some text to show that the reference links can follow later.</p>
+<h3 id="photos">Photos</h3>
+<p>Here’s our logo (hover to see the title text):</p>
+<p>Inline-style: <br/>
+<img alt="alt text" src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" title="Logo Title Text 1"/></p>
+<p>Reference-style: <br/>
+<img alt="alt text" src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" title="Logo Title Text 2"/></p>
+<p>Local Photos<br/>
+<img alt="img-alt" src="http://127.0.0.1:8000/images/testgallery/IMG_2666.jpg"/></p>
             </div>
             <!-- /.entry-content -->
-<section class="well" id="related-posts">
-    <h4>Part 1 of the Feature Test series</h4>
-       <h5>Next articles</h5>
-       <ul>
-           <li><a href="https://ninetenlevins.com/posts/2019/05/featuretest2.html">Feature Test&nbsp;2</a></li>
-           <li><a href="https://ninetenlevins.com/posts/2019/05/featuretest3.html">Feature Test&nbsp;3</a></li>
-       </ul>
+<section class="well" id="neighbors">
+
+  <div class="row align-items-center justify-content-between mt-4">
+    <div class="col-auto text-left">
+      <h5><i class="fas fa-arrow-left fa-fw"></i>Previous article</h5>
+      <ul class="list-group">
+         <li class="list-group-item py-0"><a href="http://127.0.0.1:8000/posts/2014/03/ATK-Hummingbird-Cake.html">America&#8217;s Test Kitchen&#8217;s Hummingbird&nbsp;Cake</a></li>
+      </ul>
+    </div>
+    <div class="col-auto text-right">
+      <h5>Next article<i class="fas fa-arrow-right fa-fw"></i></h5>
+      <ul class="list-group">
+         <li class="list-group-item py-0"><a href="http://127.0.0.1:8000/posts/2019/05/featuretest2.html">Feature Test 2 -&nbsp;Extensions</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row align-items-center justify-content-between mt-1 mb-4">
+    <div class="col-auto text-left">
+    </div>
+    <div class="col-auto text-right">
+      <h5>Next article by Category<i class="fas fa-arrow-right fa-fw"></i></h5>
+      <ul class="list-group">
+         <li class="list-group-item py-0"><a href="http://127.0.0.1:8000/posts/2019/05/featuretest2.html">Feature Test 2 -&nbsp;Extensions</a></li>
+      </ul>
+    </div>
+  </div>
+</section><section class="well" id="series">
+  <div class="row align-items-center justify-content-center">
+    <div class="col-auto">
+        <h4>Part 1 of the Feature Test series</h4>
+    </div>
+  </div>
+  <div class="row align-items-center justify-content-between">
+    <div class="col-auto text-left">
+    </div>
+    <div class="col-auto text-right">
+      <h5>Next articles<i class="fas fa-arrow-right fa-fw"></i></h5>
+      <ul class="list-group">
+         <li class="list-group-item py-0"><a href="http://127.0.0.1:8000/posts/2019/05/featuretest2.html">Feature Test 2 -&nbsp;Extensions</a></li>
+         <li class="list-group-item py-0"><a href="http://127.0.0.1:8000/posts/2020/05/featuretest3.html">Feature Test 3 - Pelican Features&nbsp;Test</a></li>
+         <li class="list-group-item py-0"><a href="http://127.0.0.1:8000/posts/2020/07/featuretest4.html">Feature Test 4 - Pelican Plugins&nbsp;Test</a></li>
+      </ul>
+    </div>
+  </div>
 </section>
         </article>
     </section>
@@ -558,7 +545,7 @@ regnat mihi, vel mutua Ossaque.</p>
       <aside>
 <div id="aboutside">
         <p>
-            <img width="100%" class="img-thumbnail" src="https://ninetenlevins.com/theme/images/Gus_with_Brian_small.png"/>
+            <img width="100%" class="img-thumbnail" src="http://127.0.0.1:8000/theme/images/Gus_with_Brian_small.png"/>
         </p>
     <p>
         
@@ -572,85 +559,203 @@ regnat mihi, vel mutua Ossaque.</p>
 
 <!-- Sidebar/Series -->
 <li class="list-group-item">
-  <h4><i class="fas fa-tags fa-lg"></i><span class="icon-label">Series</span></h4>
+  <h4><i class="fas fa-home fa-lg"></i><span class="icon-label">Neighbors</span></h4>
   <ul class="list-group">
     <li class="list-group-item">
-      <h5>Next article <i class="fas fa-arrow-right"></i></h5>
-      <a href="https://ninetenlevins.com/posts/2019/05/featuretest2.html">Feature Test&nbsp;2</a>
+      <h5>
+<i class="fas fa-arrow-left"></i> Previous article
+      </h5>
+      <a href="http://127.0.0.1:8000/posts/2014/03/ATK-Hummingbird-Cake.html">America&#8217;s Test Kitchen&#8217;s Hummingbird&nbsp;Cake</a>
+    </li>
+    <li class="list-group-item">
+      <h5>Next article
+<i class="fas fa-arrow-right"></i>      </h5>
+      <a href="http://127.0.0.1:8000/posts/2019/05/featuretest2.html">Feature Test 2 -&nbsp;Extensions</a>
     </li>
   </ul>
 </li>
 <!-- End Sidebar/Series -->
 
 
-<!-- Sidebar/Social -->
+<!-- Sidebar/Series -->
 <li class="list-group-item">
-  <h4><i class="fas fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
-  <ul class="list-group" id="social">
-    <li class="list-group-item"><a href="http://twitter.com/BrianGLevin"><i class="fab fa-twitter fa-lg"></i> twitter</a></li>
-    <li class="list-group-item"><a href="http://github.com/bnice5000"><i class="fab fa-github fa-lg"></i> github</a></li>
-    <li class="list-group-item"><a href="http://ninetenlevins.com/feeds/all.rss.xml"><i class="fa fa-rss-square fa-lg"></i> rss</a></li>
+  <h4><i class="fas fa-home fa-lg"></i><span class="icon-label">Series</span></h4>
+  <ul class="list-group">
+    <li class="list-group-item">
+      <h5>Next article
+<i class="fas fa-arrow-right"></i>      </h5>
+      <a href="http://127.0.0.1:8000/posts/2019/05/featuretest2.html">Feature Test 2 -&nbsp;Extensions</a>
+    </li>
   </ul>
 </li>
-<!-- End Sidebar/Social -->
+<!-- End Sidebar/Series -->
+
+
+<!-- Sidebar/Related -->
+<li class="list-group-item">
+  <h4><i class="fas fa-home fa-lg"></i><span class="icon-label">Related Posts</span></h4>
+  <ul class="list-group">
+        <li class="list-group-item">
+<i class="fas fa-exchange-alt"></i>          &nbsp;<a href="http://127.0.0.1:8000/posts/2020/07/featuretest4.html">Feature Test 4 - Pelican Plugins&nbsp;Test</a>
+        </li>
+        <li class="list-group-item">
+<i class="fas fa-exchange-alt"></i>          &nbsp;<a href="http://127.0.0.1:8000/posts/2020/05/featuretest3.html">Feature Test 3 - Pelican Features&nbsp;Test</a>
+        </li>
+        <li class="list-group-item">
+<i class="fas fa-exchange-alt"></i>          &nbsp;<a href="http://127.0.0.1:8000/posts/2019/05/featuretest2.html">Feature Test 2 -&nbsp;Extensions</a>
+        </li>
+  </ul>
+<!-- End Sidebar/Related -->
+
 
 <!-- Sidebar/Recent Posts -->
 <li class="list-group-item">
   <h4><i class="fas fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
   <ul class="list-group" id="recentposts">
-    <li class="list-group-item"><a href="https://ninetenlevins.com/posts/2019/05/featuretest3.html">Feature Test&nbsp;3</a></li>
-    <li class="list-group-item"><a href="https://ninetenlevins.com/posts/2019/05/featuretest2.html">Feature Test&nbsp;2</a></li>
-    <li class="list-group-item"><a href="https://ninetenlevins.com/posts/2016/05/featuretest1.html">Feature Test&nbsp;1</a></li>
-    <li class="list-group-item"><a href="https://ninetenlevins.com/posts/2014/03/ATK-Hummingbird-Cake.html">America&#8217;s Test Kitchen&#8217;s Hummingbird&nbsp;Cake</a></li>
+    <li class="list-group-item">
+<i class="far fa-newspaper"></i>       &nbsp;<a href="http://127.0.0.1:8000/posts/2020/07/featuretest4.html">Feature Test 4 - Pelican Plugins&nbsp;Test</a>
+    </li>
+    <li class="list-group-item">
+<i class="far fa-newspaper"></i>       &nbsp;<a href="http://127.0.0.1:8000/posts/2020/05/featuretest3.html">Feature Test 3 - Pelican Features&nbsp;Test</a>
+    </li>
+    <li class="list-group-item">
+<i class="far fa-newspaper"></i>       &nbsp;<a href="http://127.0.0.1:8000/posts/2019/05/featuretest2.html">Feature Test 2 -&nbsp;Extensions</a>
+    </li>
+    <li class="list-group-item">
+<i class="far fa-newspaper"></i>       &nbsp;<a href="http://127.0.0.1:8000/posts/2016/05/featuretest1.html">Feature Test 1 - Pure&nbsp;Markdown</a>
+    </li>
+    <li class="list-group-item">
+<i class="far fa-newspaper"></i>       &nbsp;<a href="http://127.0.0.1:8000/posts/2014/03/ATK-Hummingbird-Cake.html">America&#8217;s Test Kitchen&#8217;s Hummingbird&nbsp;Cake</a>
+    </li>
   </ul>
 </li>
 <!-- End Sidebar/Recent Posts -->
 
-  <!-- Show source -->
-  <li class="list-group-item">
-    <h4><i class="fas fa-code fa-lg"></i><span class="icon-label">Show Source</span></h4>
-    <ul class="list-group">
-      <li class="list-group-item">
-      <a href="https://ninetenlevins.com/posts/2016/05/featuretest1.txt">Show source</a>
-      </li>
-    </ul>
-  </li>
-  <!-- End Show source -->
-
-
-<!-- Sidebar/Links -->
+<!-- Sidebar/Categories -->
 <li class="list-group-item">
-  <h4><i class="fas fa-external-link-alt fa-lg"></i><span class="icon-label">Links</span></h4>
-  <ul class="list-group" id="links">
+  <h4><i class="fas fa-layer-group fa-lg"></i><span class="icon-label">Categories</span></h4>
+  <ul class="list-group" id="categories">
     <li class="list-group-item">
-      <i class="fas fa-link"></i> <a href="https://nytimes.com" target="_blank">NYTimes</a>
+      <a href="http://127.0.0.1:8000/category/recipes.html"><i class="fa fa-folder-open fa-lg"></i>&nbsp;Recipes</a>
     </li>
     <li class="list-group-item">
-      <i class="fas fa-link"></i> <a href="https://arstechnica.com/" target="_blank">Ars Technica</a>
-    </li>
-    <li class="list-group-item">
-      <i class="fas fa-link"></i> <a href="https://rpgbot.net/" target="_blank">RPGBOT</a>
-    </li>
-    <li class="list-group-item">
-      <i class="fas fa-link"></i> <a href="https://automatetheboringstuff.com/" target="_blank">Automate the Boring Stuff with Python</a>
+      <a href="http://127.0.0.1:8000/category/wip.html"><i class="fa fa-folder-open fa-lg"></i>&nbsp;WIP</a>
     </li>
   </ul>
 </li>
-<!-- End Sidebar/Links -->
+<!-- End Sidebar/Categories -->
+
+<!-- Sidebar/Tags -->
+<li class="list-group-item">
+  <h4><i class="fas fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4>
+  <ul class="list-group" id="tags">
+    <li class="list-group-item">
+      <a href="http://127.0.0.1:8000/tag/test.html"><i class="fa fa-folder-open fa-lg"></i>&nbsp;Test</a>
+    </li>
+    <li class="list-group-item">
+      <a href="http://127.0.0.1:8000/tag/food.html"><i class="fa fa-folder-open fa-lg"></i>&nbsp;Food</a>
+    </li>
+    <li class="list-group-item">
+      <a href="http://127.0.0.1:8000/tag/review.html"><i class="fa fa-folder-open fa-lg"></i>&nbsp;Review</a>
+    </li>
+  </ul>
+</li>
+<!-- End Sidebar/Tags -->
+
+<!-- Sidebar/Archive -->
+<li class="list-group-item">
+  <h4><i class="fas fa-archive fa-lg"></i><span class="icon-label">Archive</span></h4>
+  <ul class="list-group" id="archive">
+        <li class="list-group-item">
+          <a href="http://127.0.0.1:8000/posts/2020/index.html"><i class="far fa-calendar-alt"></i>&nbsp; 2020 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="http://127.0.0.1:8000/posts/2020/index.html"><i class="far fa-calendar-alt"></i>&nbsp; 2020 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="http://127.0.0.1:8000/posts/2019/index.html"><i class="far fa-calendar-alt"></i>&nbsp; 2019 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="http://127.0.0.1:8000/posts/2016/index.html"><i class="far fa-calendar-alt"></i>&nbsp; 2016 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="http://127.0.0.1:8000/posts/2014/index.html"><i class="far fa-calendar-alt"></i>&nbsp; 2014 (1)
+          </a>
+        </li>
+  </ul>
+</li>
+<!-- End Sidebar/Archive -->
 
 <!-- Sidebar/Authors -->
 <li class="list-group-item">
   <h4><i class="fas fa-users fa-lg"></i><span class="icon-label">Authors</span></h4>
   <ul class="list-group" id="authors">
     <li class="list-group-item">
-      <a href="https://ninetenlevins.com/author/brian-levin.html">
+      <a href="http://127.0.0.1:8000/author/brian-levin.html">
         <i class="fa fa-user fa-lg"></i>
          Brian Levin</a>
-      (4)
+      (5)
+    </li>
+    <li class="list-group-item">
+      <a href="http://127.0.0.1:8000/author/sarah-levin.html">
+        <i class="fa fa-user fa-lg"></i>
+         Sarah Levin</a>
+      (1)
     </li>
   </ul>
 </li>
 <!-- End Sidebar/Authors -->
+
+<!-- Sidebar/Social -->
+<li class="list-group-item">
+  <h4><i class="fas fa-share-alt fa-lg"></i><span class="icon-label">Social</span></h4>
+  <ul class="list-group" id="social">
+    <li class="list-group-item"><a href="http://twitter.com/BrianGLevin">
+<i class="fab fa-twitter fa-lg"></i> twitter</a></li>
+    <li class="list-group-item"><a href="http://github.com/bnice5000">
+<i class="fab fa-github fa-lg"></i> github</a></li>
+    <li class="list-group-item"><a href="http://ninetenlevins.com/feeds/all.rss.xml">
+<i class="fa fa-rss-square fa-lg"></i> rss</a></li>
+  </ul>
+</li>
+<!-- End Sidebar/Social -->
+
+<!-- Sidebar/Links -->
+<li class="list-group-item">
+  <h4><i class="fas fa-external-link-alt fa-lg"></i><span class="icon-label">Links</span></h4>
+  <ul class="list-group" id="links">
+    <li class="list-group-item">
+<i class="fas fa-link"></i> 
+      <a href="https://nytimes.com" target="_blank">NYTimes</a>
+    </li>
+    <li class="list-group-item">
+<i class="fas fa-link"></i> 
+      <a href="https://arstechnica.com/" target="_blank">Ars Technica</a>
+    </li>
+    <li class="list-group-item">
+<i class="fas fa-link"></i> 
+      <a href="https://rpgbot.net/" target="_blank">RPGBOT</a>
+    </li>
+    <li class="list-group-item">
+<i class="fas fa-link"></i> 
+      <a href="https://automatetheboringstuff.com/" target="_blank">Automate the Boring Stuff with Python</a>
+    </li>
+  </ul>
+</li>
+<!-- End Sidebar/Links -->
+
+  <!-- Show source -->
+<li class="list-group-item">
+  <h4>
+    <a href="http://127.0.0.1:8000/posts/2016/05/featuretest1.txt"><i class="fas fa-code fa-lg"></i><span class="icon-label">Show Source</span></a>
+  </h4>
+</li>
+  <!-- End Show source -->
+
             </ul>
           </section>
       </aside>
@@ -666,10 +771,10 @@ regnat mihi, vel mutua Ossaque.</p>
          <div class="col-xs-10">&copy; 2020 Brian Levin
 &middot; Come for the steak, stay for the learning!                &middot; <a href="/pages/sausage.html"> About This Site</a>
               <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
-    Content
+    &quot;<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Nine Ten Levins</span>&quot; by <a xmlns:cc="http://creativecommons.org/ns#" href="http://127.0.0.1:8000" property="cc:attributionName" rel="cc:attributionURL">Brian Levin</a> is
   licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>, except where indicated otherwise.
 </small>
-            <br><small class="tiny">Powered by <a href="https://getbootstrap.com/">Boostrap 4</a> &amp; <a href="https://github.com/getpelican/pelican">Pelican</a>. Theme Created by <a href="https://github.com/bnice5000">Brian Levin</a></small></p>
+            <br><small class="tiny">Powered by <a href="https://getbootstrap.com/">Boostrap 4</a> &amp; <a href="https://github.com/getpelican/pelican">Pelican</a>. Based on the <a href=https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3>Pelican-Bootstrap3</a> Theme. Theme Created by <a href="https://github.com/bnice5000">Brian Levin</a></small></p>
          </div>
          <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
       </div>
@@ -683,7 +788,16 @@ regnat mihi, vel mutua Ossaque.</p>
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 
+<!-- Highlight.JS -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
 
+<!-- Theme Specific JS -->
+<script src="http://127.0.0.1:8000/theme/js/theme.js"></script>
+
+
+
+
+<!-- Addes support for pelican_javascript -->
 
 
 </body>

@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Feature Test 2 - Nine Ten Levins</title>
+    <title>Feature Test 2 - Extensions - Nine Ten Levins</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://ninetenlevins.com/theme/images/apple-touch-icon.png" rel="icon">
-    <link rel="apple-touch-icon" href="https://ninetenlevins.com/theme/images/apple-touch-icon.png">
+    <link href="http://127.0.0.1:8000/theme/images/apple-touch-icon.png" rel="icon">
+    <link rel="apple-touch-icon" href="http://127.0.0.1:8000/theme/images/apple-touch-icon.png">
 
-<link rel="canonical" href="https://ninetenlevins.com/posts/2019/05/featuretest2.html">
+<link rel="canonical" href="http://127.0.0.1:8000/posts/2019/05/featuretest2.html">
 
         <meta name="author" content="Brian Levin" />
-        <meta name="description" content="This is a photo gallery test article." />
+        <meta name="keywords" content="Test" />
+        <meta name="description" content="This tests the of extensions the theme natively will support." />
+
+    <!-- MathJax Support NOTE: MathJax really really prefers to be loaded into the head.
+         https://docs.mathjax.org/en/latest/web/start.html  -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="http://127.0.0.1:8000/theme/js/mathjax_startup.js"></script>
 
 
-
-    <!-- CDN Libraries -->
+    <!-- CDN CSS Libraries -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/united/bootstrap.min.css" type="text/css"/>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pygments-css@1.0.0/native.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <style>
       body{ font-family: 'Ubuntu', sans-serif;}
     </style>
 
     <!-- Local Libraries -->
-    <link rel="stylesheet" href="https://ninetenlevins.com/theme/css/tipuesearch.css">
-    <link rel="stylesheet" href="https://ninetenlevins.com/theme/css/typogrify.css">
-    <link rel="stylesheet" href="https://ninetenlevins.com/theme/css/style.css" type="text/css"/>
-    <link rel="stylesheet"  href="https://ninetenlevins.com/theme/css/custom.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/theme/css/tipuesearch.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/theme/css/typogrify.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/theme/css/style.css" type="text/css"/>
 
-        <link href="https://ninetenlevins.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+        <link href="http://127.0.0.1:8000/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
               title="Nine Ten Levins ATOM Feed"/>
 
-        <link href="https://ninetenlevins.com/feeds/all.rss.xml" type="application/rss+xml" rel="alternate"
+        <link href="http://127.0.0.1:8000/feeds/all.rss.xml" type="application/rss+xml" rel="alternate"
               title="Nine Ten Levins RSS Feed"/>
-        <link href="https://ninetenlevins.com/feeds/test.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Nine Ten Levins Test ATOM Feed"/>
+        <link href="http://127.0.0.1:8000/feeds/wip.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Nine Ten Levins WIP ATOM Feed"/>
 </head>
 <body>
 
@@ -48,28 +53,28 @@
         <button class="navbar-toggler collapsed " type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon "></span>
         </button>
-      <a href="https://ninetenlevins.com/" class="navbar-brand">
-<img class="img-responsive pull-left gap-right" src="https://ninetenlevins.com/theme/images/apple-touch-icon-57x57.png" width="24"/> Nine Ten Levins      </a>
+      <a href="http://127.0.0.1:8000/" class="navbar-brand">
+<img class="img-responsive pull-left gap-right" src="http://127.0.0.1:8000/theme/images/apple-touch-icon-57x57.png" width="24"/> Nine Ten Levins      </a>
     </div>
     <div class="navbar-collapse collapse" id="navbarColor01" style="">
       <ul class="navbar-nav navbar-nav ml-auto">
                    <li class="nav-item ">
-                     <a class="nav-link" href="https://ninetenlevins.com/pages/sausage.html">
+                     <a class="nav-link" href="http://127.0.0.1:8000/pages/sausage.html">
                        <i class="fas fa-scroll"></i> The&nbsp;Sausage
                     </a></li>
             <li class="nav-item ">
-              <a class="nav-link" href="https://ninetenlevins.com/categories.html">
-                <i class="fa fa-th-list"></i> Categories
+              <a class="nav-link" href="http://127.0.0.1:8000/categories.html">
+                <i class="fas fa-layer-group"></i> Categories
               </a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="https://ninetenlevins.com/tags.html">
+              <a class="nav-link" href="http://127.0.0.1:8000/tags.html">
                 <i class="fa fa-tags"></i> Tags
               </a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="https://ninetenlevins.com/archives.html">
-                <i class="fa fa-list"></i> Archives
+              <a class="nav-link" href="http://127.0.0.1:8000/archives.html">
+                <i class="fas fa-archive"></i> Archives
               </a>
             </li>
       </ul>
@@ -93,372 +98,215 @@
           <!-- Content -->
     <div class="col-sm-9 col-sm-push-3" >
 <ul class="breadcrumb">
-  <li><a href="https://ninetenlevins.com" title="Nine Ten Levins"><span class="fa fa-home fa-lg"></span></a></li>
+  <li><a href="http://127.0.0.1:8000" title="Nine Ten Levins"><span class="fa fa-home fa-lg"></span></a></li>
   <li> / </li>
-  <li class="active">Feature Test&nbsp;2</li>
+  <li class="active">Feature Test 2 -&nbsp;Extensions</li>
 </ul>
         <main>
     <section id="content">
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="https://ninetenlevins.com/posts/2019/05/featuretest2.html"
+                    <a href="http://127.0.0.1:8000/posts/2019/05/featuretest2.html"
                        rel="bookmark"
-                       title="Permalink to Feature Test 2">
-                        Feature Test&nbsp;2
+                       title="Permalink to Feature Test 2 - Extensions">
+                        Feature Test 2 -&nbsp;Extensions
                     </a>
                 </h1>
             </header>
             <div class="entry-content">
                 <div class="panel">
                     <div class="panel-body">
-<footer class="post-info">
-    <span class="label label-default">Date</span>
+<footer class="post-info text-secondary">
     <span class="published">
         <i class="fa fa-calendar"></i><time datetime="2019-05-23T22:06:00-04:00"> 23 May 2019</time>
     </span>
+    &vert;
+      <span class="label label-default">Updated on </span>
+        <span class="modified">
+            <i class="fa fa-calendar"></i><time datetime="2019-05-23T22:06:00-04:00"> 23 May 2019</time>
+        </span>
 
+      &vert;
+      <span class="label label-default">By</span>
+      <a href="http://127.0.0.1:8000/author/brian-levin.html"><i class="fa fa-user"></i> Brian Levin</a>
 
+      &vert;
+      <span class="label label-default">Category</span>
+      <a href="http://127.0.0.1:8000/category/wip.html">WIP</a>
 
+      &vert; <span class="label label-default">Tags</span>
+	<a href="http://127.0.0.1:8000/tag/test.html">Test</a>
 
+      <br>
+      <span class="label label-default">Series</span>
+      Part 2 of Feature Test
 
-
-      <h1 class='toc'>Table of Contents</h1>
-      <nav class="toc">
-        <div class="toc">
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                  <h1 class='toc'>Table of Contents</h1>
+                  <nav class="toc">
+                    <div class="toc">
 <ul>
-<li><a href="#markdown-syntax">Markdown: Syntax</a><ul>
-<li><a href="#overview">Overview</a><ul>
-<li><a href="#philosophy">Philosophy</a></li>
+<li><a href="#markdown-extensions-syntax">Markdown Extensions: Syntax</a><ul>
+<li><a href="#python-markdown-extensions">Python Markdown Extensions</a><ul>
+<li><a href="#abbreviations">Abbreviations</a></li>
+<li><a href="#admonition">Admonition</a></li>
+<li><a href="#attribute-lists">Attribute Lists</a><ul>
+<li><a href="#hash">H6 Attr Test</a></li>
 </ul>
 </li>
-<li><a href="#block-elements">Block Elements</a><ul>
-<li><a href="#paragraphs-and-line-breaks">Paragraphs and Line Breaks</a></li>
-<li><a href="#headers">Headers</a></li>
-<li><a href="#blockquotes">Blockquotes</a></li>
-</ul>
-</li>
-<li><a href="#this-is-a-header">This is a header.</a><ul>
-<li><a href="#lists">Lists</a></li>
-<li><a href="#code-blocks">Code Blocks</a></li>
-</ul>
-</li>
-<li><a href="#span-elements">Span Elements</a><ul>
-<li><a href="#links">Links</a></li>
-<li><a href="#emphasis">Emphasis</a></li>
-<li><a href="#code">Code</a></li>
+<li><a href="#definition-lists">Definition Lists</a></li>
+<li><a href="#footnotes">Footnotes</a></li>
+<li><a href="#markdown-in-html">Markdown in <span class="caps">HTML</span></a></li>
+<li><a href="#sane-lists">Sane Lists</a></li>
+<li><a href="#smartypants">SmartyPants</a></li>
+<li><a href="#tables">Tables</a><ul>
+<li><a href="#simple-table">Simple Table</a></li>
+<li><a href="#complex-table">Complex Table</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#my-tests-for-plugins">My Tests for Plugins</a><ul>
-<li><a href="#better-figures-images-test">Better Figures <span class="amp">&amp;</span> Images Test</a><ul>
-<li><a href="#img-test"><span class="caps">IMG</span> Test</a></li>
-<li><a href="#figure-test-with-caption">Figure Test With Caption</a></li>
-<li><a href="#figure-html-test">Figure <span class="caps">HTML</span> Test</a></li>
-<li><a href="#img-test-with-attributes"><span class="caps">IMG</span> Test with Attributes</a></li>
-<li><a href="#table-test">Table Test</a></li>
-<li><a href="#super-fences-test-flow-test">Super Fences Test (Flow) Test</a></li>
-<li><a href="#super-fences-test-uml-test">Super Fences Test (<span class="caps">UML</span>) Test</a></li>
+<li><a href="#pymdownx-extensions">PyMDownX Extensions</a><ul>
+<li><a href="#arithmatex">Arithmatex</a></li>
+<li><a href="#betterem">BetterEm</a></li>
+<li><a href="#caret">Caret</a></li>
+<li><a href="#critic">Critic</a></li>
+<li><a href="#details">Details</a></li>
+<li><a href="#emoji">Emoji</a></li>
+<li><a href="#escape-all">Escape All</a></li>
+<li><a href="#highlight">Highlight</a></li>
+<li><a href="#inline-hilite">Inline Hilite</a></li>
+<li><a href="#keys">Keys</a></li>
+<li><a href="#magiclink">MagicLink</a></li>
+<li><a href="#mark">Mark</a></li>
+<li><a href="#progressbar">ProgressBar</a></li>
+<li><a href="#smartsymbols">SmartSymbols</a></li>
+<li><a href="#snippets">Snippets</a></li>
+<li><a href="#superfences">Superfences</a></li>
+<li><a href="#tabbed">Tabbed</a></li>
+<li><a href="#tasklist">Tasklist</a></li>
+<li><a href="#tilde">Tilde</a></li>
 </ul>
 </li>
-<li><a href="#iacet-mensum-duxere-adludit-et-ille-decipit">Iacet mensum duxere adludit et ille decipit</a></li>
+<li><a href="#markdown-fig-cap-extension">Markdown Fig-cap Extension</a></li>
 </ul>
 </li>
 </ul>
 </div>
-      </nav>
-
-</footer><!-- /.post-info -->                    </div>
-                </div>
+                  </nav>
                 
-<h1 id="markdown-syntax">Markdown: Syntax</h1>
+<h1 id="markdown-extensions-syntax">Markdown Extensions: Syntax</h1>
+<p><strong>Note:</strong> This document is itself written using the python Markdown library extensions syntax. You can <a href="./featuretest2.txt">see the source for it by adding ‘.txt’ to the <span class="caps">URL</span></a>.</p>
 <hr/>
-<h2 id="overview">Overview</h2>
-<h3 id="philosophy">Philosophy</h3>
-<p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</p>
-<p>Readability, however, is emphasized above all else. A Markdown-formatted
-document should be publishable as-is, as plain text, without looking
-like it’s been marked up with tags or formatting instructions. While
-Markdown’s syntax has been influenced by several existing text-to-<span class="caps">HTML</span>
-filters – including <a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a>, <a href="http://www.aaronsw.com/2002/atx/">atx</a>, <a href="http://textism.com/tools/textile/">Textile</a>, <a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>,
-<a href="http://www.triptico.com/software/grutatxt.html">Grutatext</a>, and <a href="http://ettext.taint.org/doc/">EtText</a> – the single biggest source of
-inspiration for Markdown’s syntax is the format of plain text email.</p>
-<h2 id="block-elements">Block Elements</h2>
-<h3 id="paragraphs-and-line-breaks">Paragraphs and Line Breaks</h3>
-<p>A paragraph is simply one or more consecutive lines of text, separated
-by one or more blank lines. (A blank line is any line that looks like a
-blank line – a line containing nothing but spaces or tabs is considered
-blank.) Normal paragraphs should not be indented with spaces or tabs.</p>
-<p>The implication of the “one or more consecutive lines of text” rule is
-that Markdown supports “hard-wrapped” text paragraphs. This differs
-significantly from most other text-to-<span class="caps">HTML</span> formatters (including Movable
-Type’s “Convert Line Breaks” option) which translate every line break
-character in a paragraph into a <code>&lt;br /&gt;</code> tag.</p>
-<p>When you <em>do</em> want to insert a <code>&lt;br /&gt;</code> break tag using Markdown, you
-end a line with two or more spaces, then type return.</p>
-<h3 id="headers">Headers</h3>
-<p>Markdown supports two styles of headers, [Setext] [1] and [atx] [2].</p>
-<p>Optionally, you may “close” atx-style headers. This is purely
-cosmetic – you can use this if you think it looks better. The
-closing hashes don’t even need to match the number of hashes
-used to open the header. (The number of opening hashes
-determines the header level.)</p>
-<h3 id="blockquotes">Blockquotes</h3>
-<p>Markdown uses email-style <code>&gt;</code> characters for blockquoting. If you’re
-familiar with quoting passages of text in an email message, then you
-know how to create a blockquote in Markdown. It looks best if you hard
-wrap the text and put a <code>&gt;</code> before every line:</p>
-<blockquote>
-<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
-<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-id sem consectetuer libero luctus adipiscing.</p>
-</blockquote>
-<p>Markdown allows you to be lazy and only put the <code>&gt;</code> before the first
-line of a hard-wrapped paragraph:</p>
-<blockquote>
-<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
-<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-id sem consectetuer libero luctus adipiscing.</p>
-</blockquote>
-<p>Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by
-adding additional levels of <code>&gt;</code>:</p>
-<blockquote>
-<p>This is the first level of quoting.</p>
-<blockquote>
-<p>This is nested blockquote.</p>
-</blockquote>
-<p>Back to the first level.</p>
-</blockquote>
-<p>Blockquotes can contain other Markdown elements, including headers, lists,
-and code blocks:</p>
-<blockquote>
-<h2 id="this-is-a-header">This is a header.</h2>
+<h2 id="python-markdown-extensions">Python Markdown Extensions</h2>
+<h3 id="abbreviations">Abbreviations</h3>
+<p>The <abbr title="Hyper Text Markup Language"><span class="caps">HTML</span></abbr> specification<br/>
+is maintained by the <abbr title="World Wide Web Consortium"><span class="caps">W3C</span></abbr>.</p>
+<h3 id="admonition">Admonition</h3>
+<div class="admonition alert-info">
+<p class="admonition-title">optional explicit title within double quotes</p>
+<p>Any number of other indented markdown elements.</p>
+<p>This is the second paragraph.</p>
+</div>
+<div class="admonition alert-danger">
+<p class="admonition-title">Alert-danger</p>
+<p>You should note that the title will be automatically capitalized.</p>
+</div>
+<div class="admonition alert-success">
+<p class="admonition-title">Don’t try this at home</p>
+<p>…  </p>
+</div>
+<div class="admonition alert-primary">
+<p>This is an admonition box without a title. </p>
+</div>
+<div class="admonition alert-secondary">
+<p class="admonition-title">Don’t try this at home</p>
+<p>… </p>
+</div>
+<h3 id="attribute-lists">Attribute Lists</h3>
+<p class="text-muted" id="shhh">This is a paragraph.<br/></p>
+<h6 class="text-primary" id="hash">H6 Attr Test</h6>
+<p><a class="text-info" href="http://ninetenlevins.com" title="Some title!">Attr Test Link</a></p>
+<h3 id="definition-lists">Definition Lists</h3>
+<dl>
+<dt>Apple</dt>
+<dd>Pomaceous fruit of plants of the genus Malus in<br/>
+  the family Rosaceae.</dd>
+<dt>Orange</dt>
+<dd>The fruit of an evergreen tree of the genus Citrus.</dd>
+</dl>
+<h3 id="footnotes">Footnotes</h3>
+<p>Footnotes<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> have a label<sup id="fnref:@#$%"><a class="footnote-ref" href="#fn:@#$%">2</a></sup> and the footnote’s content<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">3</a></sup>.</p>
+<h3 id="markdown-in-html">Markdown in <abbr title="Hyper Text Markup Language"><span class="caps">HTML</span></abbr></h3>
+<p>This is <em>true</em> markdown text.</p>
+<div>
+<p>This is <em>true</em> markdown text.</p>
+</div>
+<div name="Example">
+<p>The text of the <code>Example</code> element.</p>
+<div name="DefaultBlockMode">
+<p>This text gets wrapped in <code>p</code> tags.</p>
+</div>
+<p>The tail of the <code>DefaultBlockMode</code> subelement.</p>
+<p name="DefaultSpanMode"><br/>
+This text <em>is not</em> wrapped in additional <code>p</code> tags.</p>
+<p>The tail of the <code>DefaultSpanMode</code> subelement.</p>
+<div name="SpanModeOverride"><br/>
+This <code>div</code> block is not wrapped in paragraph tags.<br/>
+Note: Subelements are not required to have tail text.</div>
+<p name="BlockModeOverride">
+<p>This <code>p</code> block <em>is</em> foolishly wrapped in further paragraph tags.</p>
+</p>
+<p>The tail of the <code>BlockModeOverride</code> subelement.</p>
+<div name="RawHtml">
+Raw <span class="caps">HTML</span> blocks may also be nested.
+</div>
+</div>
+<p>This text is after the markdown in <abbr title="Hyper Text Markup Language"><span class="caps">HTML</span></abbr>.</p>
+<h3 id="sane-lists">Sane Lists</h3>
 <ol>
-<li>This is the first list item.</li>
-<li>This is the second list item.</li>
+<li>Ordered item 1</li>
+<li>Ordered item 2</li>
 </ol>
-<p>Here’s some example code:</p>
-<div class="highlight"><pre><span></span><code><span class="err">return shell_exec("echo $input | $markdown_script");</span>
-</code></pre></div>
-</blockquote>
-<p>Any decent text editor should make email-style quoting easy. For
-example, with BBEdit, you can make a selection and choose Increase
-Quote Level from the Text menu.</p>
-<h3 id="lists">Lists</h3>
-<p>Markdown supports ordered (numbered) and unordered (bulleted) lists.</p>
-<p>Unordered lists use asterisks, pluses, and hyphens – interchangably
-– as list markers:</p>
 <ul>
-<li>Red</li>
-<li>Green</li>
-<li>Blue</li>
+<li>Unordered item 1</li>
+<li>Unordered item 2</li>
 </ul>
-<p>is equivalent to:</p>
-<ul>
-<li>Red</li>
-<li>Green</li>
-<li>Blue</li>
-</ul>
-<p>and:</p>
-<ul>
-<li>Red</li>
-<li>Green</li>
-<li>Blue</li>
-</ul>
-<p>Ordered lists use numbers followed by periods:</p>
-<ol>
-<li>Bird</li>
-<li>McHale</li>
-<li>Parish</li>
+<ol start="3">
+<li>Apples</li>
+<li>Oranges</li>
+<li>Pears</li>
 </ol>
-<p>It’s important to note that the actual numbers you use to mark the
-list have no effect on the <span class="caps">HTML</span> output Markdown produces. The <span class="caps">HTML</span>
-Markdown produces from the above list is:</p>
-<p>If you instead wrote the list in Markdown like this:</p>
-<ol>
-<li>Bird</li>
-<li>McHale</li>
-<li>Parish</li>
-</ol>
-<p>or even:</p>
-<ol>
-<li>Bird</li>
-<li>McHale</li>
-<li>Parish</li>
-</ol>
-<p>you’d get the exact same <span class="caps">HTML</span> output. The point is, if you want to,
-you can use ordinal numbers in your ordered Markdown lists, so that
-the numbers in your source match the numbers in your published <span class="caps">HTML</span>.
-But if you want to be lazy, you don’t have to.</p>
-<p>To make lists look nice, you can wrap items with hanging indents:</p>
-<ul>
-<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-    viverra nec, fringilla in, laoreet vitae, risus.</li>
-<li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-    Suspendisse id sem consectetuer libero luctus adipiscing.</li>
-</ul>
-<p>But if you want to be lazy, you don’t have to:</p>
-<ul>
-<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-viverra nec, fringilla in, laoreet vitae, risus.</li>
-<li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-Suspendisse id sem consectetuer libero luctus adipiscing.</li>
-</ul>
-<p>List items may consist of multiple paragraphs. Each subsequent
-paragraph in a list item must be indented by either 4 spaces
-or one tab:</p>
-<ol>
-<li>
-<p>This is a list item with two paragraphs. Lorem ipsum dolor
-    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-    mi posuere lectus.</p>
-<p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-sit amet velit.</p>
-</li>
-<li>
-<p>Suspendisse id sem consectetuer libero luctus adipiscing.</p>
-</li>
-</ol>
-<p>It looks nice if you indent every line of the subsequent
-paragraphs, but here again, Markdown will allow you to be lazy:</p>
-<ul>
-<li>
-<p>This is a list item with two paragraphs.</p>
-<p>This is the second paragraph in the list item. You’re
-only required to indent the first line. Lorem ipsum dolor
-sit amet, consectetuer adipiscing elit.</p>
-</li>
-<li>
-<p>Another item in the same list.</p>
-</li>
-</ul>
-<p>To put a blockquote within a list item, the blockquote’s <code>&gt;</code>
-delimiters need to be indented:</p>
-<ul>
-<li>
-<p>A list item with a blockquote:</p>
-<blockquote>
-<p>This is a blockquote
-inside a list item.</p>
-</blockquote>
-</li>
-</ul>
-<p>To put a code block within a list item, the code block needs
-to be indented <em>twice</em> – 8 spaces or two tabs:</p>
-<ul>
-<li>A list item with a code block:<div class="highlight"><pre><span></span><code><span class="err">&lt;code goes here&gt;</span>
-</code></pre></div>
-</li>
-</ul>
-<h3 id="code-blocks">Code Blocks</h3>
-<p>Pre-formatted code blocks are used for writing about programming or
-markup source code. Rather than forming normal paragraphs, the lines
-of a code block are interpreted literally. Markdown wraps a code block
-in both <code>&lt;pre&gt;</code> and <code>&lt;code&gt;</code> tags.</p>
-<p>To produce a code block in Markdown, simply indent every line of the
-block by at least 4 spaces or 1 tab.</p>
-<p>This is a normal paragraph:</p>
-<div class="highlight"><pre><span></span><code><span class="err">This is a code block.</span>
-</code></pre></div>
-<p>Here is an example of AppleScript:</p>
-<div class="highlight"><pre><span></span><code><span class="err">tell application "Foo"</span>
-<span class="err">    beep</span>
-<span class="err">end tell</span>
-</code></pre></div>
-<p>A code block continues until it reaches a line that is not indented
-(or the end of the article).</p>
-<p>Within a code block, ampersands (<code>&amp;</code>) and angle brackets (<code>&lt;</code> and <code>&gt;</code>)
-are automatically converted into <span class="caps">HTML</span> entities. This makes it very
-easy to include example <span class="caps">HTML</span> source code using Markdown – just paste
-it and indent it, and Markdown will handle the hassle of encoding the
-ampersands and angle brackets. For example, this:</p>
-<div class="highlight"><pre><span></span><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"footer"</span><span class="nt">&gt;</span>
-    <span class="ni">&amp;copy;</span> 2004 Foo Corporation
-<span class="nt">&lt;/div&gt;</span>
-</code></pre></div>
-<p>Regular Markdown syntax is not processed within code blocks. E.g.,
-asterisks are just literal asterisks within a code block. This means
-it’s also easy to use Markdown to write about Markdown’s own syntax.</p>
-<div class="highlight"><pre><span></span><code>tell application "Foo"
-    beep
-end tell
-</code></pre></div>
-<h2 id="span-elements">Span Elements</h2>
-<h3 id="links">Links</h3>
-<p>Markdown supports two style of links: <em>inline</em> and <em>reference</em>.</p>
-<p>In both styles, the link text is delimited by [square brackets].</p>
-<p>To create an inline link, use a set of regular parentheses immediately
-after the link text’s closing square bracket. Inside the parentheses,
-put the <span class="caps">URL</span> where you want the link to point, along with an <em>optional</em>
-title for the link, surrounded in quotes. For example:</p>
-<p>This is <a href="http://example.com/">an example</a> inline link.</p>
-<p><a href="http://example.net/">This link</a> has no title attribute.</p>
-<h3 id="emphasis">Emphasis</h3>
-<p>Markdown treats asterisks (<code>*</code>) and underscores (<code>_</code>) as indicators of
-emphasis. Text wrapped with one <code>*</code> or <code>_</code> will be wrapped with an
-<span class="caps">HTML</span> <code>&lt;em&gt;</code> tag; double <code>*</code><span class="quo">‘</span>s or <code>_</code><span class="quo">‘</span>s will be wrapped with an <span class="caps">HTML</span>
-<code>&lt;strong&gt;</code> tag. E.g., this input:</p>
-<p><em>single asterisks</em></p>
-<p><em>single underscores</em></p>
-<p><strong>double asterisks</strong></p>
-<p><strong>double underscores</strong></p>
-<h3 id="code">Code</h3>
-<p>To indicate a span of code, wrap it with backtick quotes (<code>`</code>).
-Unlike a pre-formatted code block, a code span indicates code within a
-normal paragraph. For example:</p>
-<p>Use the <code>printf()</code> function.</p>
-<h1 id="my-tests-for-plugins">My Tests for Plugins</h1>
-<p><a href="https://ninetenlevins.com/pages/sausage.html">Sausage</a></p>
-<h2 id="better-figures-images-test">Better Figures <span class="amp">&amp;</span> Images Test</h2>
-<h3 id="img-test"><span class="caps">IMG</span> Test</h3>
-<p><img alt="Test Photo" src="{photo}/testgallery/IMG_0264.jpg"/></p>
-<h3 id="figure-test-with-caption">Figure Test With Caption</h3>
-<p><img alt="Test Photo" caption="Love the photo!" src="{photo}testgallery/IMG_0264.jpg" type="figure"/></p>
-<h3 id="figure-html-test">Figure <span class="caps">HTML</span> Test</h3>
-<p><figure>
-<img alt="some alt text" src="{photo}20160524_test_entry.png">
-<figcaption>This is a test.</figcaption>
-</img></figure></p>
-<p>Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
-illuc. Candore Phrygiae misereri vaccam: nec
-<a href="http://reddit.com/r/thathappened">mihi</a>, putes eveniet nescius, caede
-<em>tepentibus Titan</em>, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque <strong>fulgentem</strong> fecere vicimus manu mearum; exiguo.</p>
-<h3 id="img-test-with-attributes"><span class="caps">IMG</span> Test with Attributes</h3>
-<p><img alt="Test Photo" class="pull-left gap-right" src="{photo}20160524_test_entry.png"/></p>
-<p>Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
-illuc. Candore Phrygiae misereri vaccam: nec
-<a href="http://reddit.com/r/thathappened">mihi</a>, putes eveniet nescius, caede
-<em>tepentibus Titan</em>, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque <strong>fulgentem</strong> fecere vicimus manu mearum; exiguo.</p>
-<p>Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
-bella et sive? Inrupit capreisque, loquor nostroque <strong>lacusque</strong> iram de
-obstipuit, Smilace sine.  </p>
-<p>Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
-illuc. Candore Phrygiae misereri vaccam: nec
-<a href="http://reddit.com/r/thathappened">mihi</a>, putes eveniet nescius, caede
-<em>tepentibus Titan</em>, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque <strong>fulgentem</strong> fecere vicimus manu mearum; exiguo.</p>
-<p>Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
-bella et sive? Inrupit capreisque, loquor nostroque <strong>lacusque</strong> iram de
-obstipuit, Smilace sine.  </p>
-<p>Ante iaculum de nulla magna et sola munere quae manu, longe utque; ut curvavit
-illuc. Candore Phrygiae misereri vaccam: nec
-<a href="http://reddit.com/r/thathappened">mihi</a>, putes eveniet nescius, caede
-<em>tepentibus Titan</em>, nihil. Est tuo iacentia oneratur tendere gravitate gemellos,
-iniquae pede quoque <strong>fulgentem</strong> fecere vicimus manu mearum; exiguo.</p>
-<p>Rerum dea credunt, tu multifidasque et dixit munus sidere Indis venire virgo
-bella et sive? Inrupit capreisque, loquor nostroque <strong>lacusque</strong> iram de
-obstipuit, Smilace sine.  </p>
-<h3 id="table-test">Table Test</h3>
+<h3 id="smartypants">SmartyPants</h3>
+<p><span class="quo">‘</span>Text in single quotes.’<br/>
+“Text in double quotes.”<br/>
+«Text in french quotes»<br/>
+Text with an ellipsis…<br/>
+– Text that starts with and en dash.<br/>
+— Text that starts with an em dash.</p>
+<h3 id="tables">Tables</h3>
+<h4 id="simple-table">Simple Table</h4>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+<h4 id="complex-table">Complex Table</h4>
 <table>
 <thead>
 <tr>
@@ -469,8 +317,8 @@ obstipuit, Smilace sine.  </p>
 </thead>
 <tbody>
 <tr>
-<td>col 3 is</td>
-<td align="center">right-aligned</td>
+<td>col 1 is</td>
+<td align="center">left-aligned</td>
 <td align="right">$1600</td>
 </tr>
 <tr>
@@ -479,76 +327,452 @@ obstipuit, Smilace sine.  </p>
 <td align="right">$12</td>
 </tr>
 <tr>
-<td>zebra stripes</td>
-<td align="center">are neat</td>
+<td>col 3 is</td>
+<td align="center">right-aligned</td>
 <td align="right">$1</td>
 </tr>
 </tbody>
 </table>
-<h3 id="super-fences-test-flow-test">Super Fences Test (Flow) Test</h3>
-<div class="highlight"><pre><span></span><code>st=&gt;start: Start:&gt;http://www.google.com[blank]
-e=&gt;end:&gt;http://www.google.com
-op1=&gt;operation: My Operation
-sub1=&gt;subroutine: My Subroutine
-cond=&gt;condition: Yes
-or No?:&gt;http://www.google.com
-io=&gt;inputoutput: catch something...
+<h2 id="pymdownx-extensions">PyMDownX Extensions</h2>
+<p>Please see the <a href="https://facelessuser.github.io/pymdown-extensions/">PyMDownX</a> documentation for more information about how these examples work.</p>
+<h3 id="arithmatex">Arithmatex</h3>
+<p><em>*</em>I was not able to get this module to work correctly. Instead see inlinehilite and superfences.</p>
+<h3 id="betterem">BetterEm</h3>
+<ul>
+<li>Won’t highlight *</li>
+</ul>
+<p><em>Will highlight</em></p>
+<p><strong><em>I’m italic and bold</em> I am just bold.</strong></p>
+<p><em><strong>I’m bold and italic!</strong> I am just italic.</em></p>
+<p><strong><em>A lot of underscores____________is okay</em></strong></p>
+<p><strong><em>A lot of underscores____________is okay</em></strong></p>
+<p><strong>This will all be bold __because of the placement of the center underscores.</strong></p>
+<p><strong>This will all be bold __ because of the placement of the center underscores.</strong></p>
+<p><strong>This will <span class="caps">NOT</span> all be bold</strong> because of the placement of the center underscores.__</p>
+<p><strong>This will all be bold_ because of the token is less than that of the surrounding.</strong></p>
+<p><em>All will * be italic</em></p>
+<p><em>All will *be italic</em></p>
+<p><em>All will not</em> be italic*</p>
+<p><em>All will not *</em> be italic*</p>
+<p><strong>All will * be bold</strong></p>
+<p><strong>All will *be bold</strong></p>
+<p><strong>All will not</strong>* be bold**</p>
+<p><strong>All will not *</strong> be bold**</p>
+<h3 id="caret">Caret</h3>
+<p><ins>Insert me</ins></p>
+<p>H<sup>2</sup>0</p>
+<p>text<sup>a superscript</sup></p>
+<h3 id="critic">Critic</h3>
+<p>Here is some <del class="critic"><em>incorrect</em></del> Markdown.  I am adding this<ins class="critic"> here</ins>.  Here is some more <del class="critic">text<br/>
+ that I am removing</del>text.  And here is even more <ins class="critic">text that I <br/>
+ am </ins>adding.<del class="critic break"> </del><ins class="critic"> </ins>Paragraph was deleted and replaced with some spaces.<del class="critic"> </del></p>
+<ins class="critic break"> </ins>
+<p>Spaces were removed and a paragraph was added.</p>
+<p>And here is a comment on <mark class="critic">some<br/>
+ text</mark><span class="critic comment">This works quite well. I just wanted to comment on it.</span>. Substitutions <del class="critic">is</del><ins class="critic">are</ins> great!</p>
+<p>General block handling.</p>
+<del class="critic block">
+<ul>
+<li>test remove</li>
+<li>test remove</li>
+<li>test remove<ul>
+<li>test remove</li>
+</ul>
+</li>
+<li>test remove</li>
+</ul>
+</del>
+<ins class="critic block">
+<ul>
+<li>test add</li>
+<li>test add</li>
+<li>test add<ul>
+<li>test add</li>
+</ul>
+</li>
+<li>test add</li>
+</ul>
+</ins>
+<p>Here is some <del class="critic"><em>incorrect</em></del> Markdown.  I am adding this<ins class="critic"> here</ins>.  Here is some more <del class="critic">text<br/>
+ that I am removing</del>text.  And here is even more <ins class="critic">text that I <br/>
+ am </ins>adding.<del class="critic break"> </del><ins class="critic"> </ins>Paragraph was deleted and replaced with some spaces.<del class="critic"> </del></p>
+<ins class="critic break"> </ins>
+<p>Spaces were removed and a paragraph was added.</p>
+<p>And here is a comment on <mark class="critic">some text</mark><span class="critic comment">This works quite well. I just wanted to comment on it.</span>. Substitutions <del class="critic">is</del><ins class="critic">are</ins> great!</p>
+<p>General block handling.</p>
+<del class="critic block">
+<ul>
+<li>test remove</li>
+<li>test remove</li>
+<li>test remove<ul>
+<li>test remove</li>
+</ul>
+</li>
+<li>test remove</li>
+</ul>
+</del>
+<ins class="critic block">
+<ul>
+<li>test add</li>
+<li>test add</li>
+<li>test add<ul>
+<li>test add</li>
+</ul>
+</li>
+<li>test add</li>
+</ul>
+</ins>
+<h3 id="details">Details</h3>
+<details class="note" open=""><summary>Open styled details</summary><details class="danger"><summary>Nested details!</summary><p>And more content again.</p>
+</details>
+</details>
+<details class="success"><summary>Success</summary><p>Content.</p>
+</details>
+<details class="warning classes"><summary>Warning</summary><p>Content.</p>
+</details>
+<h3 id="emoji">Emoji <img align="absmiddle" alt=":smile:" class="gemoji" height="20px" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" title=":smile:" width="20px"/></h3>
+<p><img align="absmiddle" alt=":smile:" class="gemoji" height="20px" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" title=":smile:" width="20px"/> <img align="absmiddle" alt=":heart:" class="gemoji" height="20px" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" title=":heart:" width="20px"/> <img align="absmiddle" alt=":thumbsup:" class="gemoji" height="20px" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" title=":thumbsup:" width="20px"/></p>
+<p>This is emoji inline: <img align="absmiddle" alt=":octocat:" class="gemoji" height="20px" src="https://github.githubassets.com/images/icons/emoji/octocat.png" title=":octocat:" width="20px"/></p>
+<h3 id="escape-all">Escape All</h3>
+<p>We can escape<br/>
+everything! ❤😄</p>
+<h3 id="highlight">Highlight</h3>
+<p><code class="lang language-python">print('Hello World')</code></p>
+<p>Here is some code: <code class="lang language-py">import pymdownx; pymdownx.__version__</code></p>
+<p>The mock shebang will be treated like text here:<code>#!js var test = 0;</code>.</p>
+<h3 id="inline-hilite">Inline Hilite</h3>
+<p>This is <span class="caps">JS</span> Highlite code<br/>
+<code class="lang language-php">$a = array("foo" =&gt; 0, "bar" =&gt; 1);</code></p>
+<p>This is the Math Custom Filter</p>
+<p>This is an inline example: <script type="math/tex; mode=display">p(x|y) = \frac{p(y|x)p(x)}{p(y)}</script></p>
+<script type="math/tex; mode=display">p(x|y) = \frac{p(y|x)p(x)}{p(y)} (p(x|y) = \frac{p(y|x)p(x)}{p(y)}).</script>
+<p>This is the FontAwesome custom Filter<br/>
+Chanukah: <i class="fas fa-hanukiah"></i></p>
+<p>Cameras: <i class="fa fa-camera-retro"></i> <i class="fa fa-camera-retro fa-lg"></i> <i class="fa fa-camera-retro fa-2x"></i> <i class="fa fa-camera-retro fa-3x"></i> <i class="fa fa-camera-retro fa-4x"></i> <i class="fa fa-camera-retro fa-5x"></i> <i class="fa fa-camera-retro fa-6x"></i> <i class="fa fa-camera-retro fa-7x"></i></p>
+<blockquote>
+<p><i class="fa fa-quote-left fa-3x fa-pull-left"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</blockquote>
+<h3 id="keys">Keys</h3>
+<p><span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-alt">Alt</kbd><span>+</span><kbd class="key-delete">Del</kbd></span></p>
+<p><span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-alt">Alt</kbd><span>+</span><kbd>My Special Key</kbd></span></p>
+<p><span class="keys"><kbd class="key-command">Cmd</kbd><span>+</span><kbd class="key-alt">Alt</kbd><span>+</span><kbd>Ü</kbd></span></p>
+<h3 id="magiclink">MagicLink</h3>
+<ul>
+<li>Just paste links directly in the document like this: <a href="https://google.com">https://google.com</a>.</li>
+<li>Or even an email address: <a href="mailto:fake.email@email.com">fake.email@email.com</a>.</li>
+</ul>
+<p><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/brian" title="GitHub User: brian">@brian</a>.g.levin</p>
+<p><a class="magiclink magiclink-twitter magiclink-mention" href="https://twitter.com/twitter" title="Twitter User: twitter">@twitter</a></p>
+<p><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/brian" title="GitHub User: brian">@brian</a>.g.levin/pymdown-extensions</p>
+<p><a class="magiclink magiclink-gitlab magiclink-repository" href="https://gitlab.com/pycqa/flake8" title="GitLab Repository: pycqa/flake8">pycqa/flake8</a></p>
+<p>Issue <a class="magiclink magiclink-github magiclink-issue" href="https://github.com/bnice5000/COVID-STATS/issues/1" title="GitHub Issue: bnice5000/COVID-STATS#1">#1</a></p>
+<p>Issue <a class="magiclink magiclink-github magiclink-issue" href="https://github.com/bnice5000/backrefs/issues/1" title="GitHub Issue: bnice5000/backrefs#1">backrefs#1</a></p>
+<p>Issue <a class="magiclink magiclink-github magiclink-issue" href="https://github.com/Python-Markdown/markdown/issues/1" title="GitHub Issue: Python-Markdown/markdown#1">Python-Markdown/markdown#1</a></p>
+<p>Issue <a class="magiclink magiclink-gitlab magiclink-issue" href="https://gitlab.com/pycqa/flake8/issues/385" title="GitLab Issue: pycqa/flake8#385">pycqa/flake8#385</a></p>
+<p>Pull request <a class="magiclink magiclink-github magiclink-pull" href="https://github.com/bnice5000/COVID-STATS/pull/13" title="GitHub Pull Request: bnice5000/COVID-STATS!13">!13</a></p>
+<p>Pull request <a class="magiclink magiclink-github magiclink-pull" href="https://github.com/bnice5000/backrefs/pull/4" title="GitHub Pull Request: bnice5000/backrefs!4">backrefs!4</a></p>
+<p>Pull request <a class="magiclink magiclink-github magiclink-pull" href="https://github.com/Python-Markdown/markdown/pull/598" title="GitHub Pull Request: Python-Markdown/markdown!598">Python-Markdown/markdown!598</a></p>
+<p>Pull request <a class="magiclink magiclink-gitlab magiclink-pull" href="https://gitlab.com/pycqa/flake8/merge_requests/213" title="GitLab Pull Request: pycqa/flake8!213">pycqa/flake8!213</a></p>
+<p><a class="magiclink magiclink-github magiclink-commit" href="https://github.com/bnice5000/COVID-STATS/commit/0094711c911ef0bc3e989483ed7c5840d2a3a463" title="GitHub Commit: bnice5000/COVID-STATS@0094711">0094711</a></p>
+<p><a class="magiclink magiclink-github magiclink-commit" href="https://github.com/bnice5000/backrefs/commit/4a41cc75cc618a8969bf0ac12d6e5c70534f8ea5" title="GitHub Commit: bnice5000/backrefs@4a41cc7">backrefs@4a41cc7</a></p>
+<p><a class="magiclink magiclink-github magiclink-commit" href="https://github.com/Python-Markdown/markdown/commit/de5c696f94e8dde242c29d4be50b7bbf3c17fedb" title="GitHub Commit: Python-Markdown/markdown@de5c696">Python-Markdown/markdown@de5c696</a></p>
+<p><a class="magiclink magiclink-gitlab magiclink-commit" href="https://gitlab.com/pycqa/flake8/commit/8acf55e0f85233c51c291816d73d828cc62d30d1" title="GitLab Commit: pycqa/flake8@8acf55e0">pycqa/flake8@8acf55e0</a></p>
+<p><a class="magiclink magiclink-github magiclink-compare" href="https://github.com/bnice5000/COVID-STATS/compare/0094711c911ef0bc3e989483ed7c5840d2a3a463...90b6fb8711e75732f987982cc024e9bb0111beac" title="GitHub Compare: bnice5000/COVID-STATS@0094711...90b6fb8">0094711…90b6fb8</a></p>
+<p><a class="magiclink magiclink-github magiclink-compare" href="https://github.com/bnice5000/backrefs/compare/88c6238a1c2cf71a96eb9abb4b0213f79d6ca81f...4a41cc75cc618a8969bf0ac12d6e5c70534f8ea5" title="GitHub Compare: bnice5000/backrefs@88c6238...4a41cc7">backrefs@88c6238…4a41cc7</a></p>
+<p><a class="magiclink magiclink-github magiclink-compare" href="https://github.com/Python-Markdown/markdown/compare/007bd2aa4c184b28f710d041a0abe78bffc0ec2e...de5c696f94e8dde242c29d4be50b7bbf3c17fedb" title="GitHub Compare: Python-Markdown/markdown@007bd2a...de5c696">Python-Markdown/markdown@007bd2a…de5c696</a></p>
+<p><a class="magiclink magiclink-gitlab magiclink-compare" href="https://gitlab.com/pycqa/flake8/compare/1ecf97005a024391fb07ad8941f4d25c4e0aae6e...9bea7576ac33a8e4f72f87ffa81dfa10256fca6e" title="GitLab Compare: pycqa/flake8@1ecf9700...9bea7576">pycqa/flake8@1ecf9700…9bea7576</a></p>
+<ul>
+<li><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/bnice5000" title="GitHub User: bnice5000">@bnice5000</a></li>
+<li><a class="magiclink magiclink-github magiclink-repository" href="https://github.com/bnice5000/COVID-STATS" title="GitHub Repository: bnice5000/COVID-STATS">bnice5000/<span class="caps">COVID</span>-<span class="caps">STATS</span></a></li>
+<li><a class="magiclink magiclink-gitlab magiclink-issue" href="https://gitlab.com/pycqa/flake8/issues/385" title="GitLab Issue: pycqa/flake8#385">pycqa/flake8#385</a></li>
+<li><a class="magiclink magiclink-bitbucket magiclink-issue" href="https://bitbucket.org/mrabarnett/mrab-regex/issues/260/extremely-slow-matching-using-ignorecase" title="Bitbucket Issue: mrabarnett/mrab-regex#260">mrabarnett/mrab-regex#260</a></li>
+</ul>
+<h3 id="mark">Mark</h3>
+<p><mark>mark me</mark></p>
+<p><mark>smart==mark</mark></p>
+<h3 id="progressbar">ProgressBar</h3>
+<p>
+<div class="progress progress-0plus">
+<div class="progress-bar" style="width:0.00%">
+<p class="progress-label">0%</p>
+</div>
+</div>
+<br/>
+<div class="progress progress-0plus">
+<div class="progress-bar" style="width:5.00%">
+<p class="progress-label">5%</p>
+</div>
+</div>
+<br/>
+<div class="progress progress-20plus">
+<div class="progress-bar" style="width:25.00%">
+<p class="progress-label">25%</p>
+</div>
+</div>
+<br/>
+<div class="progress progress-40plus">
+<div class="progress-bar" style="width:45.00%">
+<p class="progress-label">45%</p>
+</div>
+</div>
+<br/>
+<div class="progress progress-60plus">
+<div class="progress-bar" style="width:65.00%">
+<p class="progress-label">65%</p>
+</div>
+</div>
+<br/>
+<div class="progress progress-80plus">
+<div class="progress-bar" style="width:85.00%">
+<p class="progress-label">85%</p>
+</div>
+</div>
+<br/>
+<div class="progress progress-100plus">
+<div class="progress-bar" style="width:100.00%">
+<p class="progress-label">100%</p>
+</div>
+</div>
+</p>
+<p>
+<div class="progress progress-80plus progress-bar-striped">
+<div class="progress-bar" style="width:85.00%">
+<p class="progress-label">85%</p>
+</div>
+</div>
+<br/>
+<div class="progress progress-100plus progress-bar-striped progress-bar-animated">
+<div class="progress-bar" style="width:100.00%">
+<p class="progress-label">100%</p>
+</div>
+</div>
+</p>
+<h3 id="smartsymbols">SmartSymbols</h3>
+<p>™ © ® ℅ <br/>
+± → ← ↔ ≠ <br/>
+½ ¼ ⅛ <br/>
+1<sup>st</sup> 2<sup>nd</sup> 3<sup>rd</sup></p>
+<h3 id="snippets">Snippets</h3>
+<p>This is a snippet example from an <strong>external</strong> file.</p>
+<p><strong><em>Over the Rainbow</em></strong><br/>
+<em>as performed by Judy Garland</em><br/>
+Somewhere over the rainbow<br/>
+Way up high<br/>
+There’s a land that I heard of<br/>
+Once in a lullaby</p>
+<p>Somewhere over the rainbow<br/>
+Skies are blue<br/>
+And the dreams that you dare to dream<br/>
+Really do come true</p>
+<p>Someday I’ll wish upon a star<br/>
+And wake up where the clouds are far<br/>
+Behind me<br/>
+Where troubles melt like lemon drops<br/>
+Away above the chimney tops<br/>
+That’s where you’ll find me</p>
+<p>Somewhere over the rainbow<br/>
+Bluebirds fly<br/>
+Birds fly over the rainbow<br/>
+Why then, oh why can’t I?</p>
+<p>If happy little bluebirds fly<br/>
+Beyond the rainbow<br/>
+Why, oh why can’t I?</p>
+<p><strong><em>I am the Very Model of a Modern Major-General</em></strong><br/>
+<em>Songwriters: <span class="caps">W. S.</span> Gilbert / Arthur Sullivan</em></p>
+<p>I am the very model of a modern Major-General,<br/>
+I’ve information vegetable, animal, and mineral,<br/>
+I know the kings of England, and I quote the fights historical,<br/>
+From Marathon to Waterloo, in order categorical;<br/>
+I’m very well acquainted too with matters mathematical,<br/>
+I understand equations, both the simple and quadratical,<br/>
+About binomial theorem I’m teeming with a lot o’ news—<br/>
+With many cheerful facts about the square of the hypotenuse.</p>
+<p>I’m very good at integral and differential calculus,<br/>
+I know the scientific names of beings animalculous;<br/>
+In short, in matters vegetable, animal, and mineral,<br/>
+I am the very model of a modern Major-General.</p>
+<p>I know our mythic history, King Arthur’s and Sir Caradoc’s,<br/>
+I answer hard acrostics, I’ve a pretty taste for paradox,<br/>
+I quote in elegiacs all the crimes of Heliogabalus,<br/>
+In conics I can floor peculiarities parablous.<br/>
+I can tell undoubted Raphaels from Gerard Dows and Zoffanies,<br/>
+I know the croaking chorus from the Frogs of Aristophanes,<br/>
+Then I can hum a fugue of which I’ve heard the music’s din afore,<br/>
+And whistle all the airs from that infernal nonsense Pinafore.</p>
+<p>Then I can write a washing bill in Balylonic cuneiform,<br/>
+And tell you every detail of Caractacus’s uniform;<br/>
+In short, in matters vegetable, animal, and mineral,<br/>
+I am the very model of a modern Major-General.</p>
+<p>In fact, when I know what is meant by “mamelon” and “ravelin”,<br/>
+When I can tell at sight a chassep”t rifle from a javelin,<br/>
+When such affairs as sorties and surprises I’m more wary at,<br/>
+And when I know precisely what is meant by “commissariat”,<br/>
+When I have learnt what progress has been made in modern gunnery,<br/>
+When I know more of tactics than a novice in a nunnery:<br/>
+In short, when I’ve a smattering of elemental strategy,<br/>
+You’ll say a better Major-General has never sat a gee—</p>
+<p>For my military knowledge, though I’m plucky and adventury,<br/>
+Has only been brought down to the beginning of the century;<br/>
+But still in matters vegetable, animal, and mineral,<br/>
+I am the very model of a modern Major-General.</p>
+<p>This is a snippet example from an <strong>external</strong> file.</p>
+<h3 id="superfences">Superfences</h3>
+<pre class="lang"><code>a fenced block</code></pre>
+<blockquote>
+<pre class="lang"><code>a fenced block
 
-st-&gt;op1-&gt;cond
-cond(yes)-&gt;io-&gt;e
-cond(no)-&gt;sub1(right)-&gt;op1
-</code></pre></div>
-<h3 id="super-fences-test-uml-test">Super Fences Test (<span class="caps">UML</span>) Test</h3>
-<div class="highlight"><pre><span></span><code>Title: Here is a title
-A-&gt;B: Normal line
-B--&gt;C: Dashed line
-C-&gt;&gt;D: Open arrow
-D--&gt;&gt;A: Dashed open arrow
-</code></pre></div>
-<h2 id="iacet-mensum-duxere-adludit-et-ille-decipit">Iacet mensum duxere adludit et ille decipit</h2>
-<p>Iactas caeli illic fodiebant aenea <strong>super</strong> artus; ritu inque. <a href="http://hipstermerkel.tumblr.com/">Toto natam
-Phlegraeon</a> modo; est Philemon protinus iuvere
-pondus languentique <strong>duro</strong>. Herbas putet herbas: tandem nova conplexa; et
-ultima fecit. Mea rite inimica quotiensque quemque
-<a href="http://www.metafilter.com/">regale</a> esse locuti volucrum triste hoc iaces.</p>
-<div class="highlight"><pre><span></span><code><span class="err">wpaDomainHyperlink = browser;</span>
-<span class="err">if (xmpConstantKeylogger.smishing_storage_bankruptcy(1)) {</span>
-<span class="err">    dotIntegrated.state += dimm;</span>
-<span class="err">    ddr = -4;</span>
-<span class="err">    spam += sidebar;</span>
-<span class="err">}</span>
-</code></pre></div>
-<div class="highlight"><pre><span></span><code>    <span class="nx">smtp_margin_print</span><span class="p">.</span><span class="nx">character_video_internic</span> <span class="o">=</span> <span class="nx">simm_responsive</span> <span class="o">+</span> <span class="nx">backlink</span><span class="p">;</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nx">hdtvMemory</span><span class="p">(</span><span class="nx">responsive_mountain</span><span class="p">(</span><span class="nx">cdLifoAlpha</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="nx">cross</span><span class="p">,</span>
-            <span class="nx">controllerSurgeDesign</span><span class="p">)),</span> <span class="nx">radcab_lion</span><span class="p">,</span> <span class="nx">ircHoneypot</span><span class="p">))</span> <span class="p">{</span>
-        <span class="nx">column_socket_edutainment</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
-        <span class="nx">compileCss</span> <span class="o">=</span> <span class="nx">dtd_system</span><span class="p">(</span><span class="nx">captcha</span><span class="p">);</span>
-    <span class="p">}</span>
-</code></pre></div>
-<p>Nunc faces utroque, at moenia miles? Remoretur propter; dum decimo, candida
-nautas. In si Oeneus quibus gener et manus vitibus Stygiam trepidoque nascuntur
-erat, dea, quamque. Aliquis iacent <em>quodque petens</em>, ambiguis mirum minores
-iniuria inposuit quae expers caput saepe modo, si non. Mentique fama Thoantis
-<em>excipit</em>, picea placandam guttura stabat protinus <strong>praetincta</strong>, teneret de
-regnat mihi, vel mutua Ossaque.</p>
-<blockquote>
-<p>The weak can never forgive. Forgiveness is the attribute of the strong.</p>
-<blockquote>
-<p>Ghandi</p>
+with blank lines</code></pre>
 </blockquote>
+<pre class="lang"><code class="language-python">import foo.bar</code></pre>
+<pre class="mermaid nohighlight">graph TD
+    A[Hard] --&gt;|Text| B(Round)
+    B --&gt; C{Decision}
+    C --&gt;|One| D[Result 1]
+    C --&gt;|Two| E[Result 2]</pre>
+<pre class="mermaid nohighlight">sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice-&gt;&gt;John: Hello John, how are you?
+    loop Healthcheck
+        John-&gt;&gt;John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br>prevail!
+    John--&gt;&gt;Alice: Great!
+    John-&gt;&gt;Bob: How about you?
+    Bob--&gt;&gt;John: Jolly good!</br></pre>
+<pre class="mathjax nohighlight" id=""><script type="math/tex; mode=display">
+E(\mathbf{v}, \mathbf{h}) = -\sum_{i,j}w_{ij}v_i h_j - \sum_i b_i v_i - \sum_j c_j h_j
+</script></pre>
+<pre class="mathjax nohighlight" id=""><script type="math/tex; mode=display">\begin{align}
+    p(v_i=1|\mathbf{h}) & = \sigma\left(\sum_j w_{ij}h_j + b_i\right) \\
+    p(h_j=1|\mathbf{v}) & = \sigma\left(\sum_i w_{ij}v_i + c_j\right)
+\end{align}</script></pre>
+<h3 id="tabbed">Tabbed</h3>
+<div class="tabbed-set" data-tabs="1:2"><input checked="" id="__tabbed_1_1" name="__tabbed_1" type="radio"/><label for="__tabbed_1_1">Tab 1</label><div class="tabbed-content">
+<p>Markdown <strong>content</strong>.</p>
+<p>Multiple paragraphs.</p>
+</div>
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio"/><label for="__tabbed_1_2">Tab 2</label><div class="tabbed-content">
+<p>More Markdown <strong>content</strong>.</p>
+<ul>
+<li>list item a</li>
+<li>list item b</li>
+</ul>
+</div>
+</div>
+<p><strong>More Tabs</strong></p>
+<div class="tabbed-set" data-tabs="2:2"><input checked="" id="__tabbed_2_1" name="__tabbed_2" type="radio"/><label for="__tabbed_2_1">Tab A</label><div class="tabbed-content">
+<p>Different tab set.</p>
+</div>
+<input id="__tabbed_2_2" name="__tabbed_2" type="radio"/><label for="__tabbed_2_2">Tab B</label><div class="tabbed-content">
+<pre class="lang"><code>More content.</code></pre>
+</div>
+</div>
+<h3 id="tasklist">Tasklist</h3>
+<p>Task List</p>
+<ul class="task-list">
+<li class="task-list-item"><input checked="" type="checkbox"> item 1<ul class="task-list">
+<li class="task-list-item"><input checked="" type="checkbox"> item A</input></li>
+<li class="task-list-item"><input type="checkbox"> item B<br/>
+    more text<ul class="task-list">
+<li class="task-list-item"><input checked="" type="checkbox"> item a</input></li>
+<li class="task-list-item"><input type="checkbox"/> item b</li>
+<li class="task-list-item"><input checked="" type="checkbox"/> item c</li>
+</ul>
+</input></li>
+<li class="task-list-item"><input checked="" type="checkbox"/> item C</li>
+</ul>
+</input></li>
+<li class="task-list-item"><input type="checkbox"/> item 2</li>
+<li class="task-list-item"><input type="checkbox"/> item 3</li>
+</ul>
+<h3 id="tilde">Tilde</h3>
+<p><del>Delete me</del></p>
+<p><span class="caps">CH</span><sub>3</sub><span class="caps">CH</span><sub>2</sub><span class="caps">OH</span></p>
+<p>text<sub>a subscript</sub></p>
+<h2 id="markdown-fig-cap-extension">Markdown Fig-cap Extension</h2>
+<p>%%%</p>
+<figure class="figure-class here">
+<img alt="img-alt" src="http://127.0.0.1:8000/images/testgallery/IMG_1408.jpg" testattr=""/>
+<figcaption caption="" testattr="">figcaption here<br/></figcaption>
+</figure>
+<p>%: will not be a figcaption</p>
+<div class="footnote">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>This is a footnote content. <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:@#$%">
+<p>A footnote on the label: “@#$%”. <a class="footnote-backref" href="#fnref:@#$%" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p>The first paragraph of the definition.<br/>
+ Paragraph two of the definition.</p>
+<blockquote>
+<p>A blockquote with<br/>
+multiple lines.</p>
 </blockquote>
+<pre class="lang"><code>a code block
+</code></pre>
+<p>A final paragraph. <a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 3 in the text">↩</a></p>
+</li>
+</ol>
+</div>
             </div>
             <!-- /.entry-content -->
-<section class="well" id="related-posts">
-    <h4>Part 2 of the Feature Test series</h4>
-       <h5>Previous articles</h5>
-       <ul>
-           <li><a href="https://ninetenlevins.com/posts/2016/05/featuretest1.html">Feature Test&nbsp;1</a></li>
-       </ul>
-       <h5>Next articles</h5>
-       <ul>
-           <li><a href="https://ninetenlevins.com/posts/2019/05/featuretest3.html">Feature Test&nbsp;3</a></li>
-       </ul>
+<section class="well" id="neighbors">
+
+  <div class="row align-items-center justify-content-between mt-4">
+    <div class="col-auto text-left">
+      <h5><i class="fas fa-arrow-left fa-fw"></i>Previous article</h5>
+      <ul class="list-group">
+         <li class="list-group-item py-0"><a href="http://127.0.0.1:8000/posts/2016/05/featuretest1.html">Feature Test 1 - Pure&nbsp;Markdown</a></li>
+      </ul>
+    </div>
+    <div class="col-auto text-right">
+      <h5>Next article<i class="fas fa-arrow-right fa-fw"></i></h5>
+      <ul class="list-group">
+         <li class="list-group-item py-0"><a href="http://127.0.0.1:8000/posts/2020/05/featuretest3.html">Feature Test 3 - Pelican Features&nbsp;Test</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row align-items-center justify-content-between mt-1 mb-4">
+    <div class="col-auto text-left">
+      <h5><i class="fas fa-arrow-left fa-fw"></i>Previous article by Category</h5>
+      <ul class="list-group">
+         <li class="list-group-item py-0"><a href="http://127.0.0.1:8000/posts/2016/05/featuretest1.html">Feature Test 1 - Pure&nbsp;Markdown</a></li>
+      </ul>
+    </div>
+    <div class="col-auto text-right">
+      <h5>Next article by Category<i class="fas fa-arrow-right fa-fw"></i></h5>
+      <ul class="list-group">
+         <li class="list-group-item py-0"><a href="http://127.0.0.1:8000/posts/2020/05/featuretest3.html">Feature Test 3 - Pelican Features&nbsp;Test</a></li>
+      </ul>
+    </div>
+  </div>
+</section><section class="well" id="series">
+  <div class="row align-items-center justify-content-center">
+    <div class="col-auto">
+        <h4>Part 2 of the Feature Test series</h4>
+    </div>
+  </div>
+  <div class="row align-items-center justify-content-between">
+    <div class="col-auto text-left">
+      <h5><i class="fas fa-arrow-left fa-fw"></i>Previous articles</h5>
+      <ul class="list-group">
+         <li class="list-group-item py-0"><a href="http://127.0.0.1:8000/posts/2016/05/featuretest1.html">Feature Test 1 - Pure&nbsp;Markdown</a></li>
+      </ul>
+    </div>
+    <div class="col-auto text-right">
+      <h5>Next articles<i class="fas fa-arrow-right fa-fw"></i></h5>
+      <ul class="list-group">
+         <li class="list-group-item py-0"><a href="http://127.0.0.1:8000/posts/2020/05/featuretest3.html">Feature Test 3 - Pelican Features&nbsp;Test</a></li>
+         <li class="list-group-item py-0"><a href="http://127.0.0.1:8000/posts/2020/07/featuretest4.html">Feature Test 4 - Pelican Plugins&nbsp;Test</a></li>
+      </ul>
+    </div>
+  </div>
 </section>
         </article>
     </section>
@@ -561,7 +785,7 @@ regnat mihi, vel mutua Ossaque.</p>
       <aside>
 <div id="aboutside">
         <p>
-            <img width="100%" class="img-thumbnail" src="https://ninetenlevins.com/theme/images/Gus_with_Brian_small.png"/>
+            <img width="100%" class="img-thumbnail" src="http://127.0.0.1:8000/theme/images/Gus_with_Brian_small.png"/>
         </p>
     <p>
         
@@ -575,89 +799,209 @@ regnat mihi, vel mutua Ossaque.</p>
 
 <!-- Sidebar/Series -->
 <li class="list-group-item">
-  <h4><i class="fas fa-tags fa-lg"></i><span class="icon-label">Series</span></h4>
+  <h4><i class="fas fa-home fa-lg"></i><span class="icon-label">Neighbors</span></h4>
   <ul class="list-group">
     <li class="list-group-item">
-      <h5><i class="fas fa-arrow-left"></i> Previous article</h5>
-      <a href="https://ninetenlevins.com/posts/2016/05/featuretest1.html">Feature Test&nbsp;1</a>
+      <h5>
+<i class="fas fa-arrow-left"></i> Previous article
+      </h5>
+      <a href="http://127.0.0.1:8000/posts/2016/05/featuretest1.html">Feature Test 1 - Pure&nbsp;Markdown</a>
     </li>
     <li class="list-group-item">
-      <h5>Next article <i class="fas fa-arrow-right"></i></h5>
-      <a href="https://ninetenlevins.com/posts/2019/05/featuretest3.html">Feature Test&nbsp;3</a>
+      <h5>Next article
+<i class="fas fa-arrow-right"></i>      </h5>
+      <a href="http://127.0.0.1:8000/posts/2020/05/featuretest3.html">Feature Test 3 - Pelican Features&nbsp;Test</a>
     </li>
   </ul>
 </li>
 <!-- End Sidebar/Series -->
 
 
-<!-- Sidebar/Social -->
+<!-- Sidebar/Series -->
 <li class="list-group-item">
-  <h4><i class="fas fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
-  <ul class="list-group" id="social">
-    <li class="list-group-item"><a href="http://twitter.com/BrianGLevin"><i class="fab fa-twitter fa-lg"></i> twitter</a></li>
-    <li class="list-group-item"><a href="http://github.com/bnice5000"><i class="fab fa-github fa-lg"></i> github</a></li>
-    <li class="list-group-item"><a href="http://ninetenlevins.com/feeds/all.rss.xml"><i class="fa fa-rss-square fa-lg"></i> rss</a></li>
+  <h4><i class="fas fa-home fa-lg"></i><span class="icon-label">Series</span></h4>
+  <ul class="list-group">
+    <li class="list-group-item">
+      <h5>
+<i class="fas fa-arrow-left"></i> Previous article
+      </h5>
+      <a href="http://127.0.0.1:8000/posts/2016/05/featuretest1.html">Feature Test 1 - Pure&nbsp;Markdown</a>
+    </li>
+    <li class="list-group-item">
+      <h5>Next article
+<i class="fas fa-arrow-right"></i>      </h5>
+      <a href="http://127.0.0.1:8000/posts/2020/05/featuretest3.html">Feature Test 3 - Pelican Features&nbsp;Test</a>
+    </li>
   </ul>
 </li>
-<!-- End Sidebar/Social -->
+<!-- End Sidebar/Series -->
+
+
+<!-- Sidebar/Related -->
+<li class="list-group-item">
+  <h4><i class="fas fa-home fa-lg"></i><span class="icon-label">Related Posts</span></h4>
+  <ul class="list-group">
+        <li class="list-group-item">
+<i class="fas fa-exchange-alt"></i>          &nbsp;<a href="http://127.0.0.1:8000/posts/2020/07/featuretest4.html">Feature Test 4 - Pelican Plugins&nbsp;Test</a>
+        </li>
+        <li class="list-group-item">
+<i class="fas fa-exchange-alt"></i>          &nbsp;<a href="http://127.0.0.1:8000/posts/2020/05/featuretest3.html">Feature Test 3 - Pelican Features&nbsp;Test</a>
+        </li>
+        <li class="list-group-item">
+<i class="fas fa-exchange-alt"></i>          &nbsp;<a href="http://127.0.0.1:8000/posts/2016/05/featuretest1.html">Feature Test 1 - Pure&nbsp;Markdown</a>
+        </li>
+  </ul>
+<!-- End Sidebar/Related -->
+
 
 <!-- Sidebar/Recent Posts -->
 <li class="list-group-item">
   <h4><i class="fas fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
   <ul class="list-group" id="recentposts">
-    <li class="list-group-item"><a href="https://ninetenlevins.com/posts/2019/05/featuretest3.html">Feature Test&nbsp;3</a></li>
-    <li class="list-group-item"><a href="https://ninetenlevins.com/posts/2019/05/featuretest2.html">Feature Test&nbsp;2</a></li>
-    <li class="list-group-item"><a href="https://ninetenlevins.com/posts/2016/05/featuretest1.html">Feature Test&nbsp;1</a></li>
-    <li class="list-group-item"><a href="https://ninetenlevins.com/posts/2014/03/ATK-Hummingbird-Cake.html">America&#8217;s Test Kitchen&#8217;s Hummingbird&nbsp;Cake</a></li>
+    <li class="list-group-item">
+<i class="far fa-newspaper"></i>       &nbsp;<a href="http://127.0.0.1:8000/posts/2020/07/featuretest4.html">Feature Test 4 - Pelican Plugins&nbsp;Test</a>
+    </li>
+    <li class="list-group-item">
+<i class="far fa-newspaper"></i>       &nbsp;<a href="http://127.0.0.1:8000/posts/2020/05/featuretest3.html">Feature Test 3 - Pelican Features&nbsp;Test</a>
+    </li>
+    <li class="list-group-item">
+<i class="far fa-newspaper"></i>       &nbsp;<a href="http://127.0.0.1:8000/posts/2019/05/featuretest2.html">Feature Test 2 -&nbsp;Extensions</a>
+    </li>
+    <li class="list-group-item">
+<i class="far fa-newspaper"></i>       &nbsp;<a href="http://127.0.0.1:8000/posts/2016/05/featuretest1.html">Feature Test 1 - Pure&nbsp;Markdown</a>
+    </li>
+    <li class="list-group-item">
+<i class="far fa-newspaper"></i>       &nbsp;<a href="http://127.0.0.1:8000/posts/2014/03/ATK-Hummingbird-Cake.html">America&#8217;s Test Kitchen&#8217;s Hummingbird&nbsp;Cake</a>
+    </li>
   </ul>
 </li>
 <!-- End Sidebar/Recent Posts -->
 
-  <!-- Show source -->
-  <li class="list-group-item">
-    <h4><i class="fas fa-code fa-lg"></i><span class="icon-label">Show Source</span></h4>
-    <ul class="list-group">
-      <li class="list-group-item">
-      <a href="https://ninetenlevins.com/posts/2019/05/featuretest2.txt">Show source</a>
-      </li>
-    </ul>
-  </li>
-  <!-- End Show source -->
-
-
-<!-- Sidebar/Links -->
+<!-- Sidebar/Categories -->
 <li class="list-group-item">
-  <h4><i class="fas fa-external-link-alt fa-lg"></i><span class="icon-label">Links</span></h4>
-  <ul class="list-group" id="links">
+  <h4><i class="fas fa-layer-group fa-lg"></i><span class="icon-label">Categories</span></h4>
+  <ul class="list-group" id="categories">
     <li class="list-group-item">
-      <i class="fas fa-link"></i> <a href="https://nytimes.com" target="_blank">NYTimes</a>
+      <a href="http://127.0.0.1:8000/category/recipes.html"><i class="fa fa-folder-open fa-lg"></i>&nbsp;Recipes</a>
     </li>
     <li class="list-group-item">
-      <i class="fas fa-link"></i> <a href="https://arstechnica.com/" target="_blank">Ars Technica</a>
-    </li>
-    <li class="list-group-item">
-      <i class="fas fa-link"></i> <a href="https://rpgbot.net/" target="_blank">RPGBOT</a>
-    </li>
-    <li class="list-group-item">
-      <i class="fas fa-link"></i> <a href="https://automatetheboringstuff.com/" target="_blank">Automate the Boring Stuff with Python</a>
+      <a href="http://127.0.0.1:8000/category/wip.html"><i class="fa fa-folder-open fa-lg"></i>&nbsp;WIP</a>
     </li>
   </ul>
 </li>
-<!-- End Sidebar/Links -->
+<!-- End Sidebar/Categories -->
+
+<!-- Sidebar/Tags -->
+<li class="list-group-item">
+  <h4><i class="fas fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4>
+  <ul class="list-group" id="tags">
+    <li class="list-group-item">
+      <a href="http://127.0.0.1:8000/tag/test.html"><i class="fa fa-folder-open fa-lg"></i>&nbsp;Test</a>
+    </li>
+    <li class="list-group-item">
+      <a href="http://127.0.0.1:8000/tag/food.html"><i class="fa fa-folder-open fa-lg"></i>&nbsp;Food</a>
+    </li>
+    <li class="list-group-item">
+      <a href="http://127.0.0.1:8000/tag/review.html"><i class="fa fa-folder-open fa-lg"></i>&nbsp;Review</a>
+    </li>
+  </ul>
+</li>
+<!-- End Sidebar/Tags -->
+
+<!-- Sidebar/Archive -->
+<li class="list-group-item">
+  <h4><i class="fas fa-archive fa-lg"></i><span class="icon-label">Archive</span></h4>
+  <ul class="list-group" id="archive">
+        <li class="list-group-item">
+          <a href="http://127.0.0.1:8000/posts/2020/index.html"><i class="far fa-calendar-alt"></i>&nbsp; 2020 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="http://127.0.0.1:8000/posts/2020/index.html"><i class="far fa-calendar-alt"></i>&nbsp; 2020 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="http://127.0.0.1:8000/posts/2019/index.html"><i class="far fa-calendar-alt"></i>&nbsp; 2019 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="http://127.0.0.1:8000/posts/2016/index.html"><i class="far fa-calendar-alt"></i>&nbsp; 2016 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="http://127.0.0.1:8000/posts/2014/index.html"><i class="far fa-calendar-alt"></i>&nbsp; 2014 (1)
+          </a>
+        </li>
+  </ul>
+</li>
+<!-- End Sidebar/Archive -->
 
 <!-- Sidebar/Authors -->
 <li class="list-group-item">
   <h4><i class="fas fa-users fa-lg"></i><span class="icon-label">Authors</span></h4>
   <ul class="list-group" id="authors">
     <li class="list-group-item">
-      <a href="https://ninetenlevins.com/author/brian-levin.html">
+      <a href="http://127.0.0.1:8000/author/brian-levin.html">
         <i class="fa fa-user fa-lg"></i>
          Brian Levin</a>
-      (4)
+      (5)
+    </li>
+    <li class="list-group-item">
+      <a href="http://127.0.0.1:8000/author/sarah-levin.html">
+        <i class="fa fa-user fa-lg"></i>
+         Sarah Levin</a>
+      (1)
     </li>
   </ul>
 </li>
 <!-- End Sidebar/Authors -->
+
+<!-- Sidebar/Social -->
+<li class="list-group-item">
+  <h4><i class="fas fa-share-alt fa-lg"></i><span class="icon-label">Social</span></h4>
+  <ul class="list-group" id="social">
+    <li class="list-group-item"><a href="http://twitter.com/BrianGLevin">
+<i class="fab fa-twitter fa-lg"></i> twitter</a></li>
+    <li class="list-group-item"><a href="http://github.com/bnice5000">
+<i class="fab fa-github fa-lg"></i> github</a></li>
+    <li class="list-group-item"><a href="http://ninetenlevins.com/feeds/all.rss.xml">
+<i class="fa fa-rss-square fa-lg"></i> rss</a></li>
+  </ul>
+</li>
+<!-- End Sidebar/Social -->
+
+<!-- Sidebar/Links -->
+<li class="list-group-item">
+  <h4><i class="fas fa-external-link-alt fa-lg"></i><span class="icon-label">Links</span></h4>
+  <ul class="list-group" id="links">
+    <li class="list-group-item">
+<i class="fas fa-link"></i> 
+      <a href="https://nytimes.com" target="_blank">NYTimes</a>
+    </li>
+    <li class="list-group-item">
+<i class="fas fa-link"></i> 
+      <a href="https://arstechnica.com/" target="_blank">Ars Technica</a>
+    </li>
+    <li class="list-group-item">
+<i class="fas fa-link"></i> 
+      <a href="https://rpgbot.net/" target="_blank">RPGBOT</a>
+    </li>
+    <li class="list-group-item">
+<i class="fas fa-link"></i> 
+      <a href="https://automatetheboringstuff.com/" target="_blank">Automate the Boring Stuff with Python</a>
+    </li>
+  </ul>
+</li>
+<!-- End Sidebar/Links -->
+
+  <!-- Show source -->
+<li class="list-group-item">
+  <h4>
+    <a href="http://127.0.0.1:8000/posts/2019/05/featuretest2.txt"><i class="fas fa-code fa-lg"></i><span class="icon-label">Show Source</span></a>
+  </h4>
+</li>
+  <!-- End Show source -->
+
             </ul>
           </section>
       </aside>
@@ -673,10 +1017,10 @@ regnat mihi, vel mutua Ossaque.</p>
          <div class="col-xs-10">&copy; 2020 Brian Levin
 &middot; Come for the steak, stay for the learning!                &middot; <a href="/pages/sausage.html"> About This Site</a>
               <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
-    Content
+    &quot;<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Nine Ten Levins</span>&quot; by <a xmlns:cc="http://creativecommons.org/ns#" href="http://127.0.0.1:8000" property="cc:attributionName" rel="cc:attributionURL">Brian Levin</a> is
   licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>, except where indicated otherwise.
 </small>
-            <br><small class="tiny">Powered by <a href="https://getbootstrap.com/">Boostrap 4</a> &amp; <a href="https://github.com/getpelican/pelican">Pelican</a>. Theme Created by <a href="https://github.com/bnice5000">Brian Levin</a></small></p>
+            <br><small class="tiny">Powered by <a href="https://getbootstrap.com/">Boostrap 4</a> &amp; <a href="https://github.com/getpelican/pelican">Pelican</a>. Based on the <a href=https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3>Pelican-Bootstrap3</a> Theme. Theme Created by <a href="https://github.com/bnice5000">Brian Levin</a></small></p>
          </div>
          <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
       </div>
@@ -690,8 +1034,18 @@ regnat mihi, vel mutua Ossaque.</p>
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 
+<!-- Highlight.JS -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+
+<!-- Theme Specific JS -->
+<script src="http://127.0.0.1:8000/theme/js/theme.js"></script>
 
 
 
+
+<!-- Addes support for pelican_javascript -->
+
+
+      <script src="//cdnjs.cloudflare.com/ajax/libs/mermaid/8.5.1/mermaid.min.js"></script>
 </body>
 </html>
