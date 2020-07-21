@@ -106,9 +106,10 @@
         <p>Sorry, but the page you are looking for cannot be found. It seems that the page you were trying to reach doesn't exist, or may be it has just moved, or it no longer exists.</p>
         <p>The best thing to do is to use the search form or start again from the <a href="https://ninetenlevins.com">home page</a>.</p>
         <div class="input-append">
-            <form action="https://ninetenlevins.com/search.html" onsubmit="return validateForm(this.elements['q'].value)">
-                <input type="text" class="span12" placeholder="Search" name="q" id="tipue_search_input_404">
-                <button class="btn" type="submit">Search</button>
+            <form action="/search.html" onsubmit="return validateForm(this.elements['q'].value)">
+                <div class="form-group">
+                  <input class="form-control" type="text" name="q" id="tipue_search_input_404" pattern=".{3,}" title="At least 3 characters" required>
+                </div>
             </form>
         </div>
     </div>
