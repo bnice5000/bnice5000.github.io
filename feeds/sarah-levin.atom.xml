@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Nine Ten Levins - Sarah Levin</title><link href="https://ninetenlevins.com/" rel="alternate"></link><link href="https://ninetenlevins.com/feeds/sarah-levin.atom.xml" rel="self"></link><id>https://ninetenlevins.com/</id><updated>2019-05-23T22:06:00-04:00</updated><entry><title>Feature Test 2 - Extensions</title><link href="https://ninetenlevins.com/posts/2019/05/featuretest2.html" rel="alternate"></link><published>2019-05-23T22:06:00-04:00</published><updated>2019-05-23T22:06:00-04:00</updated><author><name>Brian Levin</name></author><id>tag:ninetenlevins.com,2019-05-23:/posts/2019/05/featuretest2.html</id><summary type="html">&lt;p&gt;This tests the of extensions the theme natively will&amp;nbsp;support.&lt;/p&gt;</summary><content type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Nine Ten Levins - Sarah Levin</title><link href="http://127.0.0.1:8000/" rel="alternate"></link><link href="http://127.0.0.1:8000/feeds/sarah-levin.atom.xml" rel="self"></link><id>http://127.0.0.1:8000/</id><updated>2019-05-23T22:06:00-04:00</updated><entry><title>Feature Test 2 - Extensions</title><link href="http://127.0.0.1:8000/posts/2019/05/featuretest2.html" rel="alternate"></link><published>2019-05-23T22:06:00-04:00</published><updated>2019-05-23T22:06:00-04:00</updated><author><name>Brian Levin</name></author><id>tag:127.0.0.1,2019-05-23:/posts/2019/05/featuretest2.html</id><summary type="html">&lt;p&gt;This tests the of extensions the theme natively will&amp;nbsp;support.&lt;/p&gt;</summary><content type="html">
 &lt;h1 id="markdown-extensions-syntax"&gt;Markdown Extensions: Syntax&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This document is itself written using the python Markdown library extensions syntax. You can &lt;a href="./featuretest2.txt"&gt;see the source for it by adding ‘.txt’ to the &lt;span class="caps"&gt;URL&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;hr/&gt;
@@ -496,7 +496,7 @@ E(\mathbf{v}, \mathbf{h}) = -\sum_{i,j}w_{ij}v_i h_j - \sum_i b_i v_i - \sum_j c
 &lt;h2 id="markdown-fig-cap-extension"&gt;Markdown Fig-cap Extension&lt;/h2&gt;
 &lt;p&gt;%%%&lt;/p&gt;
 &lt;figure class="figure-class here"&gt;
-&lt;img alt="img-alt" src="https://ninetenlevins.com/images/testgallery/IMG_1408.jpg" testattr=""/&gt;
+&lt;img alt="img-alt" src="http://127.0.0.1:8000/images/testgallery/IMG_1408.jpg" testattr=""/&gt;
 &lt;figcaption caption="" testattr=""&gt;figcaption here&lt;br/&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;%: will not be a figcaption&lt;/p&gt;
