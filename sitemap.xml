@@ -5,63 +5,63 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://127.0.0.1:8000/</loc>
-<lastmod>2020-07-26T14:35:02-00:00</lastmod>
+<lastmod>2020-07-26T14:45:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://127.0.0.1:8000/authors.html</loc>
-<lastmod>2020-07-26T14:35:02-00:00</lastmod>
+<lastmod>2020-07-26T14:45:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://127.0.0.1:8000/categories.html</loc>
-<lastmod>2020-07-26T14:35:02-00:00</lastmod>
+<lastmod>2020-07-26T14:45:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://127.0.0.1:8000/tags.html</loc>
-<lastmod>2020-07-26T14:35:02-00:00</lastmod>
+<lastmod>2020-07-26T14:45:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://127.0.0.1:8000/period_archives.html</loc>
-<lastmod>2020-07-26T14:35:02-00:00</lastmod>
+<lastmod>2020-07-26T14:45:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://127.0.0.1:8000/archives.html</loc>
-<lastmod>2020-07-26T14:35:02-00:00</lastmod>
+<lastmod>2020-07-26T14:45:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://127.0.0.1:8000/search.html</loc>
-<lastmod>2020-07-26T14:35:02-00:00</lastmod>
+<lastmod>2020-07-26T14:45:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://127.0.0.1:8000/pages.html</loc>
-<lastmod>2020-07-26T14:35:02-00:00</lastmod>
+<lastmod>2020-07-26T14:45:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://127.0.0.1:8000/404.html</loc>
-<lastmod>2020-07-26T14:35:02-00:00</lastmod>
+<lastmod>2020-07-26T14:45:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
