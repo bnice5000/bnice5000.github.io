@@ -96,7 +96,7 @@ function parseReturnCode(returnCode) {
         <div class="alert alert-dismissible alert-danger">
           <h1>That page doesn't exist!</h1>
           <h3>You have been redirected to the search page.</h3>
-        </div>`
+        </div>`;
     }
     resultHeadingRoot.insertAdjacentHTML("beforebegin", resultHeadingRoot);
 }
