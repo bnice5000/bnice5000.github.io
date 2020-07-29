@@ -91,7 +91,7 @@ function parseReturnCode(returnCode) {
     "lunr-search-result-heading"
   );
 
-    if (returnCode ==== "404") {
+    if (returnCode === "404") {
       const resultCode = `
         <div class="alert alert-dismissible alert-danger">
           <h1>That page doesn't exist!</h1>
