@@ -90,15 +90,15 @@ function parseReturnCode(returnCode) {
   const resultHeadingRoot = document.getElementById(
     "lunr-search-result-heading"
   );
-
-    if (returnCode === "404") {
-      const resultCode = `
+  let resultCode = '';
+    if (returnCode == 404) {
+      resultCode = `
         <div class="alert alert-dismissible alert-danger">
           <h1>That page doesn't exist!</h1>
           <h3>You have been redirected to the search page.</h3>
         </div>`;
     }
-    resultHeadingRoot.insertAdjacentHTML("beforebegin", resultHeadingRoot);
+    resultHeadingRoot.insertAdjacentHTML("beforebegin", resultCode);
 }
 
 var searchTerm = getQueryVariable("q");
