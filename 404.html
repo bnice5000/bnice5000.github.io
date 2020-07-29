@@ -104,7 +104,6 @@
 <div class="row-fluid">
     <div class="span8 offset2">
         <p>Sorry, but the page you are looking for cannot be found. It seems that the page you were trying to reach doesn't exist, or may be it has just moved, or it no longer exists.</p>
-        <p>The best thing to do is to use the search form or start again from the <a href="https://ninetenlevins.com">home page</a>.</p>
     </div>
 </div>
 
@@ -122,7 +121,7 @@
     var newurl = newurl.replace(/\-/g, ' ');
 
     // Fill search field with resulting string
-    setTimeout(function(){ window.location.replace(`https://ninetenlevins.com/search.html?q=${newurl}&code=404`); }, 3000);
+    setTimeout(function(){ window.location.replace(`https://ninetenlevins.com/search.html?q=${newurl}&code=404`); }, 10000);
 
 </script>
 

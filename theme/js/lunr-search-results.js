@@ -3,7 +3,7 @@
 
 function lunr_search(term) {
   if (!tipuesearch) {
-    console.error("Pelican Elegant: Tipue search plugin is required");
+    console.error("Pelican Boostrap4: Tipue search plugin is required");
     return;
   }
 
@@ -86,7 +86,27 @@ function getQueryVariable(variable) {
   }
 }
 
+function parseReturnCode(returnCode) {
+  const resultHeadingRoot = document.getElementById(
+    "lunr-search-result-heading"
+  );
+
+    if (returnCode ==== "404") {
+      const resultCode = `
+        <div class="alert alert-dismissible alert-danger">
+          <h1>That page doesn't exist!</h1>
+          <h3>You have been redirected to the search page.</h3>
+        </div>`
+    }
+    resultHeadingRoot.insertAdjacentHTML("beforebegin", resultHeadingRoot);
+}
+
 var searchTerm = getQueryVariable("q");
 if (searchTerm) {
   lunr_search(searchTerm);
+}
+
+var returnCode = getQueryVariable("code");
+if (returnCode) {
+  parseReturnCode(returnCode)
 }
