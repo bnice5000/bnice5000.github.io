@@ -33,7 +33,7 @@ function lunr_search(term) {
       "lunr-search-result-heading"
     );
     const resultIntro = `
-    <h1>Search Results for <pre>${term}</pre></h1>
+    <h1>Search Results for... <samp class="search rounded">${term}</samp></h1>
     `;
 
     resultHeadingRoot.insertAdjacentHTML("beforeend", resultIntro);
@@ -93,7 +93,7 @@ function parseReturnCode(returnCode) {
   let resultCode = '';
     if (returnCode == 404) {
       resultCode = `
-        <div class="alert alert-dismissible alert-danger">
+        <div class="alert alert-danger w-100 rcalert">
           <h1>That page doesn't exist!</h1>
           <h3>You have been redirected to the search page.</h3>
         </div>`;

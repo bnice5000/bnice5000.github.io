@@ -35,6 +35,22 @@ blockquote.blockquote {
   background-color: #efedec;
 }
 
+div.rcalert>h1 {
+  font-size: 5.5vw;
+}
+div.rcalert>h3 {
+  font-size: 2.5vw;
+}
+
+samp.search {
+  padding: 10px;
+  color: #5a5753;
+  background-color: #efedec;
+  border-color: #e8e6e4;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
 /* for list-groups nested within a list-group-item, reset the bottom margin */
 .list-group-item > .list-group {
     margin-bottom: 0px;
