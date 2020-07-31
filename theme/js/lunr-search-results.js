@@ -57,7 +57,7 @@ function lunr_search(term) {
                   </a>
                </h4>
               </a>
-              <p class="lunr-search-result-item-body pl-4">${body}
+              <p class="lunr-search-result-item-body text-muted pl-4">${body}
               </p>
           </div>
           `;
