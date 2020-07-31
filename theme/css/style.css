@@ -1,5 +1,3 @@
-
-
 body {
   padding-top: 0;
 }
@@ -32,23 +30,15 @@ div.progress>div.progress-bar>p.progress-label {
 }
 
 blockquote.blockquote {
+  font-size: inherit;
+  font-weight: 200;
   background-color: #efedec;
+  margin-left: 0em !important;
+  /* padding-left: 3em; */
 }
 
-div.rcalert>h1 {
-  font-size: 5.5vw;
-}
-div.rcalert>h3 {
-  font-size: 2.5vw;
-}
-
-samp.search {
-  padding: 10px;
-  color: #5a5753;
-  background-color: #efedec;
-  border-color: #e8e6e4;
-  font-weight: bolder;
-  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+blockquote.blockquote>code {
+  background: inherit;
 }
 
 /* for list-groups nested within a list-group-item, reset the bottom margin */
@@ -119,6 +109,10 @@ samp.search {
 
 a, a:hover {
     color: inherit;
+}
+
+.entry-byline {
+  font-size: 12px;
 }
 
 .entry-content a {
