@@ -14,6 +14,14 @@ samp.search {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
+samp.lunr-search-term {
+  font-weight: 900;
+  font-size: 120%;
+  background-color: inherit;
+  border-color: inherit;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
 input#search_input
 {
   float: left;

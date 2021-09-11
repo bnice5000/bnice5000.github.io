@@ -65,7 +65,7 @@ function lunr_search(term) {
         resultRoot.insertAdjacentHTML("beforeend", resultItem);
       }
     } else {
-      const resultFailure = `<p class="lunr-result-fail">No results found for <span class="lunr-search-term">${term}</span></p>`;
+      const resultFailure = `<p class="lunr-result-fail alert alert-danger">No results found for <samp class="lunr-search-term">${term}</samp>!</p>`;
 
       resultRoot.insertAdjacentHTML("beforeend", resultFailure);
     }
