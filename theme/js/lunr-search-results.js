@@ -16,14 +16,14 @@ function lunr_search(term) {
     counter = counter + 1;
   }
 
-  idx = lunr(function() {
+  idx = lunr(function () {
     this.ref("id");
     this.field("title");
     this.field("url");
     this.field("text", { boost: 10 });
     this.field("tags");
 
-    items.forEach(function(doc) {
+    items.forEach(function (doc) {
       this.add(doc);
     }, this);
   });
@@ -91,14 +91,14 @@ function parseReturnCode(returnCode) {
     "lunr-search-result-heading"
   );
   let resultCode = '';
-    if (returnCode == 404) {
-      resultCode = `
+  if (returnCode == 404) {
+    resultCode = `
         <div class="alert alert-danger w-100 rcalert">
           <h1>That page doesn't exist!</h1>
           <h3>You have been redirected to the search page.</h3>
         </div>`;
-    }
-    resultHeadingRoot.insertAdjacentHTML("beforebegin", resultCode);
+  }
+  resultHeadingRoot.insertAdjacentHTML("beforebegin", resultCode);
 }
 
 var searchTerm = getQueryVariable("q");

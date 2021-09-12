@@ -10,8 +10,8 @@ window.MathJax = {
           const text = document.createTextNode('');
           const sibling = node.previousElementSibling;
           node.parentNode.replaceChild(text, node);
-          math.start = {node: text, delim: '', n: 0};
-          math.end = {node: text, delim: '', n: 0};
+          math.start = { node: text, delim: '', n: 0 };
+          math.end = { node: text, delim: '', n: 0 };
           doc.math.push(math);
           if (sibling && sibling.matches('.MathJax_Preview')) {
             sibling.parentNode.removeChild(sibling);
