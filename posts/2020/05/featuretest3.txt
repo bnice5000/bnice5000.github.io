@@ -17,4 +17,4 @@ JavaScripts: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.5.1/mermaid.min.js
 
 This is a unit test of {unit: 10 ft}.
 
-Also a test {unit: 22g :: lbs}
+Also a test {unit: 22g | lbs}
