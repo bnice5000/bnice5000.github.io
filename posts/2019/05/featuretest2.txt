@@ -8,7 +8,7 @@ Authors: Brian Levin, Sarah Levin
 Summary: This tests the of extensions the theme natively will support.
 Show_source: True
 Series: Feature Test
-JavaScripts: cdnjs.cloudflare.com/ajax/libs/mermaid/8.5.1/mermaid.min.js
+JavaScripts: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.5.1/mermaid.min.js
 [TOC]
 
 # Markdown Extensions: Syntax
