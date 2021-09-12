@@ -1,5 +1,5 @@
 // Highlight.JS
-hljs.initHighlightingOnLoad();
+hljs.highlightAll();
 document.querySelectorAll('code.lang').forEach((block) => {
   hljs.highlightBlock(block);
 });
