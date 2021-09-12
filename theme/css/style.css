@@ -29,7 +29,7 @@ div.progress>div.progress-bar>p.progress-label {
   margin-top: 1rem;
 }
 
-pre > code {
+blockquote.blockquote {
     font-size: inherit;
     font-weight: 200;
     background-color: #efedec;
@@ -40,6 +40,14 @@ pre > code {
 blockquote.blockquote > code {
   background: inherit;
 }
+
+pre > code {
+    font-size: inherit;
+    font-weight: 200;
+    background-color: #efedec;
+    margin-left: 0em !important;
+    /* padding-left: 3em; */
+  }
 
 samp {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
