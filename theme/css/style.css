@@ -1,32 +1,32 @@
 body {
-  padding-top: 0;
+    padding-top: 0;
 }
 
 #sidebar .list-group, #sidebar .list-group-item {
     background-color: transparent;
 }
 
-ul.breadcrumb > li {
-  margin-right: .5em;
+ul.breadcrumb>li {
+    margin-right: .5em;
 }
 
-a[aria-expanded='false'] > .expand_caret {
+a[aria-expanded='false']>.expand_caret {
     transform: rotate(-90deg);
 }
 
 small.tiny {
-  font-size: 8px;
+    font-size: 8px;
 }
 
 div>p.admonition-title {
-  font-size: 1.25rem;
-  font-weight: bold;
-  line-height: 1.2;
-  text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
 }
 
 div.progress>div.progress-bar>p.progress-label {
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
 
 blockquote.blockquote {
@@ -35,32 +35,34 @@ blockquote.blockquote {
     background-color: #efedec;
     margin-left: 0em !important;
     /* padding-left: 3em; */
-  }
-
-blockquote.blockquote > code {
-  background: inherit;
 }
 
-pre > code {
+blockquote.blockquote>code {
+    background: inherit;
+}
+
+pre>code {
     font-size: inherit;
     font-weight: 200;
     background-color: #efedec;
     margin-left: 0em !important;
     /* padding-left: 3em; */
-  }
+}
 
 samp {
-  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
 /* for list-groups nested within a list-group-item, reset the bottom margin */
-.list-group-item > .list-group {
+
+.list-group-item>.list-group {
     margin-bottom: 0px;
 }
 
 /* for list-group-items nested within a list-group-item, reset the bottom
-   padding of the last item, b/c the containing item has paddimg already
+   padding of the last item, b/c the containing item has padding already
  */
+
 .list-group-item .list-group-item:last-child {
     padding-bottom: 0px;
 }
@@ -124,7 +126,7 @@ a, a:hover {
 }
 
 .entry-byline {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 .entry-content a {
@@ -151,7 +153,6 @@ a, a:hover {
     max-width: 100%;
     height: auto;
 }
-
 
 .floatright, .align-right {
     float: right;
@@ -221,20 +222,20 @@ figure.floatcenter, .align-center {
 }
 
 /* Solutions for mobile and small screens  */
+
 @media (max-width: 650px) {
-    footer{
-      padding-left: 10px;
+    footer {
+        padding-left: 10px;
     }
 }
 
 :target:before {
-  content:"";
-  display:block;
-  height:50px;
-  /* fixed header height*/
-
-  margin:-50px 0 0;
-  /* negative fixed header height */
+    content: "";
+    display: block;
+    height: 50px;
+    /* fixed header height*/
+    margin: -50px 0 0;
+    /* negative fixed header height */
 }
 
 .gap-right {
@@ -242,5 +243,5 @@ figure.floatcenter, .align-center {
 }
 
 .gap-left {
-  margin-left: 10px;
+    margin-left: 10px;
 }
