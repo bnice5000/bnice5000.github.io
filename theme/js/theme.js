@@ -48,7 +48,6 @@ $("figure").addClass("figure");
 $("figure>img").addClass("figure-img rounded");
 $("figure>figcaption").addClass("figure-caption");
 
-
 // Stripped and Animated Progress Bar
 $("div.progress-bar-striped").children("div").addClass("progress-bar-striped").parent("div").removeClass("progress-bar-striped");
 $("div.progress-bar-animated").children("div").addClass("progress-bar-animated").parent("div").removeClass("progress-bar-animated");
