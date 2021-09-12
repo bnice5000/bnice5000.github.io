@@ -16,3 +16,5 @@ JavaScripts: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.5.1/mermaid.min.js
 # Pelican Features Tests
 
 This is a unit test of {unit: 10 ft}.
+
+Also a test {unit: 22g :: lbs}
