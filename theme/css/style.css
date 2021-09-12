@@ -42,7 +42,7 @@ blockquote.blockquote>code {
     background: inherit;
 }
 
-pre>code {
+code {
     font-family: 'Space Mono', monospace;
     /* font-weight: bold; */
 }
