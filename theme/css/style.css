@@ -43,6 +43,7 @@ blockquote.blockquote>code {
 
 pre>code {
     font-family: 'Courier New', monospace;
+    font-weight: bold;
 }
 
 samp {
