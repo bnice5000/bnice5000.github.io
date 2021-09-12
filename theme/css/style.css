@@ -37,7 +37,7 @@ blockquote.blockquote {
   /* padding-left: 3em; */
 }
 
-blockquote.blockquote>code {
+blockquote.blockquote > code {
   background: inherit;
 }
 
