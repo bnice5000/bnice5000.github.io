@@ -1,7 +1,7 @@
 // Highlight.JS
 hljs.highlightAll();
 document.querySelectorAll('code.lang').forEach((block) => {
-  hljs.highlightBlock(block);
+  hljs.highlightElement(block);
 });
 
 // Start Theme Specific Javascript for dealing with PyMDownX HTML
