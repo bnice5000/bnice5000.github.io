@@ -3,7 +3,7 @@
 
 function lunr_search(term) {
   if (!tipuesearch) {
-    console.error("Pelican Boostrap4: Tipue search plugin is required");
+    console.error("Pelican Boostrap5: Tipue search plugin is required");
     return;
   }
 
