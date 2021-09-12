@@ -35,7 +35,7 @@ blockquote.blockquote {
     font-weight: 200;
     background-color: #efedec;
     margin-left: 0em !important;
-    /* padding-left: 3em; */
+
 }
 
 blockquote.blockquote>code {
@@ -44,7 +44,7 @@ blockquote.blockquote>code {
 
 code {
     font-family: 'Space Mono', monospace;
-    /* font-weight: bold; */
+
 }
 
 samp {
