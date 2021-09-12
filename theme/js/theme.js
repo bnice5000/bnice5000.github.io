@@ -68,7 +68,7 @@ $( "ul.tabbed-set>li>label" ).each(function(){
 $( "ul.tabbed-set>li>a" ).each(function() {
   let val = $(this).text().replace(/ /g, '_');
   let serial = $(this).attr("class");
-  $(this).attr("href", "#" + val).attr("data-toggle", "tab").removeAttr("for").addClass( serial + " nav-link" );
+  $(this).attr("href", "#" + val).attr("data-bs-toggle", "tab").removeAttr("for").addClass( serial + " nav-link" );
   $(this).parent().addClass(serial);
   $(this).parent().next(this).attr("id", val).addClass( serial );
   tabName.add(serial);
