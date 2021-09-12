@@ -42,11 +42,7 @@ blockquote.blockquote>code {
 }
 
 pre>code {
-    font-size: inherit;
-    font-weight: 200;
-    background-color: #efedec;
-    margin-left: 0em !important;
-    /* padding-left: 3em; */
+    font-family: 'Courier New', monospace;
 }
 
 samp {
