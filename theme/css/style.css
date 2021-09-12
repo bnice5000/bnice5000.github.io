@@ -29,13 +29,13 @@ div.progress>div.progress-bar>p.progress-label {
   margin-top: 1rem;
 }
 
-blockquote.blockquote {
-  font-size: inherit;
-  font-weight: 200;
-  background-color: #efedec;
-  margin-left: 0em !important;
-  /* padding-left: 3em; */
-}
+pre > code {
+    font-size: inherit;
+    font-weight: 200;
+    background-color: #efedec;
+    margin-left: 0em !important;
+    /* padding-left: 3em; */
+  }
 
 blockquote.blockquote > code {
   background: inherit;
