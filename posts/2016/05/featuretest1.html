@@ -371,7 +371,7 @@ inside a list item.</p>
 <p class="cascade">This is a normal paragraph:</p>
 <pre class="lang"><code>This is a code block.
 </code></pre>
-<p class="cascade">Here is an example of AppleScript:</p>
+<p class="cascade">Here is an example of python:</p>
 <pre class="lang"><code>if pwd == 'apple':
     print('Logging on ...')
 else:
@@ -386,9 +386,12 @@ print('All done!')
 &lt;/div&gt;
 </code></pre>
 <p class="cascade">Regular Markdown syntax is not processed within code blocks. E.g., asterisks are just literal asterisks within a code block. This means it’s also easy to use Markdown to write about Markdown’s own syntax. </p>
-<pre class="lang"><code>tell application "Foo"
-    beep
-end tell</code></pre>
+<pre class="lang"><code>    if pwd == 'apple':
+        print('Logging on ...')
+    else:
+        print('Incorrect password.')
+
+    print('All done!')</code></pre>
 <h2 id="span-elements">Span Elements</h2>
 <h3 id="links">Links</h3>
 <p class="cascade">Markdown supports two style of links: <em>inline</em> and <em>reference</em>.</p>

@@ -190,7 +190,7 @@ This is a normal paragraph:
 
     This is a code block.
 
-Here is an example of AppleScript:
+Here is an example of python:
 
     if pwd == 'apple':
         print('Logging on ...')
@@ -210,9 +210,12 @@ Within a code block, ampersands (`&`) and angle brackets (`<` and `>`) are autom
 Regular Markdown syntax is not processed within code blocks. E.g., asterisks are just literal asterisks within a code block. This means it's also easy to use Markdown to write about Markdown's own syntax. 
 
 ```
-tell application "Foo"
-    beep
-end tell
+    if pwd == 'apple':
+        print('Logging on ...')
+    else:
+        print('Incorrect password.')
+
+    print('All done!')
 ```
 
 ## Span Elements
