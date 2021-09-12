@@ -31,7 +31,7 @@ is maintained by the &lt;abbr title="World Wide Web Consortium"&gt;&lt;span clas
 &lt;p class="cascade"&gt;… &lt;/p&gt;
 &lt;/div&gt;
 &lt;h3 id="attribute-lists"&gt;Attribute Lists&lt;/h3&gt;
-&lt;p class="cascade text-muted" id="shhh"&gt;This is a paragraph.&lt;br/&gt;&lt;/p&gt;
+&lt;p class="text-muted cascade" id="shhh"&gt;This is a paragraph.&lt;br/&gt;&lt;/p&gt;
 &lt;h6 class="text-primary" id="hash"&gt;H6 Attr Test&lt;/h6&gt;
 &lt;p class="cascade"&gt;&lt;a class="text-info" href="http://ninetenlevins.com" title="Some title!"&gt;Attr Test Link&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="definition-lists"&gt;Definition Lists&lt;/h3&gt;
