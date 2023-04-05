@@ -5,6 +5,25 @@
     <link>http://ninetenlevins.com/</link>
     <description>Recent content on Nine Ten Levins</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://ninetenlevins.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Apr 2023 19:25:25 -0400</lastBuildDate><atom:link href="http://ninetenlevins.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://ninetenlevins.com/about/</link>
+      <pubDate>Tue, 04 Apr 2023 19:41:13 -0400</pubDate>
+      
+      <guid>http://ninetenlevins.com/about/</guid>
+      <description>About Us Brian Levin I have lived all over upstate New York. From Salamanca to Glens Falls, I have lived in almost every part of the state. Moving from town to town as a child, gave me a perspective on the uniqueness every area offers. I love food tourism (sometimes to the point of gluttony). I also, love museums of history and art and would be hard pressed to turn down a factory tour (which I drag Sarah begrudgingly through).</description>
+    </item>
+    
+    <item>
+      <title>First Test Post</title>
+      <link>http://ninetenlevins.com/posts/first-test-post/</link>
+      <pubDate>Tue, 04 Apr 2023 19:25:25 -0400</pubDate>
+      
+      <guid>http://ninetenlevins.com/posts/first-test-post/</guid>
+      <description>Markdown Test Page Headings Paragraphs Blockquotes Lists Horizontal rule Table Code Inline elements Headings Heading one Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat commodo id sunt. Nostrud enim ad commodo incididunt cupidatat in ullamco ullamco Lorem cupidatat velit enim et Lorem. Ut laborum cillum laboris fugiat culpa sint irure do reprehenderit culpa occaecat. Exercitation esse mollit tempor magna aliqua in occaecat aliquip veniam reprehenderit nisi dolor in laboris dolore velit.</description>
+    </item>
+    
   </channel>
 </rss>
