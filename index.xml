@@ -5,7 +5,17 @@
     <link>http://ninetenlevins.com/</link>
     <description>Recent content on Nine Ten Levins</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://ninetenlevins.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Apr 2023 11:38:53 -0400</lastBuildDate><atom:link href="http://ninetenlevins.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>http://ninetenlevins.com/posts/first-post/</link>
+      <pubDate>Wed, 05 Apr 2023 11:38:53 -0400</pubDate>
+      
+      <guid>http://ninetenlevins.com/posts/first-post/</guid>
+      <description>What Is This Blog? Things I Am Not Sure About I am not sure what I will write in this blog. I have a couple ideas that I have been kicking around for a while. I am really inspired by a couple of other broad bloggers.1 I have several hobbies and a lot of interests. I would also like a place to write about some of the neat things I see when I am out and about.</description>
+    </item>
+    
     <item>
       <title>About Us</title>
       <link>http://ninetenlevins.com/about/</link>
