@@ -4,16 +4,17 @@
     <title>Nine Ten Levins</title>
     <link>http://ninetenlevins.com/</link>
     <description>Recent content on Nine Ten Levins</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://ninetenlevins.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Apr 2023 19:41:13 -0400</lastBuildDate>
+    <atom:link href="http://ninetenlevins.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Us</title>
       <link>http://ninetenlevins.com/about/</link>
       <pubDate>Tue, 04 Apr 2023 19:41:13 -0400</pubDate>
-      
       <guid>http://ninetenlevins.com/about/</guid>
-      <description>Brian Levin I have lived all over upstate New York. From Salamanca to Glens Falls, I have lived in almost every part of the state. Moving from town to town as a child, gave me a perspective on the uniqueness every area offers. I love food tourism (sometimes to the point of gluttony). I also, love museums of history and art and would be hard pressed to turn down a factory tour (which I drag Sarah begrudgingly through).</description>
+      <description>&lt;h2 id=&#34;brian-levin&#34;&gt;Brian Levin&lt;/h2&gt;
+&lt;p&gt;I have lived all over upstate New York. From Salamanca to Glens Falls, I have lived in almost every part of the state. Moving from town to town as a child, gave me a perspective on the uniqueness every area offers. I love food tourism (sometimes to the point of gluttony). I also, love museums of history and art and would be hard pressed to turn down a factory tour (which I drag Sarah begrudgingly through).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

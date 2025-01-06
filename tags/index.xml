@@ -4,7 +4,8 @@
     <title>Tags on Nine Ten Levins</title>
     <link>http://ninetenlevins.com/tags/</link>
     <description>Recent content in Tags on Nine Ten Levins</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://ninetenlevins.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <atom:link href="http://ninetenlevins.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
