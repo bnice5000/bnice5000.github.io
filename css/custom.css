@@ -1,0 +1,24 @@
+.book-page h1.list-page-title{margin-top:.125rem!important;margin-bottom:.5rem!important;font-size:1.75rem!important;line-height:1.2!important}
+.book-page h1.list-page-title a{text-decoration:none!important;color:inherit!important}
+.book-page h1.list-page-title a:hover{text-decoration:underline!important}
+.home .book-menu, .home .book-toc { display: none; }
+.home .book-page { margin: 0 auto; max-width: 980px; }
+.home .nt-buttons { display:flex; gap:.5rem; justify-content:center; flex-wrap:wrap; margin-top:1rem; }
+.home .nt-button { display:inline-block; padding:.6rem 1rem; border-radius:.5rem; background:#111; color:#fff; text-decoration:none; }
+.home .nt-button:hover { opacity:.9; }
+.home .quick-links { display:flex; gap:.5rem; flex-wrap:wrap; justify-content:center; margin-top:1rem; }
+.home .quick-links a { display:inline-block; padding:.55rem .9rem; border-radius:.5rem; background:#111; color:#fff; text-decoration:none; }
+.home .quick-links a:hover { opacity:.9; }
+.hb-carousel { position:relative; margin:1rem auto; max-width:85%; padding:0.5rem; }
+.hb-carousel__track { display:grid; grid-auto-flow:column; grid-auto-columns:100%; overflow-x:auto; scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch; scrollbar-width:none; gap:.75rem; padding:.25rem 0; }
+.hb-carousel__track::-webkit-scrollbar { display:none; }
+.hb-carousel__slide { scroll-snap-align:center; padding:0 .5rem; }
+.hb-carousel__slide figure { margin:0; }
+.hb-carousel__slide img { display:block; width:100%; height:auto; border-radius:.25rem; }
+.hb-carousel__caption { font-size:.9rem; opacity:.8; margin-top:.25rem; }
+.hb-carousel__nav { position:absolute; top:50%; left:0; right:0; translate:0 -50%; display:flex; justify-content:space-between; pointer-events:none; }
+.hb-carousel__btn { pointer-events:auto; border:0; background:var(--body-bg,#fff); padding:.35rem .55rem; border-radius:.5rem; box-shadow:0 1px 4px rgba(0,0,0,.12); cursor:pointer; }
+.nt-footer { margin-top:2rem; padding:1rem 0; border-top:1px solid var(--body-border-color, #e5e7eb); font-size:.95rem; color:var(--body-font-color, inherit); }
+.nt-footer__inner { display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap; }
+.nt-footer__links a { margin-left:1rem; text-decoration:none; }
+@media (max-width: 900px) { .nt-footer__inner { flex-direction:column; align-items:flex-start; } .nt-footer__links a { margin:0 .75rem 0 0; } }
