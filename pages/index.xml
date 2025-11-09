@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on NineTenLevins</title>
-    <link>http://localhost:1313/pages/</link>
+    <link>https://example.org/pages/</link>
     <description>Recent content in Pages on NineTenLevins</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Nine Ten Levins</title>
-      <link>http://localhost:1313/pages/about/this_site/</link>
+      <link>https://example.org/pages/about/this_site/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pages/about/this_site/</guid>
-      <description>&lt;h1 id=&#34;brian-levin&#34;&gt;Brian Levin&lt;a class=&#34;anchor&#34; href=&#34;#brian-levin&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;I have lived all over upstate New York. From Salamanca to Glens Falls, I have lived in almost every part of the state. Moving from town to town as a child, gave me a perspective on the uniqueness every area offers. I love food tourism (sometimes to the point of gluttony). I also, love museums of history and art and would be hard pressed to turn down a factory tour (which I drag Sarah begrudgingly through).&lt;/p&gt;</description>
+      <guid>https://example.org/pages/about/this_site/</guid>
+      <description>&lt;h1 id=&#34;brian-levin&#34;&gt;Brian Levin&lt;a class=&#34;anchor&#34; href=&#34;#brian-levin&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;I’ve lived all over upstate New York, from Salamanca to Glens Falls, and just about everywhere in between. Moving from town to town as a kid gave me an appreciation for how distinct each place can be. I love food tourism (sometimes to the point of gluttony), and I’m equally drawn to museums of history and art. I’m also powerless to resist a good factory tour, which I often drag Sarah through, begrudgingly on her part.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

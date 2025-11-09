@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on NineTenLevins</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://example.org/posts/</link>
     <description>Recent content in Posts on NineTenLevins</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Shop Tools</title>
-      <link>http://localhost:1313/posts/2025-03-tools/</link>
+      <link>https://example.org/posts/2025-03-tools/</link>
       <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-03-tools/</guid>
+      <guid>https://example.org/posts/2025-03-tools/</guid>
       <description>&lt;p&gt;Testing post content for New Shop Tools.&lt;/p&gt;</description>
     </item>
     <item>
       <title>HF Radio Field Test</title>
-      <link>http://localhost:1313/posts/2025-02-radio/</link>
+      <link>https://example.org/posts/2025-02-radio/</link>
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-02-radio/</guid>
+      <guid>https://example.org/posts/2025-02-radio/</guid>
       <description>&lt;p&gt;Testing post content for HF Radio Field Test.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Iceland Winter Trip</title>
-      <link>http://localhost:1313/posts/2025-01-iceland/</link>
+      <link>https://example.org/posts/2025-01-iceland/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-01-iceland/</guid>
+      <guid>https://example.org/posts/2025-01-iceland/</guid>
       <description>&lt;p&gt;Testing post content for Iceland Winter Trip.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Denmark</title>
-      <link>http://localhost:1313/posts/denmark/</link>
+      <link>https://example.org/posts/denmark/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/denmark/</guid>
-      <description>&lt;p&gt;Here’s the gallery:&lt;/p&gt;&#xA;   &#xA;                    &#xA;&#xA;&lt;div class=&#34;hb-carousel&#34; tabindex=&#34;0&#34; aria-label=&#34;Image Carousel&#34;&gt;&#xA;  &lt;div class=&#34;hb-carousel__track&#34;&gt;&#xA;                &#xA;    &lt;div class=&#34;hb-carousel__slide&#34;&gt;&#xA;      &lt;figure&gt;&#xA;        &lt;img src=&#34;http://localhost:1313/posts/denmark/photos/01_hu_45bb9b0b6f902b09.webp&#34; srcset=&#34;http://localhost:1313/posts/denmark/photos/01_hu_99d544718d893a20.webp 480w, http://localhost:1313/posts/denmark/photos/01_hu_a35cfaa2112da992.webp 800w, http://localhost:1313/posts/denmark/photos/01_hu_4dcfff4216cea9cf.webp 1200w, http://localhost:1313/posts/denmark/photos/01_hu_45bb9b0b6f902b09.webp 1600w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; loading=&#34;lazy&#34;&#xA;        width=&#34;1600&#34; height=&#34;1200&#34; alt=&#34;Jokulsarlon at dawn&#34; /&gt; &#xA;        &lt;figcaption class=&#34;hb-carousel__caption&#34;&gt;Jokulsarlon at dawn&lt;/figcaption&gt;&#xA;        &#xA;      &lt;/figure&gt;&#xA;    &lt;/div&gt;&#xA;                &#xA;    &lt;div class=&#34;hb-carousel__slide&#34;&gt;&#xA;      &lt;figure&gt;&#xA;        &lt;img src=&#34;http://localhost:1313/posts/denmark/photos/02_hu_8ae94da50944ecbb.webp&#34; srcset=&#34;http://localhost:1313/posts/denmark/photos/02_hu_51b5cc2f2b648423.webp 480w, http://localhost:1313/posts/denmark/photos/02_hu_7bb59f34245ff3b9.webp 800w, http://localhost:1313/posts/denmark/photos/02_hu_7d46cfb22323aa68.webp 1200w, http://localhost:1313/posts/denmark/photos/02_hu_8ae94da50944ecbb.webp 1600w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; loading=&#34;lazy&#34;&#xA;        width=&#34;1600&#34; height=&#34;1200&#34; alt=&#34;Basalt columns&#34; /&gt; &#xA;        &lt;figcaption class=&#34;hb-carousel__caption&#34;&gt;Basalt columns&lt;/figcaption&gt;&#xA;        &#xA;      &lt;/figure&gt;&#xA;    &lt;/div&gt;&#xA;                &#xA;    &lt;div class=&#34;hb-carousel__slide&#34;&gt;&#xA;      &lt;figure&gt;&#xA;        &lt;img src=&#34;http://localhost:1313/posts/denmark/photos/03_hu_ad84ade349f1d306.webp&#34; srcset=&#34;http://localhost:1313/posts/denmark/photos/03_hu_5acc036782b4b930.webp 480w, http://localhost:1313/posts/denmark/photos/03_hu_49cc923689a00ca4.webp 800w, http://localhost:1313/posts/denmark/photos/03_hu_f5d1be2c88c73829.webp 1200w, http://localhost:1313/posts/denmark/photos/03_hu_ad84ade349f1d306.webp 1600w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; loading=&#34;lazy&#34;&#xA;        width=&#34;1600&#34; height=&#34;1200&#34; alt=&#34;Black sand beach&#34; /&gt; &#xA;        &lt;figcaption class=&#34;hb-carousel__caption&#34;&gt;Black sand beach&lt;/figcaption&gt;&#xA;        &#xA;      &lt;/figure&gt;&#xA;    &lt;/div&gt;&#xA;    &#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;hb-carousel__nav&#34; aria-hidden=&#34;true&#34;&gt;&#xA;    &lt;button&#xA;      type=&#34;button&#34;&#xA;      class=&#34;hb-carousel__btn&#34;&#xA;      data-prev&#xA;      aria-label=&#34;Previous&#34;&#xA;    &gt;&#xA;      ‹&#xA;    &lt;/button&gt;&#xA;    &lt;button type=&#34;button&#34; class=&#34;hb-carousel__btn&#34; data-next aria-label=&#34;Next&#34;&gt;&#xA;      ›&#xA;    &lt;/button&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;</description>
+      <guid>https://example.org/posts/denmark/</guid>
+      <description>&lt;p&gt;Here’s the gallery:&lt;/p&gt;&#xA;   &#xA;                    &#xA;&#xA;&lt;div class=&#34;hb-carousel&#34; tabindex=&#34;0&#34; aria-label=&#34;Image Carousel&#34;&gt;&#xA;  &lt;div class=&#34;hb-carousel__track&#34;&gt;&#xA;                &#xA;    &lt;div class=&#34;hb-carousel__slide&#34;&gt;&#xA;      &lt;figure&gt;&#xA;        &lt;img src=&#34;https://example.org/posts/denmark/photos/01_hu_45bb9b0b6f902b09.webp&#34; srcset=&#34;https://example.org/posts/denmark/photos/01_hu_99d544718d893a20.webp 480w, https://example.org/posts/denmark/photos/01_hu_a35cfaa2112da992.webp 800w, https://example.org/posts/denmark/photos/01_hu_4dcfff4216cea9cf.webp 1200w, https://example.org/posts/denmark/photos/01_hu_45bb9b0b6f902b09.webp 1600w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; loading=&#34;lazy&#34;&#xA;        width=&#34;1600&#34; height=&#34;1200&#34; alt=&#34;Jokulsarlon at dawn&#34; /&gt; &#xA;        &lt;figcaption class=&#34;hb-carousel__caption&#34;&gt;Jokulsarlon at dawn&lt;/figcaption&gt;&#xA;        &#xA;      &lt;/figure&gt;&#xA;    &lt;/div&gt;&#xA;                &#xA;    &lt;div class=&#34;hb-carousel__slide&#34;&gt;&#xA;      &lt;figure&gt;&#xA;        &lt;img src=&#34;https://example.org/posts/denmark/photos/02_hu_8ae94da50944ecbb.webp&#34; srcset=&#34;https://example.org/posts/denmark/photos/02_hu_51b5cc2f2b648423.webp 480w, https://example.org/posts/denmark/photos/02_hu_7bb59f34245ff3b9.webp 800w, https://example.org/posts/denmark/photos/02_hu_7d46cfb22323aa68.webp 1200w, https://example.org/posts/denmark/photos/02_hu_8ae94da50944ecbb.webp 1600w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; loading=&#34;lazy&#34;&#xA;        width=&#34;1600&#34; height=&#34;1200&#34; alt=&#34;Basalt columns&#34; /&gt; &#xA;        &lt;figcaption class=&#34;hb-carousel__caption&#34;&gt;Basalt columns&lt;/figcaption&gt;&#xA;        &#xA;      &lt;/figure&gt;&#xA;    &lt;/div&gt;&#xA;                &#xA;    &lt;div class=&#34;hb-carousel__slide&#34;&gt;&#xA;      &lt;figure&gt;&#xA;        &lt;img src=&#34;https://example.org/posts/denmark/photos/03_hu_ad84ade349f1d306.webp&#34; srcset=&#34;https://example.org/posts/denmark/photos/03_hu_5acc036782b4b930.webp 480w, https://example.org/posts/denmark/photos/03_hu_49cc923689a00ca4.webp 800w, https://example.org/posts/denmark/photos/03_hu_f5d1be2c88c73829.webp 1200w, https://example.org/posts/denmark/photos/03_hu_ad84ade349f1d306.webp 1600w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; loading=&#34;lazy&#34;&#xA;        width=&#34;1600&#34; height=&#34;1200&#34; alt=&#34;Black sand beach&#34; /&gt; &#xA;        &lt;figcaption class=&#34;hb-carousel__caption&#34;&gt;Black sand beach&lt;/figcaption&gt;&#xA;        &#xA;      &lt;/figure&gt;&#xA;    &lt;/div&gt;&#xA;    &#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;hb-carousel__nav&#34; aria-hidden=&#34;true&#34;&gt;&#xA;    &lt;button&#xA;      type=&#34;button&#34;&#xA;      class=&#34;hb-carousel__btn&#34;&#xA;      data-prev&#xA;      aria-label=&#34;Previous&#34;&#xA;    &gt;&#xA;      ‹&#xA;    &lt;/button&gt;&#xA;    &lt;button type=&#34;button&#34; class=&#34;hb-carousel__btn&#34; data-next aria-label=&#34;Next&#34;&gt;&#xA;      ›&#xA;    &lt;/button&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>
