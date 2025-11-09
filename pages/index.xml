@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on NineTenLevins</title>
-    <link>https://example.org/pages/</link>
-    <description>Recent content in Pages on NineTenLevins</description>
+    <title>NineTenLevin&#39;s Pages on NineTenLevins</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in NineTenLevin&#39;s Pages on NineTenLevins</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Nine Ten Levins</title>
-      <link>https://example.org/pages/about/this_site/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/pages/about/this_site/</guid>
-      <description>&lt;h1 id=&#34;brian-levin&#34;&gt;Brian Levin&lt;a class=&#34;anchor&#34; href=&#34;#brian-levin&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;I’ve lived all over upstate New York, from Salamanca to Glens Falls, and just about everywhere in between. Moving from town to town as a kid gave me an appreciation for how distinct each place can be. I love food tourism (sometimes to the point of gluttony), and I’m equally drawn to museums of history and art. I’m also powerless to resist a good factory tour, which I often drag Sarah through, begrudgingly on her part.&lt;/p&gt;</description>
+      <title>About Us</title>
+      <link>http://localhost:1313/pages/about/a-brief-description-of-who-we-are-and-what-we-like.../</link>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/about/a-brief-description-of-who-we-are-and-what-we-like.../</guid>
+      <description>&lt;h1 id=&#34;about-us&#34;&gt;About Us&lt;a class=&#34;anchor&#34; href=&#34;#about-us&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;brian-levin&#34;&gt;Brian Levin&lt;a class=&#34;anchor&#34; href=&#34;#brian-levin&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I’ve lived all over upstate New York, from Salamanca to Glens Falls, and just about everywhere in between. Moving from town to town as a kid gave me an appreciation for how distinct each place can be. I love food tourism (sometimes to the point of gluttony), and I’m equally drawn to museums of history and art. I’m also powerless to resist a good factory tour, which I often drag Sarah through, begrudgingly on her part.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Sausage</title>
+      <link>http://localhost:1313/pages/about/sausage/</link>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/about/sausage/</guid>
+      <description>&lt;h1 id=&#34;the-sausage&#34;&gt;The Sausage&lt;a class=&#34;anchor&#34; href=&#34;#the-sausage&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;the-engine&#34;&gt;The Engine&lt;a class=&#34;anchor&#34; href=&#34;#the-engine&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This site is built with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, a fast and flexible static site generator written in &lt;a href=&#34;https://go.dev&#34;&gt;Go&lt;/a&gt;.&#xA;I’m not using any plugins or custom scripts—just Hugo’s built-in shortcodes and Markdown features for structure and formatting.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-theme&#34;&gt;The Theme&lt;a class=&#34;anchor&#34; href=&#34;#the-theme&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The site uses a customized version of the &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-book/&#34;&gt;Hugo Book Theme&lt;/a&gt;, with my own styling for typography, layout, and navigation.&#xA;I’ve aimed for something clean, legible, and fast without sacrificing personality.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;my-setup&#34;&gt;My Setup&lt;a class=&#34;anchor&#34; href=&#34;#my-setup&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;All articles are written in &lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&#xA;I now use &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt; for writing, coding, and general site development.&#xA;I still rely on &lt;a href=&#34;http://fletcherpenney.net/&#34;&gt;MultiMarkdown&lt;/a&gt; conventions for structure and readability where appropriate.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
