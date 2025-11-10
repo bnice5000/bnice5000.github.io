@@ -14,3 +14,8 @@
 #breadcrumbs a { text-decoration: none; }
 #breadcrumbs a:hover { text-decoration: underline; }
 .flex.flex-wrap.justify-between:not(.inject) { display: none; }
+
+.post-thumb { width: 180px; height: auto; border-radius: 6px; }
+.book-columns > ul { display: flex; gap: .5rem; }
+.book-columns > ul > li:first-child { flex: 0 0 auto; }
+.book-columns > ul > li:last-child { flex: 1 1 auto; }
