@@ -20,7 +20,7 @@
       <link>http://localhost:1313/pages/games/queens-mercy/</link>
       <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pages/games/queens-mercy/</guid>
-      <description>&lt;h1 id=&#34;the-queens-mercy&#34;&gt;The Queen&amp;rsquo;s Mercy&lt;a class=&#34;anchor&#34; href=&#34;#the-queens-mercy&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;“When the banners fall, every house fights alone.”&lt;/p&gt;&#xA;&lt;/blockquote&gt;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;a class=&#34;anchor&#34; href=&#34;#overview&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;The Queen’s Mercy&lt;/strong&gt; is a fast, asymmetric, two-player, trick-taking card duel. Each player chooses a suit that contains 13 ranked cards plus one special card that functions as a Joker. Games are best of three rounds.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Players:&lt;/strong&gt; 2&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cards:&lt;/strong&gt; One suit of 14 cards per player (2 to Ace plus a Joker-equivalent)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Objective:&lt;/strong&gt; Win tricks and score points to reach 10 in a round, then win two rounds to win the match&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;equipment-and-deck-options&#34;&gt;Equipment and Deck Options&lt;a class=&#34;anchor&#34; href=&#34;#equipment-and-deck-options&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Each player needs one suit with 13 ranks plus a special card that behaves as the Joker. Here are some common setups:&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;the-queens-mercy&#34;&gt;The Queen’s Mercy&lt;a class=&#34;anchor&#34; href=&#34;#the-queens-mercy&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;“When the banners fall, every house fights alone.”&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;By Brian Levin, Version 11.5, License: CC-BY-NC-SA&lt;/p&gt;&#xA;&lt;p&gt;A fast, asymmetric, two-player, trick taking, card-duel game playable with any deck.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;deck-setup&#34;&gt;Deck Setup&lt;a class=&#34;anchor&#34; href=&#34;#deck-setup&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The Queen’s Mercy can be played with several deck styles. Each suit must contain 13 ranked cards plus one special card (the Joker or equivalent). Whichever deck you choose, make sure each player’s suit contains 13 ranked cards (2-A or equivalent) and one special card functioning as the Joker.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Sausage</title>
@@ -31,10 +31,10 @@
     </item>
     <item>
       <title>Announcing the Queen&#39;s Mercy</title>
-      <link>http://localhost:1313/posts/queens-mercy/</link>
+      <link>http://localhost:1313/posts/queens_mercy/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/queens-mercy/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/queens_mercy/</guid>
+      <description>&lt;h1 id=&#34;announcing-the-queens-mercy&#34;&gt;Announcing The Queen’s Mercy&lt;a class=&#34;anchor&#34; href=&#34;#announcing-the-queens-mercy&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&#xA;&lt;figure class=&#34;leadfloat&#34;&gt;&#xA;  &lt;img src=&#34;photos/sarahs_queen.jpeg&#34; alt=&#34;&#34;&gt;&#xA;  &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;After far too many nights spent muttering about probability curves and talking to inanimate playing cards, I’m proud (and slightly relieved) to announce The Queen’s Mercy, a fast, asymmetric, two-player duel that answers the question: what if traditional card suits had personalities, grudges, and a flair for drama? Each player commands one of four houses: Spades, Hearts, Diamonds, or Clubs, and every house fights in its own delightfully inconvenient way. It is part strategy, part psychology, and part watching your opponent realize that losing gracefully is sometimes the only winning move.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

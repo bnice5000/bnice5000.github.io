@@ -19,3 +19,9 @@
 .book-columns > ul { display: flex; gap: .5rem; }
 .book-columns > ul > li:first-child { flex: 0 0 auto; }
 .book-columns > ul > li:last-child { flex: 1 1 auto; }
+
+figure.leadfloat { float: left; width: 180px; margin: 0.5rem 1rem 0.5rem 0; padding: 0.25rem 0.5rem 0.25rem 0; box-sizing: border-box; }
+figure.leadfloat img { display: block; width: 100%; height: auto; }
+.markdown figure.leadfloat, .content figure.leadfloat { margin-right: 1rem; } /* bump specificity */
+.markdown p, .content p { overflow: visible; } /* if a reset set overflow hidden */
+@media (max-width: 640px) { figure.leadfloat { float: none; width: 100%; margin: 0 0 1rem 0; padding: 0; } }

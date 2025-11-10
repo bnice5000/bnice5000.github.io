@@ -10,10 +10,10 @@
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Announcing the Queen&#39;s Mercy</title>
-      <link>http://localhost:1313/posts/queens-mercy/</link>
+      <link>http://localhost:1313/posts/queens_mercy/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/queens-mercy/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/queens_mercy/</guid>
+      <description>&lt;h1 id=&#34;announcing-the-queens-mercy&#34;&gt;Announcing The Queen’s Mercy&lt;a class=&#34;anchor&#34; href=&#34;#announcing-the-queens-mercy&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&#xA;&lt;figure class=&#34;leadfloat&#34;&gt;&#xA;  &lt;img src=&#34;photos/sarahs_queen.jpeg&#34; alt=&#34;&#34;&gt;&#xA;  &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;After far too many nights spent muttering about probability curves and talking to inanimate playing cards, I’m proud (and slightly relieved) to announce The Queen’s Mercy, a fast, asymmetric, two-player duel that answers the question: what if traditional card suits had personalities, grudges, and a flair for drama? Each player commands one of four houses: Spades, Hearts, Diamonds, or Clubs, and every house fights in its own delightfully inconvenient way. It is part strategy, part psychology, and part watching your opponent realize that losing gracefully is sometimes the only winning move.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
