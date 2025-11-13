@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on NineTenLevins</title>
-    <link>https://example.org/tags/</link>
+    <link>https://ninetenlevins.com/tags/</link>
     <description>Recent content in Tags on NineTenLevins</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ninetenlevins.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ephemera</title>
-      <link>https://example.org/tags/ephemera/</link>
+      <link>https://ninetenlevins.com/tags/ephemera/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/ephemera/</guid>
+      <guid>https://ninetenlevins.com/tags/ephemera/</guid>
       <description></description>
     </item>
     <item>
       <title>Midweek Dispatch</title>
-      <link>https://example.org/tags/midweek-dispatch/</link>
+      <link>https://ninetenlevins.com/tags/midweek-dispatch/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/midweek-dispatch/</guid>
+      <guid>https://ninetenlevins.com/tags/midweek-dispatch/</guid>
       <description></description>
     </item>
     <item>
       <title>Podcasts</title>
-      <link>https://example.org/tags/podcasts/</link>
+      <link>https://ninetenlevins.com/tags/podcasts/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/podcasts/</guid>
+      <guid>https://ninetenlevins.com/tags/podcasts/</guid>
       <description></description>
     </item>
   </channel>

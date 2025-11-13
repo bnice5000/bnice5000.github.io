@@ -2,45 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/pages/</loc>
+    <loc>https://ninetenlevins.com/pages/</loc>
     <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/</loc>
+    <loc>https://ninetenlevins.com/posts/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/ephemera/</loc>
+    <loc>https://ninetenlevins.com/tags/ephemera/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/midweek-dispatch/</loc>
+    <loc>https://ninetenlevins.com/tags/midweek-dispatch/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/wednesday/20251112-fall-into-something-new/</loc>
+    <loc>https://ninetenlevins.com/posts/wednesday/20251112-fall-into-something-new/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>https://ninetenlevins.com/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/podcasts/</loc>
+    <loc>https://ninetenlevins.com/tags/podcasts/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://ninetenlevins.com/tags/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/pages/games/</loc>
+    <loc>https://ninetenlevins.com/pages/games/</loc>
     <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/pages/about/a-brief-description-of-who-we-are-and-what-we-like.../</loc>
+    <loc>https://ninetenlevins.com/pages/about/a-brief-description-of-who-we-are-and-what-we-like.../</loc>
     <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/pages/games/queens-mercy/</loc>
+    <loc>https://ninetenlevins.com/pages/games/queens-mercy/</loc>
     <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/pages/about/sausage/</loc>
+    <loc>https://ninetenlevins.com/pages/about/sausage/</loc>
     <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/queens_mercy/</loc>
+    <loc>https://ninetenlevins.com/posts/queens_mercy/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://ninetenlevins.com/categories/</loc>
+  </url><url>
+    <loc>https://ninetenlevins.com/rss/index.xml</loc>
   </url>
 </urlset>

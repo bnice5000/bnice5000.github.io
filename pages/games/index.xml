@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NineTenLevins</title>
-    <link>https://example.org/pages/games/</link>
+    <link>https://ninetenlevins.com/pages/games/</link>
     <description>Recent content on NineTenLevins</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/pages/games/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ninetenlevins.com/pages/games/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Queen’s Mercy</title>
-      <link>https://example.org/pages/games/queens-mercy/</link>
+      <link>https://ninetenlevins.com/pages/games/queens-mercy/</link>
       <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/pages/games/queens-mercy/</guid>
+      <guid>https://ninetenlevins.com/pages/games/queens-mercy/</guid>
       <description>&lt;h1 id=&#34;the-queens-mercy&#34;&gt;The Queen’s Mercy&lt;a class=&#34;anchor&#34; href=&#34;#the-queens-mercy&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;“When the banners fall, every house fights alone.”**&lt;/p&gt;&#xA;&lt;/blockquote&gt;&lt;p&gt;By Brian Levin, Version 11.5, License: CC-BY-NC-SA&lt;/p&gt;&#xA;&lt;p&gt;A fast, asymmetric, two-player, trick taking, card-duel game playable with any deck.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;deck-setup&#34;&gt;Deck Setup&lt;a class=&#34;anchor&#34; href=&#34;#deck-setup&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The Queen’s Mercy can be played with several deck styles. Each suit must contain 13 ranked cards plus one special card (the Joker or equivalent). Whichever deck you choose, make sure each player’s suit contains 13 ranked cards (2-A or equivalent) and one special card functioning as the Joker.&lt;/p&gt;</description>
     </item>
   </channel>
