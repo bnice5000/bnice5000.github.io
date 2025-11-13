@@ -6,6 +6,28 @@
     <description>Recent content in Tags on NineTenLevins</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 23 Aug 1970 05:18:31 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ephemera</title>
+      <link>http://localhost:1313/tags/ephemera/</link>
+      <pubDate>Sun, 23 Aug 1970 05:18:31 -0400</pubDate>
+      <guid>http://localhost:1313/tags/ephemera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Midweek Dispatch</title>
+      <link>http://localhost:1313/tags/midweek-dispatch/</link>
+      <pubDate>Sun, 23 Aug 1970 05:18:31 -0400</pubDate>
+      <guid>http://localhost:1313/tags/midweek-dispatch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Podcasts</title>
+      <link>http://localhost:1313/tags/podcasts/</link>
+      <pubDate>Sun, 23 Aug 1970 05:18:31 -0400</pubDate>
+      <guid>http://localhost:1313/tags/podcasts/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
