@@ -9,10 +9,24 @@
     <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ninetenlevins.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Entertainment</title>
+      <link>https://ninetenlevins.com/tags/entertainment/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ninetenlevins.com/tags/entertainment/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Ephemera</title>
       <link>https://ninetenlevins.com/tags/ephemera/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://ninetenlevins.com/tags/ephemera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Friday</title>
+      <link>https://ninetenlevins.com/tags/friday/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ninetenlevins.com/tags/friday/</guid>
       <description></description>
     </item>
     <item>
@@ -27,6 +41,13 @@
       <link>https://ninetenlevins.com/tags/podcasts/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://ninetenlevins.com/tags/podcasts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reflection</title>
+      <link>https://ninetenlevins.com/tags/reflection/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ninetenlevins.com/tags/reflection/</guid>
       <description></description>
     </item>
   </channel>
