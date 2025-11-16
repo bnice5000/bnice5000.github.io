@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on NineTenLevins</title>
-    <link>https://ninetenlevins.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on NineTenLevins</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ninetenlevins.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Playlist</title>
-      <link>https://ninetenlevins.com/tags/playlist/</link>
+      <link>http://localhost:1313/tags/playlist/</link>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://ninetenlevins.com/tags/playlist/</guid>
+      <guid>http://localhost:1313/tags/playlist/</guid>
       <description></description>
     </item>
     <item>
       <title>Sunday Signal</title>
-      <link>https://ninetenlevins.com/tags/sunday-signal/</link>
+      <link>http://localhost:1313/tags/sunday-signal/</link>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://ninetenlevins.com/tags/sunday-signal/</guid>
+      <guid>http://localhost:1313/tags/sunday-signal/</guid>
       <description></description>
     </item>
     <item>
       <title>Weekend Projects</title>
-      <link>https://ninetenlevins.com/tags/weekend-projects/</link>
+      <link>http://localhost:1313/tags/weekend-projects/</link>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://ninetenlevins.com/tags/weekend-projects/</guid>
+      <guid>http://localhost:1313/tags/weekend-projects/</guid>
       <description></description>
     </item>
     <item>
       <title>Entertainment</title>
-      <link>https://ninetenlevins.com/tags/entertainment/</link>
+      <link>http://localhost:1313/tags/entertainment/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://ninetenlevins.com/tags/entertainment/</guid>
+      <guid>http://localhost:1313/tags/entertainment/</guid>
       <description></description>
     </item>
     <item>
       <title>Ephemera</title>
-      <link>https://ninetenlevins.com/tags/ephemera/</link>
+      <link>http://localhost:1313/tags/ephemera/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://ninetenlevins.com/tags/ephemera/</guid>
+      <guid>http://localhost:1313/tags/ephemera/</guid>
       <description></description>
     </item>
     <item>
       <title>Friday</title>
-      <link>https://ninetenlevins.com/tags/friday/</link>
+      <link>http://localhost:1313/tags/friday/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://ninetenlevins.com/tags/friday/</guid>
+      <guid>http://localhost:1313/tags/friday/</guid>
       <description></description>
     </item>
     <item>
       <title>Midweek Dispatch</title>
-      <link>https://ninetenlevins.com/tags/midweek-dispatch/</link>
+      <link>http://localhost:1313/tags/midweek-dispatch/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://ninetenlevins.com/tags/midweek-dispatch/</guid>
+      <guid>http://localhost:1313/tags/midweek-dispatch/</guid>
       <description></description>
     </item>
     <item>
       <title>Podcasts</title>
-      <link>https://ninetenlevins.com/tags/podcasts/</link>
+      <link>http://localhost:1313/tags/podcasts/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://ninetenlevins.com/tags/podcasts/</guid>
+      <guid>http://localhost:1313/tags/podcasts/</guid>
       <description></description>
     </item>
     <item>
       <title>Reflection</title>
-      <link>https://ninetenlevins.com/tags/reflection/</link>
+      <link>http://localhost:1313/tags/reflection/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://ninetenlevins.com/tags/reflection/</guid>
+      <guid>http://localhost:1313/tags/reflection/</guid>
       <description></description>
     </item>
   </channel>

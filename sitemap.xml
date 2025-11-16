@@ -2,69 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ninetenlevins.com/pages/</loc>
+    <loc>http://localhost:1313/pages/</loc>
     <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/tags/playlist/</loc>
+    <loc>http://localhost:1313/tags/playlist/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/tags/sunday-signal/</loc>
+    <loc>http://localhost:1313/tags/sunday-signal/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/posts/sunday/20251116-goodbye-humble-penny/</loc>
+    <loc>http://localhost:1313/posts/sunday/20251116-goodbye-humble-penny/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/tags/weekend-projects/</loc>
+    <loc>http://localhost:1313/tags/weekend-projects/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/tags/entertainment/</loc>
+    <loc>http://localhost:1313/tags/entertainment/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/tags/ephemera/</loc>
+    <loc>http://localhost:1313/tags/ephemera/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/tags/friday/</loc>
+    <loc>http://localhost:1313/tags/friday/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/posts/friday/20251114-blast-from-the-past/</loc>
+    <loc>http://localhost:1313/posts/friday/20251114-blast-from-the-past/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/tags/midweek-dispatch/</loc>
+    <loc>http://localhost:1313/tags/midweek-dispatch/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/posts/wednesday/20251112-fall-into-something-new/</loc>
+    <loc>http://localhost:1313/posts/wednesday/20251112-fall-into-something-new/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/tags/podcasts/</loc>
+    <loc>http://localhost:1313/tags/podcasts/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/tags/reflection/</loc>
+    <loc>http://localhost:1313/tags/reflection/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/pages/games/</loc>
+    <loc>http://localhost:1313/pages/games/</loc>
     <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/pages/about/me/</loc>
+    <loc>http://localhost:1313/pages/about/me/</loc>
     <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/pages/games/queens-mercy/</loc>
+    <loc>http://localhost:1313/pages/games/queens-mercy/</loc>
     <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/pages/about/sausage/</loc>
+    <loc>http://localhost:1313/pages/about/sausage/</loc>
     <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/posts/queens_mercy/</loc>
+    <loc>http://localhost:1313/posts/queens_mercy/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ninetenlevins.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>
